@@ -1,0 +1,162 @@
+{
+    "description": "伙伴",
+    "fields": [{
+        "name": "id",
+        "description": "编号",
+        "type": "integer",
+        "default": null,
+        "sql_type": "INT(11) NOT NULL"
+    }, {
+        "name": "player_id",
+        "description": "会员ID",
+        "type": "integer",
+        "default": null,
+        "sql_type": "INT(11) NOT NULL"
+    }, {
+        "name": "data_id",
+        "description": "dataId",
+        "type": "integer",
+        "default": 0,
+        "sql_type": "smallint(6) NOT NULL"
+    }, {
+        "name": "name",
+        "description": "昵称",
+        "type": "string",
+        "default": null,
+        "sql_type": "VARCHAR(50) NOT NULL"
+    }, {
+        "name": "quality",
+        "description": "品质",
+        "default": 0,
+        "sql_type": "tinyint(3) unsigned NOT NULL DEFAULT '0'"
+    }, {
+        "name": "zizhi_attack",
+        "description": "攻击资质",
+        "default": 0,
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "zizhi_hit",
+        "description": "命中资质",
+        "default": 0,
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "zizhi_critical",
+        "description": "暴击资质",
+        "default": 0,
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "zizhi_guard",
+        "description": "守护资质",
+        "default": 0,
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "zizhi_bless",
+        "description": "加持资质",
+        "default": 0,
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "attr_attack",
+        "description": "攻击",
+        "default": 0,
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "attr_hit",
+        "description": "命中",
+        "default": 0,
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "attr_critical",
+        "description": "暴击",
+        "default": 0,
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "attr_guard",
+        "description": "守护",
+        "default": 0,
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "attr_bless",
+        "description": "加持",
+        "default": 0,
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "exp",
+        "description": "经验",
+        "type": "integer",
+        "default": 0,
+        "sql_type": "INT(11) NOT NULL"
+    }, {
+        "name": "level",
+        "description": "等级",
+        "type": "integer",
+        "default": 1,
+        "sql_type": "smallint(6) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "starlevel",
+        "description": "星级",
+        "type": "integer",
+        "default": 0,
+        "sql_type": "tinyint(3) unsigned NOT NULL DEFAULT '0'"
+    }, {
+        "name": "locked",
+        "description": "锁定",
+        "type": "integer",
+        "default": 0,
+        "sql_type": "tinyint(1) unsigned NOT NULL DEFAULT '0'"
+    }, {
+        "name": "zzpoint",
+        "description": "资质点",
+        "type": "integer",
+        "default": 0,
+        "sql_type": "INT(11) NOT NULL"
+    }, {
+        "name": "fellow_skills_str",
+        "description": "伙伴技能（Erlang List Encoded as String）",
+        "type": "string",
+        "default": null,
+        "sql_type": "VARCHAR(100) NOT NULL"
+    }],
+    "primaryKey": "id",
+    "autoIncrement": "id",
+    "pb_types": {
+        "gc_update_fellow": [
+            ["guid", "_Fellow_Id"],
+            ["packindex", "Fellow#fellow.pack_index"],
+            ["dataid", "_Fellow_Data_Id"],
+            ["name", "_Fellow_Name"],
+            ["quality", "_Fellow_Quality"],
+            ["zizhi_attack", "_Fellow_Zizhi_Attack * 100"],
+            ["zizhi_hit", "_Fellow_Zizhi_Hit * 100"],
+            ["zizhi_critical", "_Fellow_Zizhi_Critical * 100"],
+            ["zizhi_guard", "_Fellow_Zizhi_Guard * 100"],
+            ["zizhi_bless", "_Fellow_Zizhi_Bless * 100"],
+            ["attr_attack", "_Fellow_Attr_Attack"],
+            ["attr_hit", "_Fellow_Attr_Hit"],
+            ["attr_critical", "_Fellow_Attr_Critical"],
+            ["attr_guard", "_Fellow_Attr_Guard"],
+            ["attr_bless", "_Fellow_Attr_Bless"],
+            ["exp", "_Fellow_Exp"],
+            ["level", "_Fellow_Level"],
+            ["starlevel", "_Fellow_Starlevel"],
+            ["islock", "_Fellow_Locked"],
+            ["zzpoint", "_Fellow_Zzpoint"],
+            ["skillid", "Fellow#fellow.fellow_skills"]
+        ],
+        "gc_ask_gain_fellow_ret": [
+            ["fellowid", "Fellow#fellow.pack_index"],
+            ["fellowguid", "_Fellow_Id"],
+            ["fellowstarlevel", "_Fellow_Starlevel"]
+        ],
+        "gc_ask_gain_10_fellow_ret": [
+            ["fellowid", "Fellow_Pack_Index_List"],
+            ["fellowguid", "_Fellow_Id_List"],
+            ["fellowstarlevel", "_Fellow_Starlevel_List"]
+        ],
+        "gc_update_gain_fellow_count": [
+            ["normalcount", "NormalCount"],
+            ["yuanbaocount", "YuanBaoCount"],
+            ["normalcd", "NormalCd"],
+            ["freecount", "FreeCount"]
+        ]
+    }
+}

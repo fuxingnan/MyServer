@@ -1,0 +1,9 @@
+Id	Desc	BuyNumMax	VIPRequire	Price
+INT	STRING	INT	INT	INT
+#MAX_ID=16;MAX_RECORD=16;TableType=Index;				
+#广播ID	描述	当日可购买次数	VIP等级要求	价格(元宝)
+1	第1次购买	1	0	50
+2	第2次购买	2	2	100
+3	第3次购买	3	4	200
+4	第4次购买	4	7	300
+5	第5次购买	5	10	600

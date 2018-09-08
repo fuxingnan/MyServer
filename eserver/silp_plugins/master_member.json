@@ -1,0 +1,110 @@
+{
+  "description": "师门弟子",
+  "fields": [{
+    "name": "player_id",
+    "description": "弟子ID",
+    "type": "integer",
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "master_id",
+    "description": "师门ID",
+    "type": "integer",
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "player_name",
+    "description": "弟子名称",
+    "type": "string",
+    "default": null,
+    "sql_type": "VARCHAR(50) NOT NULL"
+  }, {
+    "name": "player_vip",
+    "description": "vip等级",
+    "type": "integer",
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "guild_name",
+    "description": "所在帮会",
+    "type": "string",
+    "default": null,
+    "sql_type": "VARCHAR(50) NOT NULL"
+  }, {
+    "name": "player_prof",
+    "description": "职业",
+    "type": "integer",
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "player_level",
+    "description": "弟子等级",
+    "type": "integer",
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "contribute",
+    "description": "战斗力",
+    "type": "integer",
+    "default": null,
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "torch",
+    "description": "薪火值",
+    "type": "integer",
+    "default": null,
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "player_last_logout",
+    "description": "离线时间",
+    "type": "integer",
+    "default": null,
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "job",
+    "description": "职位",
+    "default": null,
+    "sql_type": "INT(11) NOT NULL"
+  }],
+  "primaryKey": ["player_id", "master_id"],
+  "cache_keys": ["player_id"],
+  "cache_fields": [
+    "player_name", "player_guild", "player_prof",
+    "player_level", "contribute", "player_last_login"
+  ],
+  "pb_types": {
+    "gc_master_ret_info": [
+      ["masterguid", "_Master_Id"],
+      ["mastername", "_Master_Name"],
+      ["masterchiefguid", "_Master_Chief_Id"],
+      ["masternotice", "_Master_Notice"],
+      ["createtime", "_Master_Create_Time"],
+      ["membernum", "_Master_Member_Num"],
+      ["mastertorch", "_Master_Torch"],
+      ["memberguid", "_Master_Member_Player_Id_List"],
+      ["membername", "_Master_Member_Player_Name_List"],
+      ["membervip", "_Master_Member_Player_Vip_List"],
+      ["memberprof", "_Master_Member_Player_Prof_List"],
+      ["memberlevel", "_Master_Member_Player_Level_List"],
+      ["membercombatvalue", "_Master_Member_Contribute_List"],
+      ["membertorch", "_Master_Member_Torch_List"],
+      ["memberlastlogin", "_Master_Member_Player_Last_Login_List"],
+      ["memberstate", "_Master_Member_State_List"],
+      ["masterskill1", "_Master_Skill_Id1"],
+      ["masterskill2", "_Master_Skill_Id2"],
+      ["masterskill3", "_Master_Skill_Id3"],
+      ["masterskill4", "_Master_Skill_Id4"],
+      ["masterskillname1", "_Master_Skill_Name1"],
+      ["masterskillname2", "_Master_Skill_Name2"],
+      ["masterskillname3", "_Master_Skill_Name3"],
+      ["masterskillname4", "_Master_Skill_Name4"],
+      ["memberisreserve", "_Master_Member_Is_Reserve_List"],
+      ["masterskill5", "_Master_Skill_Id5"],
+      ["masterskill6", "_Master_Skill_Id6"],
+      ["masterskillname5", "_Master_Skill_Name5"],
+      ["masterskillname6", "_Master_Skill_Name6"]
+    ],
+    "gc_master_join": [
+      ["masterguid", "MasterId"]
+    ],
+    "gc_master_leave": [
+      ["masterguid", "MasterId"],
+      ["leveltype", "LevelType"]
+    ]
+  }
+}

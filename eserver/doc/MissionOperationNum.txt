@@ -1,0 +1,7 @@
+Id	Desc	OperationType	OperationCount
+INT	STRING	INT	INT
+#MAX_ID=1024;MAX_RECORD=1024;TableType=Hash;			
+#ID	策划维护	操作的类型(0美人亲密次数1伙伴强化次数2抽奖)	操作的次数
+1	{0}【美人】亲密	0	3
+2	{0}【伙伴】强化	1	5
+3	{0}【抽奖】抽奖	2	5

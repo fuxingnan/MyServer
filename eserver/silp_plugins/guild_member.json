@@ -1,0 +1,93 @@
+{
+    "description": "公会会员",
+    "fields": [{
+        "name": "guild_id",
+        "description": "公会ID",
+        "type": "integer",
+        "default": null,
+        "sql_type": "INT(11) NOT NULL"
+    }, {
+        "name": "player_id",
+        "description": "会员ID",
+        "type": "integer",
+        "default": null,
+        "sql_type": "INT(11) NOT NULL"
+    }, {
+        "name": "player_name",
+        "description": "会员名称",
+        "type": "string",
+        "sql_type": "varchar(50) NOT NULL DEFAULT ''"
+    }, {
+        "name": "player_vip",
+        "description": "vip等级",
+        "type": "integer",
+        "sql_type": "tinyint(3) unsigned NOT NULL DEFAULT '0'"
+    }, {
+        "name": "player_prof",
+        "description": "职业",
+        "type": "integer",
+        "sql_type": "tinyint(1) unsigned NOT NULL DEFAULT '0'"
+    }, {
+        "name": "player_level",
+        "description": "会员等级",
+        "type": "integer",
+        "sql_type": "smallint(6) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "contribute",
+        "description": "",
+        "type": "integer",
+        "sql_type": "int(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "player_last_login",
+        "description": "",
+        "type": "integer",
+        "sql_type": "int(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "state",
+        "description": "",
+        "type": "integer",
+        "sql_type": "int(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "job",
+        "description": "",
+        "type": "integer",
+        "sql_type": "int(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "combat",
+        "description": "",
+        "type": "integer",
+        "sql_type": "int(11) NOT NULL DEFAULT '0'"
+    }],
+    "primaryKey": ["guild_id", "player_id"],
+    "cache_keys": ["player_id"],
+    "cache_fields": [
+        "player_name", "player_vip", "player_prof",
+    "player_level", "player_last_login"
+        ],
+    "pb_types": {
+        "gc_guild_ret_info": [
+            ["guildguid", "_Guild_Id"],
+            ["guildname", "_Guild_Name"],
+            ["guildchiefguid", "_Guild_Chief_Id"],
+            ["guildlevel", "_Guild_Level"],
+            ["guildexp", "_Guild_Combat"],
+            ["guildnotice", "_Guild_Notice"],
+            ["memberguid", "_Guild_Member_Player_Id_List"],
+            ["membername", "_Guild_Member_Player_Name_List"],
+            ["membervip", "_Guild_Member_Player_Vip_List"],
+            ["memberprof", "_Guild_Member_Player_Prof_List"],
+            ["memberlevel", "_Guild_Member_Player_Level_List"],
+            ["membercontirbute", "_Guild_Member_Contribute_List"],
+            ["memberlastlogin", "_Guild_Member_Player_Last_Login_List"],
+            ["memberstate", "_Guild_Member_State_List"],
+            ["memberjob", "_Guild_Member_Job_List"],
+            ["combatval", "_Guild_Member_Combat_List"]
+        ],
+        "gc_guild_join": [
+            ["guildguid", "GuildId"]
+        ],
+        "gc_guild_leave": [
+            ["guildguid", "GuildId"]
+        ]
+    }
+}

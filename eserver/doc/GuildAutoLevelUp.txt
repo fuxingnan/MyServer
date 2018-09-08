@@ -1,0 +1,8 @@
+Id	Desc	NeedGuildExp
+INT	STRING	INT
+#MAX_ID=5;MAX_RECORD=5;TableType=Index;		
+#ID(索引不可跳跃)	策划维护(描述)	所需繁荣度
+1	1升到2级所需条件	3120
+2	2升到3级所需条件	9100
+3	3升到4级所需条件	23400
+4	4升到5级所需条件	54600

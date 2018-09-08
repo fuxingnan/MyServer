@@ -1,0 +1,7 @@
+Index	Desc	ConsumeType	ConsumeSubType	ConsumeNum
+INT	STRING	INT	INT	INT
+#MAX_ID=128;MAX_RECORD=128;TableType=Index;				
+#星级	程序不读	消耗类型	消耗子类型	消耗数量
+1	第1次扩展	1	2	50
+2	第2次扩展	1	2	50
+3	第3次扩展	1	2	50

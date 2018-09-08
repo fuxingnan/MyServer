@@ -1,0 +1,23 @@
+{
+    "description": "Player额外属性",
+    "fields": [{
+        "name": "player_id",
+        "description": "会员ID",
+        "type": "integer",
+        "default": null,
+        "sql_type": "INT(11) NOT NULL"
+    }, {
+        "name": "fellow_skills_str",
+        "description": "伙伴技能（Erlang List Encoded as String）",
+        "type": "string",
+        "default": null,
+        "sql_type": "VARCHAR(100) NOT NULL"
+    }],
+    "primaryKey": "player_id",
+    "pb_types": {
+        "gc_update_active_fellowskill": [
+            ["type", "0"],
+            ["skillid", "PlayerAttribs#player_attribs.fellow_skills"]
+        ]
+    }
+}

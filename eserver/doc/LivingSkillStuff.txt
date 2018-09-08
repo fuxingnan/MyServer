@@ -1,0 +1,7 @@
+DataID	Desc	CollectInfo
+INT	STRING	STRING
+#MAX_ID=99999;MAX_RECORD=1024;TableType=Hash;		
+#物品DataID	策划维护	拾取信息
+1	生产材料	GM剑
+22601	生产材料	少林白武器#r123
+23602	生产材料	天山白武器

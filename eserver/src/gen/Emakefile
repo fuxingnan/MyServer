@@ -1,0 +1,16 @@
+% -*- mode: erlang -*-
+{[	
+	"genbase",
+	"genall",
+	"gen_*",
+	"*"
+ ], 
+ [	
+	{i, "."},
+	{i, "../../include"},
+  	{outdir, "../../ebin"},
+	warnings_as_errors,
+  	debug_info,
+	{d, 'TEST'}
+ ]
+}.

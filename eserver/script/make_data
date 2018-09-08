@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "Don't forgot to compile before generate data"
+
+make data DATATYPE=fellow_attr DATALOG=3
+make data DATATYPE=fellow_star DATALOG=3
+make data DATATYPE=fellow_gain_cost DATALOG=3
+make data DATATYPE=fellow_gain_rate DATALOG=3
+make data DATATYPE=fellow_skill DATALOG=3
+make data DATATYPE=fellow_skill_limit DATALOG=3
+
+make data DATATYPE=master_torch DATALOG=3
+make data DATATYPE=title_data DATALOG=3
+
+make data DATATYPE=common_item DATALOG=3
+make data DATATYPE=equip_attr DATALOG=3
+make data DATATYPE=equip_enchance DATALOG=3
+make data DATATYPE=equip_star DATALOG=3
+make data DATATYPE=equip_star_rate DATALOG=3
+make data DATATYPE=equip_star_limit DATALOG=3
+make data DATATYPE=gem_attr DATALOG=3
+make data DATATYPE=gem_mount DATALOG=3
+make data DATATYPE=compound_item DATALOG=3
+make data DATATYPE=living_skill DATALOG=3
+make data DATATYPE=living_skill_product DATALOG=3
+make data DATATYPE=usable_item DATALOG=3

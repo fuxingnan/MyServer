@@ -1,0 +1,8 @@
+Id	Desc	OpenLevel
+INT	STRING	INT
+#MAX_ID=32;MAX_RECORD=32;TableType=Index;		
+#Index	程序不读	开放等级
+1	第1孔开放	1
+2	第2孔开放	1
+3	第3孔开放	1
+4	第4孔开放	1

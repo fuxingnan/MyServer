@@ -1,0 +1,13 @@
+Id	DESC	Relation_0	Relation_1	Relation_2	Relation_3	Relation_4	Relation_5	Relation_6	Relation_7	Relation_8
+INT	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT
+#MAX_ID=50;MAX_RECORD=50;TableType=Index;										
+#势力ID  	描述	与势力0的关系（0友好 1中立 2敌对）	与势力1的关系（0友好 1中立 2敌对）	与势力2的关系（0友好 1中立 2敌对）	与势力3的关系（0友好 1中立 2敌对）	与势力4的关系（0友好 1中立 2敌对）	与势力5的关系（0友好 1中立 2敌对）	与势力6的关系（0友好 1中立 2敌对）	与势力7的关系（0友好 1中立 2敌对）	与势力8的关系（0友好 1中立 3敌对）
+0	玩家	0	0	2	2	0	0	0	0	0
+1	友好NPC	0	0	0	0	0	0	0	0	0
+2	中立NPC	1	0	0	0	1	0	0	0	1
+3	敌对NPC	2	0	0	0	2	0	0	0	2
+4	杀戮模式玩家	2	0	1	2	2	0	0	0	0
+5	伙伴	0	0	2	2	2	0	0	0	0
+6	PvP1	0	0	0	0	0	0	0	2	0
+7	PvP2	0	0	0	0	0	0	2	0	0
+8	玩家召唤的助战NPC	0	0	2	2	0	0	0	0	0

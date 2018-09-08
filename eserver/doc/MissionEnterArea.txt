@@ -1,0 +1,6 @@
+Id	Desc	TargetSceneID	TargetPosX	TargetPosY	TargetPosRadius
+INT	STRING	INT	FLOAT	FLOAT	INT
+#MAX_ID=1024;MAX_RECORD=1024;TableType=Hash;					
+#ID	策划维护	区域场景1	目标X坐标	目标Y坐标	目标半径
+0		-1	-1	-1	0
+1	【主】美景16	20	25	14	3

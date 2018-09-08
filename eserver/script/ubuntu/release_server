@@ -1,0 +1,19 @@
+#!/bin/bash
+# http://elixir-lang.org/install.html
+
+#cd ~/Documents/porker/eserver/script/ubuntu
+#scp -r ./* qisike@92.38.128.147:~/Documents/eserver/script/ubuntu
+#scp -r ./etc  qisike@92.38.128.147:~/Download/eserver/
+cd ~/Documents/porker
+
+scp -r ./eserver  qisike@92.38.128.147:~/Download/
+#scp -r ./data  qisike@92.38.128.147:~/Download/eserver/
+#scp -r ./ebin  qisike@92.38.128.147:~/Documents/eserver
+#scp -r ./include  qisike@92.38.128.147:~/Download/eserver/
+
+#cd ~/Documents/porker/eserver/script
+
+#scp -r ./ubuntu qisike@92.38.128.147:~/Download/eserver/
+
+#cd ~/Documents/porker/eserver/
+#scp -r ./* qisike@92.38.128.147:~/Documents/eserver/

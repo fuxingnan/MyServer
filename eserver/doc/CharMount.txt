@@ -1,0 +1,15 @@
+Id	Desc	MountModel	SoundID	BindPoint	FakeObjID	HeadInfoAddHeight0	HeadInfoAddHeight1	HeadInfoAddHeight2	HeadInfoAddHeight3
+INT	STRING	STRING	SHORT	STRING	INT	FLOAT	FLOAT	FLOAT	FLOAT
+#									
+#ID	名称	模型路径	坐骑的移动声音ID	绑定点	对应FakeObj表ID	(少林)上坐骑时名字板的高度修正	(天山)上坐骑时名字板的高度修正	(大理)上坐骑时名字板的高度修正	(逍遥)上坐骑时名字板的高度修正
+0	白马	Qicheng_001_baima_001	23	/Bip01/Bip01 Pelvis/Bip01 Spine/Ride_Point01	0	0.85	0.85	0.85	0.85
+1	红马	Qicheng_001_baima_002	23	/Bip01/Bip01 Pelvis/Bip01 Spine/Ride_Point01	1	0.85	0.85	0.85	0.85
+2	结婚马车	Qicheng_001_jiehunmache_001	122	/All/Bip01/Bip01 Pelvis/Bip01 Spine/Ride_Point01	28	0.85	0.85	0.85	0.85
+3	石狮子	Qicheng_001_shishizi_001	121	/all/Bip01/Bip01 Pelvis/Bip01 Spine/Ride_Point01	29	0.85	0.85	0.85	0.85
+4	狮子	Qicheng_001_shizi_001	120	/Bip01/Bip01 Pelvis/Bip01 Spine/Ride_Point01	30	0.35	0.35	0.35	0.35
+5	麒麟	Qicheng_001_qilin_001	121	/all/Bip01/Bip01 Pelvis/Bip01 Spine/Ride_Point01	31	0.85	0.85	0.85	0.85
+6	陆行雕	Qicheng_001_bendiao_001	123	/all/Bip01/Bip01 Pelvis/Bip01 Spine/Ride_Point01	32	0.85	0.85	0.85	0.85
+7	汗血马	Qicheng_001_baima_003	23	/Bip01/Bip01 Pelvis/Bip01 Spine/Ride_Point01	41	0.85	0.85	0.85	0.85
+8	血麒麟	Qicheng_001_qilin_002	121	/all/Bip01/Bip01 Pelvis/Bip01 Spine/Ride_Point01	43	0.85	0.85	0.85	0.85
+9	陆行金雕	Qicheng_001_bendiao_002	123	/all/Bip01/Bip01 Pelvis/Bip01 Spine/Ride_Point01	46	0.85	0.85	0.85	0.85
+10	熊猫坐骑	Qicheng_001_xiongmao_001	146	/Bip01/Bip01 Pelvis/Bip01 Spine/Ride_Point01	45	0.55	0.55	0.55	0.55

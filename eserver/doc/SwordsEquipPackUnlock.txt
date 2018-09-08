@@ -1,0 +1,12 @@
+Index	Desc	NeedLevel
+INT	STRING	INT
+#MAX_ID=128;MAX_RECORD=128;TableType=Index;		
+#侠客装备位个数	程序不读	解锁侠客装备位的等级
+1		50
+2		50
+3		60
+4		60
+5		70
+6		70
+7		80
+8		90

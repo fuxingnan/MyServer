@@ -1,0 +1,11 @@
+Id	Desc	Name	Layout	BelleCount	OpenLevel	AttrType	AttrGains_1	AttrGains_2	AttrGains_3	AttrGains_4	AttrGains_5	NatureIndex_1	NatureIndex_2	NatureIndex_3	NatureIndex_4	NatureIndex_5	NatureIndex_6
+INT	STRING	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+#MAX_ID=10000;MAX_RECORD=500;TableType=Hash;																	
+#本行程序不读	描述	名称	布局(1代表5个位置 2代表6个位置，3代表3个位置)	美人最大数量与布局里数字对应	开放等级	属性类型	一阶加成	二阶加成	三阶加成	四阶加成	五阶加成	阵位1五行	阵位2五行	阵位3五行	阵位4五行	阵位5五行	阵位6五行
+0	生命	偃月阵	3	3	1	0	11826	19710	31536	45990	65700	2	3	4	5	1	2
+1	暴击	鱼鳞阵	3	3	1	9	396	660	1056	1540	2200	1	2	3	4	5	1
+2	暴抗	衡轭阵	3	3	1	10	396	660	1056	1540	2200	2	3	4	5	1	2
+3	命中	鹤翼阵	1	5	50	7	450	750	1200	1750	2500	3	4	5	2	3	4
+4	闪避	雁行阵	1	5	50	8	450	750	1200	1750	2500	5	1	2	3	4	5
+5	攻击	锋矢阵	2	6	70	1000	1728	2880	4608	6720	9600	1	2	3	4	5	1
+6	防御	方圆阵	2	6	70	1001	1728	2880	4608	6720	9600	1	2	3	4	5	1

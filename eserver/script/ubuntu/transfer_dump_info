@@ -1,0 +1,5 @@
+#!/bin/bash
+# http://elixir-lang.org/install.html
+
+cd ~/Documents/porker/eserver
+scp -r qisike@92.38.128.147:/tmp/screenlog_mygame.log ./

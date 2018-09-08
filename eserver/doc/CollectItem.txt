@@ -1,0 +1,9 @@
+SceneID	Desc	Index	CharModelID	PosX	PosY	PosZ	RotX	RotY	RotZ	Radius	Count	IsAutoLife	AutoLifeTime
+SHORT	STRING	INT	INT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	INT	BOOL	SHORT
+#													
+#唯一标示	策划维护，此列程序不读	当前场景物品索引	CharModel表索引	位置X	位置Y	位置Z	模型旋转X	模型旋转Y	模型旋转Z	物品分布半径	物品数量	采集后后是否自动生成	自动生成时间（s）
+5	万劫谷草药	0	53	8	19.9	22	270	130	0	0	1	1	1
+1	任务99-采青梅	0	53	22.11239	18	82.21916	270	130	0	0	1	1	1
+2	任务104-采青梅	0	53	9	20	22	270	130	0	0	1	1	1
+20	【主】123丹药18	0	53	11	21	45	270	130	0	0	1	1	1
+21	【主】143美食38	0	53	46.17	16	43.74	270	130	0	0	1	1	1

@@ -1,0 +1,7 @@
+Id	Desc	ItemID	MaxChangeNum	Price
+INT	STRING	INT	INT	INT
+#MAX_ID=1023;MAX_RECORD=1024;TableType=Index;				
+#商品ID	描述	物品ID(对应CommonID表ID)	最大兑换数量	消耗帮贡
+0	玄铁	23	99	20
+1	美人（阿碧）	56526	1	800
+2	双倍丹	34	5	35

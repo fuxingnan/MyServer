@@ -1,0 +1,5 @@
+Id	Desc	SceneID	PX_0	PY_0	PX_1	PY_1	PX_2	PY_2	PX_3	PY_3	PX_4	PY_4	PX_5	PY_5	PX_6	PY_6	PX_7	PY_7
+INT	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+#预留																		
+#本行程序不读 技能ID		所在场景资源ID	点1X	点1Y	点2X	点2Y												
+1	测试用路点	1	10	10	15	15	25	25	35	35	25	25	10	10	-1	-1	-1	-1

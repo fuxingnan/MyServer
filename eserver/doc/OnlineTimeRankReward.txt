@@ -1,0 +1,9 @@
+Index	Desc	PosMin	PosMax	TitleId	Money	BindYuanBao
+INT	STRING	INT	INT	INT	INT	INT
+#MAX_ID=1024;MAX_RECORD=1025;TableType=Hash;						
+#索引	程序不读	最小排名	最大排名	称号ID	金币	绑定元宝
+1	第1名	1	1	91	5000	300
+2	第2名	2	2	92	3000	200
+3	第3名	3	3	93	1500	100
+4	4-100名	4	100	94	-1	-1
+5	101-500名	101	500	95	-1	-1

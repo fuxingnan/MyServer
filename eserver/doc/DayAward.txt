@@ -1,0 +1,11 @@
+Id	Desc	DescName	Exp	Money	BindYuanbao	ItemDataID	ItemIsBind	ItemCount
+INT	STRING	STRING	INT	INT	INT	INT	INT	INT
+#MAX_ID=49;MAX_RECORD=50;TableType=Index;								
+#ID(索引不可跳跃)	策划维护(一周奖励)	名称(显示用)	奖励经验	奖励金钱(单位金)	绑定元宝	奖励物品ID	物品是否绑定	奖励物品数量
+0	周日	周日	-1	-1	20	0	1	0
+1	周一	周一	-1	-1	10	0	1	0
+2	周二	周二	-1	-1	0	56537	1	10
+3	周三	周三	-1	-1	20	0	1	0
+4	周四	周四	-1	-1	0	56537	1	20
+5	周五	周五	-1	-1	20	0	1	0
+6	周六	周六	-1	-1	0	56537	1	20

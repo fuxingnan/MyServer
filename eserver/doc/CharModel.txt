@@ -1,0 +1,374 @@
+Id	Name	Name	Title	ResPath	AnimPath	HeadPic	NPCSpriteName	HeadInfoHeight	Scale	DeadSound01	DeadSound02	DeadSound03	ModelType
+INT	STRING	STRING	STRING	STRING	STRING	STRING	STRING	FLOAT	FLOAT	SHORT	SHORT	SHORT	INT
+#MAX_ID=4096;MAX_RECORD=4096;TableType=Hash;													
+#角色ID	描述（程序不读）	名称	称号	资源路径	动作路径	头像	对话半身像	头顶信息板高度修正	缩放比例	死亡音效1	死亡音效2	死亡音效3	骨骼模型类别(-1无类型(聚宝盆 棋子一类无骨骼的) 1人形 2 人形（胖子 侏儒） 3四足兽形 4人形（段延庆 带双拐）)
+0		主角：少林	主角	Sz_shaolin_xsz	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+1		主角：天山	主角	Sz_tianshan_xsz	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+2		主角：大理	主角	Sz_dali_xsz	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+3		主角：逍遥	主角	Sz_xiaoyao_xsz	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+4		山魈头目	野怪	Boss		head-animal	heiyiren	1.5	0.8	20	20	20	3
+5		说书人	友好NPC	Sz_xiaoyao_xsz		head-npc	heiyiren	1.7	1	12	13	13	1
+6		朱丹臣	友好NPC	Npc_001_zhudanchen_001	Animation/NPC/Man/MatureMan/No_Weapon	head-npc	ZhuDanChen	2	1	14	15	16	1
+7		褚万里	友好NPC	Npc_001_zhuwanli_001	Animation/NPC/Man/Fat/No_Weapon	head-npc	ChuWanLi	2.2	1	14	15	16	2
+8		乔峰	友好NPC	Npc_001_qiaofeng_001	Animation/NPC/Man/Strong/No_Weapon	head-npc	QiaoFeng	2.2	1.1	14	15	16	1
+9		裁缝	友好NPC	Npc_001_zhudanchen_001	Animation/NPC/Man/MatureMan/No_Weapon	head-npc	ZhuDanChen	2	1	14	15	16	1
+10		结婚-司仪	友好NPC	Npc_001_simalin_002	Animation/NPC/Man/MatureMan/No_Weapon	head-npc	zhongwanchou	2	1	14	15	16	1
+11		强化	友好NPC	Npc_001_xuzhu_001	Animation/NPC/Man/MatureMan/No_Weapon	head-npc	heiyiren	1.7	1	14	15	16	1
+12		节日	友好NPC	Npc_001_wangyuyan_001	Animation/NPC/Women/MatureFemale/Magic	head-npc	abi	2.2	1	12	13	13	1
+13		伙伴	友好NPC	Npc_001_zhongling_001	Animation/NPC/Women/Loli/One_Sword	head-npc	heiyiren	1.7	1	12	13	13	1
+14		商人	友好NPC	Npc_001_zhudanchen_001		head-npc	heiyiren	2	1	14	15	16	1
+15		野狼	野怪	Monster_001_zonglang_001	Animation/NPC/Animal/Tiger	head-animal	heiyiren	1.5	0.7	20	20	20	3
+16		铁匠	友好NPC	Npc_001_heliantieshu_001	Animation/NPC/Man/Fat/TwoHand_LongWeapon	head-npc	heiyiren	2.5	1.2	14	15	16	2
+17		活动	友好NPC	Npc_001_saodiseng_001	Animation/Npc/Man/MatureMan/One_LongWeapon	head-npc	heiyiren	1.7	1	14	15	16	1
+18		伙伴	友好NPC	Npc_001_zhongling_001	Animation/NPC/Women/Loli/One_Sword	head-npc	heiyiren	1.7	1	12	13	13	1
+19		家园	友好NPC	Npc_001_xuzhanglao_001	Animation/NPC/Women/Midget/One_LongWeapon	head-npc	heiyiren	1.7	1	12	13	13	2
+20		任务	友好NPC	Sz_xiaoyao_xsz		head-npc	heiyiren	1.7	1	12	13	13	1
+21		商人	友好NPC	Npc_000_mawude_001	Animation/NPC/Man/Fat/No_Weapon/Npc_001_zhuwanli_001	head-npc	heiyiren	2.2	1	14	15	16	2
+22		节日	友好NPC	Sz_xiaoyao_xsz		head-npc	abi	1.7	1	12	13	13	1
+23		强化	友好NPC	Sz_xiaoyao_xsz		head-npc	heiyiren	1.7	1	12	13	13	1
+24		帮会	友好NPC	Npc_001_qiaofeng_001	Animation/NPC/Man/Strong/No_Weapon	head-npc	heiyiren	2.2	1.1	14	15	16	1
+25		奖励	友好NPC	Npc_001_duanyu_001	Animation/Player/Dali_001	head-npc	heiyiren	1.7	1	14	15	16	1
+26		仓库	友好NPC	Npc_001_saodiseng_001	Animation/Npc/Man/MatureMan/One_LongWeapon	head-npc	heiyiren	1.7	1	14	15	16	1
+27		逍遥接引	友好NPC	Sz_xiaoyao_xsz		head-npc	heiyiren	1.7	1	12	13	13	1
+28		少林接引	友好NPC	Npc_001_shaolintongren_001	Animation/NPC/Man/Strong/No_Weapon	head-npc	heiyiren	1.7	1	14	15	16	1
+29		天山接引	友好NPC	Sz_xiaoyao_xsz		head-npc	heiyiren	1.7	1	12	13	13	1
+30		大理接引	友好NPC	Sz_xiaoyao_xsz		head-npc	heiyiren	1.7	1	12	13	13	1
+31		马伍德	友好NPC	Npc_000_mawude_001	Animation/NPC/Man/Fat/No_Weapon	head-npc	MaWuDe	2.2	1	14	15	16	2
+32		钟灵	友好NPC	Npc_001_zhongling_001	Animation/NPC/Women/Loli/One_Sword	head-npc	zhongling	1.5	1	12	13	13	1
+33		段誉	友好NPC	Npc_001_duanyu_001	Animation/Player/Dali_001	head-npc	DuanYu	2	1	14	15	16	1
+34		左子穆	友好NPC	Npc_001_zuozimu_001	Animation/Player/Dali_001	head-npc	ZuoZiMu	2.2	1	14	15	16	1
+35		司空玄	友好NPC	Npc_001_sikongxuan_001	Animation/Npc/Man/MatureMan/Magic	head-npc	SiKongXuan	2	1	14	15	16	1
+36		剑宗弟子	野怪	Monster_001_cike_001	Animation/NPC/Man/MatureMan/Knife	head-role	Loli	2	1	14	15	16	1
+37		神农帮喽啰	野怪	Npc_001_shennongbanglouluo_001	Animation/NPC/Man/MatureMan/TwoHand_LongWeapon	head-role	Loli	2	1	14	15	16	1
+38		野狼	野怪	Monster_001_zonglang_001	Animation/NPC/Animal/Tiger	head-animal	Loli	2	0.8	20	20	20	3
+39		莽牯毒蛤	野怪	Npc_001_hama_001	Animation/NPC/Animal/Frog	head-animal	Loli	2	1.2	20	20	20	3
+40		来福	友好NPC	Npc_000_laifu_001	Animation/Npc/Man/MatureMan/One_LongWeapon	head-npc	LaiFu	2	1	14	15	16	1
+41		甘宝宝	友好NPC	Npc_001_ganbaobao_001	Animation/NPC/Women/MatureFemale/Magic	head-npc	GanBaoBao	2	1	12	13	13	1
+42		钟万仇	友好NPC	Npc_001_zhongwanchou_001	Animation/NPC/Man/MatureMan/Broadsword	head-npc	zhongwanchou	2.2	1.2	14	15	16	1
+43		木婉清	友好NPC	Npc_001_muwanqing_001	Animation/NPC/Women/MatureFemale/One_Sword	head-npc	mujianping	2.2	1	12	13	13	1
+44		平婆婆	友好NPC	Npc_001_pingpopo_001	Animation/NPC/Women/Midget/One_LongWeapon	head-npc	pingpopo	1.7	1	12	13	13	2
+45		江湖邪士	野怪	Npc_001_jianghuxieshi_001	Animation/NPC/Man/Midget/No_Weapon	head-role	Loli	1.5	0.9	14	15	16	2
+46		曼陀杀手	野怪	Monster_000_wudunv_001	Animation/NPC/Women/MatureFemale/One_Sword	head-role	Loli	2	1	12	13	13	1
+47		黑豹	野怪	Npc_001_baozi_001	Animation/NPC/Animal/Tiger	head-animal	Loli	1.5	0.5	20	20	20	3
+48		龚光杰	野怪	Npc_001_jianzongdizi_002	Animation/NPC/Man/MatureMan/One_Sword	head-role	ZuoZiMu	2	1.2	14	15	16	1
+49		干光豪	野怪	Npc_001_jianzongdizi_002	Animation/NPC/Man/MatureMan/One_Sword	head-role	ZuoZiMu	2	1.2	14	15	16	1
+50		容子矩	野怪	Npc_001_jianzongdizi_002	Animation/NPC/Man/MatureMan/One_Sword	head-role	ZuoZiMu	2	1.2	14	15	16	1
+51		左子穆	野怪	Npc_001_zuozimu_001	Animation/Player/Dali_001	head-role	ZuoZiMu	2	1.1	14	15	16	1
+52		酒坛		Npc_001_jiutan_001				1.5	1	-1	-1	-1	-1
+53		草药		Npc_001_caoyao_001				1.5	1	-1	-1	-1	-1
+54	与0保持一致	主角：少林	主角	Sz_shaolin_xsz	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+55	与1保持一致	主角：天山	主角	Sz_tianshan_xsz	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+56	与2保持一致	主角：大理	主角	Sz_dali_xsz	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+57	与3保持一致	主角：逍遥	主角	Sz_xiaoyao_xsz	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+58		野狼	伙伴	Monster_001_zonglang_002	Animation/NPC/Animal/Tiger	head-animal	DuanYu	1	0.5	20	20	20	3
+59	燕子坞副本	家丁	副本怪	Monster_001_cike_001	Animation/NPC/Man/MatureMan/Knife	head-role	Loli	2	1	14	15	16	1
+60	燕子坞副本	护院	副本怪	Monster_001_cike_001	Animation/NPC/Man/MatureMan/Knife	head-role	Loli	2	1	14	15	16	1
+61	燕子坞副本	武师	副本怪	Monster_001_cike_001	Animation/NPC/Man/MatureMan/Knife	head-role	Loli	2	1	14	15	16	1
+62	燕子坞副本	包不同	副本怪	Npc_001_baobutong_001_boss	Animation/NPC/Man/Fat/No_Weapon	head-role	Loli	2.5	1.3	14	15	16	2
+63	燕子坞副本	风波恶	副本怪	Npc_001_fengboe_001_boss	Animation/NPC/Man/Strong/One_Sword	head-role	Loli	2.5	1.3	14	15	16	1
+64	燕子坞副本	公冶乾	副本怪	Npc_001_zhudanchen_001	Animation/NPC/Man/MatureMan/No_Weapon	head-role	Loli	2.5	1.3	14	15	16	1
+65	燕子坞副本	邓百川	副本怪	Npc_000_daoke_001_boss	Animation/NPC/Man/Strong/One_Sword	head-role	Loli	2.5	1.3	14	15	16	1
+66	燕子坞副本	慕容复	副本怪	Npc_001_murongfu_001_boss	Animation/NPC/Man/MatureMan/One_Sword	head-role	Loli	2.5	1.3	14	15	16	1
+67	燕子坞副本	咆哮犬	副本怪	Monster_001_zonglang_001	Animation/NPC/Animal/Tiger	head-animal	Loli	2	0.8	20	20	20	3
+68	燕子坞副本	地狱犬	副本怪	Monster_001_zonglang_001	Animation/NPC/Animal/Tiger	head-animal	Loli	2	0.8	20	20	20	3
+69	燕子坞副本	哮天犬	副本怪	Monster_001_zonglang_001	Animation/NPC/Animal/Tiger	head-animal	Loli	2	0.8	20	20	20	3
+70	燕子坞副本	狩猎犬	副本怪	Monster_001_zonglang_001	Animation/NPC/Animal/Tiger	head-animal	Loli	2	0.8	20	20	20	3
+71	燕子坞副本	石碑	副本怪	fb_zhandou_shibei		head-role	Loli	2	1	-1	-1	-1	-1
+72	燕子坞副本	迷香柱	副本怪	fb_zhandou_miyanzhu		head-role	Loli	2	1	-1	-1	-1	-1
+73	燕子坞副本	滚木	副本怪	Monster_001_cike_001	Animation/NPC/Man/MatureMan/Knife	head-role	Loli	2	1	14	15	16	1
+74	少林时装1	少林时装1	主角	Sz_shaolin_xsz	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+75	天山时装1	天山时装1	主角	Sz_tianshan_xsz	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+76	大理时装1	大理时装1	主角	Sz_dali_xsz	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+77	逍遥时装1	逍遥时装1	主角	Zy_xiaoyao_001_lyt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+78	灰色的狼		野怪	Monster_001_zonglang_002	Animation/NPC/Animal/Tiger	head-animal	DuanYu	2	0.5	20	20	20	3
+79	蓝色的狼		野怪	Monster_002_zonglang_001	Animation/NPC/Animal/Tiger	head-animal	DuanYu	1	0.5	20	20	20	3
+80	剑宗弟子		野怪	Npc_001_jianzongdizi_001	Animation/NPC/Man/MatureMan/One_Sword	head-role	Loli	2	1	14	15	16	1
+81	鸠摩智		野怪	Npc_001_jiumozhi_001	Animation/NPC/Man/MatureMan/No_Weapon	head-role	jiumozhi	2	1.2	14	15	16	1
+82	老和尚		野怪	Npc_001_laoheshang_001	Animation/NPC/Man/Midget/Magic	head-npc	benyin	2	0.9	14	15	16	2
+83	慕容复		野怪	Npc_001_murongfu_001	Animation/NPC/Man/MatureMan/One_Sword	head-role	Loli	2.5	1.5	14	15	16	1
+84	司空玄		野怪	Npc_001_sikongxuan_001	Animation/Npc/Man/MatureMan/Magic	head-role	SiKongXuan	2	1	14	15	16	1
+85	宋兵		野怪	Npc_001_songbing_001	Animation/NPC/Man/MatureMan/TwoHand_LongWeapon	head-role	Loli	2	1	14	15	16	1
+86	星宿弟子		野怪	Npc_001_xingsudizi_001	Animation/NPC/Man/MatureMan/No_Weapon	head-role	Loli	2	1	14	15	16	1
+87	游坦之		野怪	Npc_001_youtanzhi_001	Animation/NPC/Man/MatureMan/No_Weapon	head-role	heiyiren	2.5	1.5	14	15	16	1
+88	左子穆		野怪	Npc_001_zuozimu_001	Animation/NPC/Man/MatureMan/One_Sword	head-role	ZuoZiMu	2.2	1.2	14	15	16	1
+89	草药	草药		Npc_001_caoyao_001				1.5	1	-1	-1	-1	-1
+90	红菱	红菱		Npc_001_caoyao_001				1.5	1	-1	-1	-1	-1
+91	陷阱	陷阱		SnareObj			-1	1.5	1	-1	-1	-1	-1
+92	黑豹子		野怪	Npc_001_baozi_001	Animation/NPC/Animal/Tiger	head-animal	Loli	1.5	0.8	20	20	20	3
+93	黄豹子		野怪	Npc_001_baozi_002	Animation/NPC/Animal/Tiger	head-animal	Loli	1.5	0.7	20	20	20	3
+94	白豹子		野怪	Npc_001_baozi_003	Animation/NPC/Animal/Tiger	head-animal	Loli	1.5	0.8	20	20	20	3
+95		时装001_主角：少林	主角	Zy_shaolin_001_bht	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+96		时装001_主角：天山	主角	Zy_tianshan_001_fqt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+97		时装001_主角：大理	主角	Zy_dali_001_hlt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+98		时装001_主角：逍遥	主角	Zy_xiaoyao_001_czt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+99		时装002_主角：少林	主角	Zy_shaolin_001_brt	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+100		时装002_主角：天山	主角	Zy_tianshan_001_jyt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+101		时装002_主角：大理	主角	Zy_dali_001_ljt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+102		时装002_主角：逍遥	主角	Zy_xiaoyao_001_slt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+103	店小二	店小二		Npc_000_laifu_001	Animation/Npc/Man/MatureMan/One_LongWeapon	head-role	LaiFu	2	1	14	15	16	1
+104	南海鳄神	岳老三		Npc_001_nanhaieshen_001_boss	Animation/NPC/Man/Fat/One_Sword	head-role	heiyiren	2.5	1.2	14	15	16	2
+105	刀白凤	刀白凤		Npc_001_daobaifeng_001	Animation/NPC/Women/MatureFemale/Magic	head-role	abi	2	1	12	13	13	1
+106	风波恶	风波恶		Npc_001_fengboe_001	Animation/NPC/Man/Strong/One_Sword	head-role	heiyiren	2	1	14	15	16	1
+107	叶二娘	叶二娘		Npc_001_yeerniang_001	Animation/NPC/Women/MatureFemale/One_Sword	head-role	abi	2	1	18	18	18	1
+108	包不同	包不同		Npc_001_baobutong_001	Animation/NPC/Man/Fat/No_Weapon	head-role	heiyiren	2	1	14	15	16	2
+109	盗贼	盗贼		Npc_001_daozei_001	Animation/NPC/Man/MatureMan/One_Sword	head-role	heiyiren	2	1	14	15	16	1
+110	秦家寨	秦家寨		Npc_001_qinjiasailuoluo_001	Animation/NPC/Man/MatureMan/Broadsword	head-role	heiyiren	2	1	14	15	16	1
+111	逍遥子	逍遥子		Npc_001_xiaoyaozi_001_boss	Animation/NPC/Man/MatureMan/Magic	head-role	heiyiren	2	1	14	15	16	1
+112	本因	本因		Npc_001_laoheshang_001	Animation/NPC/Man/Midget/Magic	head-role	benyin	1.5	0.9	14	15	16	2
+113	红熊	红熊		Npc_001_xiong_001	Animation/NPC/Animal/Bear	head-animal	heiyiren	2	1	20	20	20	3
+114	明王随从	明王随从		Npc_001_mingwangsuicong_001	Animation/NPC/Man/MatureMan/No_Weapon	head-role	heiyiren	2	1	14	15	16	1
+115	红熊王	红熊王		Npc_001_xiong_002	Animation/NPC/Animal/Bear	head-animal	heiyiren	2	1.4	20	20	20	3
+116	司马林	司马林		Npc_001_simalin_002	Animation/NPC/Man/MatureMan/One_Sword	head-role	heiyiren	2	1.5	14	15	16	1
+117	云中鹤	云中鹤		Npc_001_yunzhonghe_001_boss	Animation/NPC/Man/MatureMan/One_Sword	head-role	heiyiren	2	1	14	15	16	1
+118	丐帮叛徒	丐帮叛徒		Npc_001_gaibangpantu_001	Animation/NPC/Man/MatureMan/TwoHand_LongWeapon	head-role	heiyiren	2	1	14	15	16	1
+119	女真猎手	女真猎手		Npc_001_nvzhenlieren_001	Animation/NPC/Man/MatureMan/TwoHand_LongWeapon	head-role	heiyiren	2	1	14	15	16	1
+120	全冠清	全冠清		Npc_001_quanguanqing_001	Animation/NPC/Man/MatureMan/TwoHand_LongWeapon	head-role	heiyiren	2	1	14	15	16	1
+121	西夏士兵	西夏士兵		Npc_001_xixiabubing_001	Animation/NPC/Man/MatureMan/TwoHand_LongWeapon	head-role	heiyiren	2	1	14	15	16	1
+122	一品堂高手	一品堂高手		Npc_001_yipintanggaoshou_001	Animation/NPC/Man/MatureMan/TwoHand_LongWeapon	head-role	heiyiren	2	1	14	15	16	1
+123	段延庆	段延庆		Npc_001_duanyanqing_001	Animation/NPC/Man/Special	head-role	heiyiren	2	1	14	15	16	1
+124	辽兵	辽兵		Npc_001_liaobing_001	Animation/NPC/Man/Strong/One_Sword	head-role	heiyiren	2	1	14	15	16	1
+125	西夏武士	西夏武士		Npc_001_xixiawushi_001	Animation/NPC/Man/Strong/One_Sword	head-role	heiyiren	2	1	14	15	16	1
+126	强盗	强盗		Npc_003_daozei_001	Animation/Player/Shaolin_001	head-role	heiyiren	2	1	14	15	16	1
+127	雁门关末尾剧情-黑衣人瘦	雁门关末尾剧情-黑衣人瘦	副本怪	Npc_002_daozei_001	Animation/NPC/Man/MatureMan/No_Weapon	head-role	heiyiren	1.5	1.2	14	15	16	1
+128	雁门关末尾剧情-黑衣人胖	雁门关末尾剧情-黑衣人胖	副本怪	Npc_004_daozei_001	Animation/NPC/Man/Strong/No_Weapon	head-role	heiyiren	1.5	1.2	14	15	16	1
+129	扫地僧	扫地僧		Npc_001_saodiseng_001	Animation/Npc/Man/MatureMan/One_LongWeapon	head-role	heiyiren	2	1	14	15	16	1
+130	游氏双雄1	游氏双雄1		Npc_001_youshishuangxiong_001	Animation/NPC/Man/Strong/No_Weapon	head-role	heiyiren	2	1	14	15	16	1
+131	游氏双雄2	游氏双雄2		Npc_001_youshishuangxiong_002	Animation/NPC/Man/Strong/No_Weapon	head-role	heiyiren	2	1	14	15	16	1
+132	灵鹫宫圣使	灵鹫宫圣使		Npc_001_lingjiugongshengshi_001	Animation/NPC/Women/MatureFemale/One_Sword	head-role	heiyiren	2	1	12	13	13	1
+133	藩邦探子	藩邦探子		Npc_001_liaobing_001	Animation/NPC/Man/Strong/One_Sword	head-role	heiyiren	2	1	14	15	16	1
+134	青城弟子	青城弟子		Npc_001_jianzongdizi_002	Animation/NPC/Man/MatureMan/One_Sword	head-role	heiyiren	2	1	14	15	16	1
+135	姚伯当	姚伯当		Npc_001_qinjiasailuoluo_001_boss	Animation/NPC/Man/MatureMan/Broadsword	head-role	heiyiren	2	1.5	14	15	16	1
+136	漕运强盗	漕运强盗		Npc_001_shennongbanglouluo_002	Animation/NPC/Man/MatureMan/TwoHand_LongWeapon	head-role	heiyiren	2	1	14	15	16	1
+137	白虎	白虎		Npc_001_hu_002	Animation/NPC/Animal/Tiger	head-animal	heiyiren	2	0.8	20	20	20	3
+138	少林铜人	少林铜人		Npc_001_shaolintongren_001	Animation/NPC/Man/Strong/No_Weapon	head-role	heiyiren	2	1	14	15	16	1
+139	剑客	剑客		Npc_001_muwanqing_001	Animation/NPC/Women/MatureFemale/One_Sword	head-role	heiyiren	2	1	12	13	13	1
+140	刀客	刀客		Npc_001_fengboe_001	Animation/NPC/Man/Strong/One_Sword	head-role	heiyiren	2	1	14	15	16	1
+141	家丁	家丁		Npc_000_laifu_001	Animation/Npc/Man/MatureMan/One_LongWeapon	head-role	heiyiren	2	1	14	15	16	1
+142	李延宗	李延宗		Npc_001_yipintanggaoshou_001	Animation/NPC/Man/MatureMan/TwoHand_LongWeapon	head-role	heiyiren	2	1.2	14	15	16	1
+143	玄天部众	玄天部众		Npc_001_lingjiugongbuzhong_001	Animation/NPC/Women/MatureFemale/One_Sword	head-role	heiyiren	2	1	12	13	13	1
+144	昊天部众	昊天部众		Npc_001_lingjiugongbuzhong_002	Animation/NPC/Women/MatureFemale/One_Sword	head-role	heiyiren	2	1	12	13	13	1
+145	叛乱洞主	叛乱洞主		Npc_001_simalin_001	Animation/NPC/Man/MatureMan/One_Sword	head-role	heiyiren	2	1	14	15	16	1
+146	阿碧	阿碧		Npc_001_azhu_002	Animation/NPC/Women/MatureFemale/One_Sword	head-npc	abi	2	1	12	13	13	1
+147	阿朱	阿朱		Npc_001_azhu_001	Animation/NPC/Women/MatureFemale/One_Sword	head-npc	abi	2	1	12	13	13	1
+148	老黄	老黄		Npc_001_xiaoyaozi_001	Animation/NPC/Man/MatureMan/No_Weapon	head-npc	zhongwanchou	2	1	14	15	16	1
+149	郑屠	郑屠		Npc_001_youshishuangxiong_001	Animation/NPC/Man/Strong/No_Weapon	head-npc	heiyiren	2	1	14	15	16	1
+150	王夫人	王夫人		Npc_001_ganbaobao_001	Animation/NPC/Women/MatureFemale/Magic	head-npc	GanBaoBao	2	1	12	13	13	1
+151	王语嫣	王语嫣		Npc_001_wangyuyan_001	Animation/NPC/Women/MatureFemale/Magic	head-npc	wangyuyan	2	1	12	13	13	1
+152	白世镜	白世镜		Npc_001_baishijing_001	Animation/NPC/Man/MatureMan/No_Weapon	head-npc	baishijing	2	1	14	15	16	1
+153	木桩	木桩		fb_yanziwu_mutouren_01		head-animal	heiyiren	2.5	1	-1	-1	-1	-1
+154	吕长老	吕长老		Npc_001_xuzhanglao_001	Animation/NPC/Women/Midget/One_LongWeapon	head-npc	heiyiren	2	1	14	15	16	2
+155	赫连铁树	赫连铁树		Npc_001_heliantieshu_001	Animation/NPC/Man/Fat/TwoHand_LongWeapon	head-npc	heiyiren	2.5	1.2	14	15	16	2
+156	祁六	祁六		Npc_000_daoke_001	Animation/NPC/Man/Strong/One_Sword	head-npc	heiyiren	2	1	14	15	16	1
+157	门派接引人	门派接引人		Npc_001_tianshantonglao_001	Animation/NPC/Women/Loli/No_Weapon	head-npc	zhongling	1.7	1	12	13	13	1
+158	灵隐	灵隐		Npc_001_xuzhanglao_001	Animation/NPC/Women/Midget/One_LongWeapon	head-npc	heiyiren	2	1	14	15	16	2
+159	鲍千灵	鲍千灵		Npc_001_shennongbanglouluo_001	Animation/NPC/Man/MatureMan/TwoHand_LongWeapon	head-npc	heiyiren	2	1	14	15	16	1
+160	向望海	向望海		Npc_001_jianghuxieshi_001	Animation/NPC/Man/Midget/No_Weapon	head-npc	heiyiren	2	1	14	15	16	2
+161	薛神医	薛神医		Npc_001_yuanguqihun_001	Animation/NPC/Man/MatureMan/Magic	head-npc	heiyiren	2	1	14	15	16	1
+162	燕王古墓副本	慕容德		Npc_001_murongfu_001_boss	Animation/NPC/Man/MatureMan/One_Sword	head-role	heiyiren	2.5	1.5	14	15	16	1
+163	燕王古墓副本	慕容垂		Npc_001_murongfu_002	Animation/NPC/Man/MatureMan/One_Sword	head-role	heiyiren	2.5	1.5	14	15	16	1
+164	燕王古墓副本	慕容恪		Npc_001_murongfu_001_boss	Animation/NPC/Man/MatureMan/One_Sword	head-role	heiyiren	2.5	1.5	14	15	16	1
+165	燕王古墓副本	慕容皝		Npc_001_murongfu_003	Animation/NPC/Man/MatureMan/One_Sword	head-role	heiyiren	2.5	1.5	14	15	16	1
+166	燕王古墓副本	慕容博		Npc_001_murongbo_001_boss	Animation/NPC/Man/MatureMan/One_Sword	head-role	heiyiren	2.5	1.5	14	15	16	1
+167	燕王古墓副本	守墓兵卒		Npc_001_yipintangqibing_001	Animation/NPC/Man/MatureMan/TwoHand_LongWeapon	head-role	heiyiren	2	1	14	15	16	1
+168	燕王古墓副本	守墓将军		Npc_001_yipintanggaoshou_001	Animation/NPC/Man/MatureMan/TwoHand_LongWeapon	head-role	heiyiren	2	1	14	15	16	1
+169	燕王古墓副本	帝王之魄		Npc_001_youtanzhi_001	Animation/NPC/Man/MatureMan/No_Weapon	head-role	Loli	2	1	14	15	16	1
+170	聚贤庄副本	马夫人		Npc_001_kangmin_001_boss	Animation/NPC/Women/MatureFemale/Magic	head-role	heiyiren	2.5	1.5	12	13	13	1
+171	聚贤庄副本	游骥		Npc_001_youshishuangxiong_001_boss	Animation/NPC/Man/Strong/No_Weapon	head-role	heiyiren	2.5	1.5	14	15	16	1
+172	聚贤庄副本	游驹		Npc_001_youshishuangxiong_002_boss	Animation/NPC/Man/Strong/No_Weapon	head-role	heiyiren	2.5	1.5	14	15	16	1
+173	聚贤庄副本	玄难		Npc_001_laoheshang_001_boss	Animation/NPC/Man/Midget/Magic	head-role	Loli	2.5	1.5	14	15	16	2
+174	聚贤庄副本	向望海		Npc_001_jianghuxieshi_001_boss	Animation/NPC/Man/Midget/No_Weapon	head-role	heiyiren	2.5	1.5	14	15	16	2
+175	聚贤庄副本	白世镜		Npc_001_baishijing_001_boss	Animation/NPC/Man/MatureMan/No_Weapon	head-role	baishijing	2.5	1.5	14	15	16	1
+176	聚贤庄副本	丐帮弟子		Npc_001_gaibangpantu_001	Animation/NPC/Man/MatureMan/TwoHand_LongWeapon	head-role	heiyiren	2	1	14	15	16	1
+177	聚贤庄副本	聚贤庄庄客		Npc_001_jianzongdizi_002	Animation/NPC/Man/MatureMan/One_Sword	head-role	ZuoZiMu	2	1	14	15	16	1
+178	聚贤庄副本	少林弟子		Npc_001_shaolintongren_001	Animation/NPC/Man/Strong/No_Weapon	head-role	head-shaolin	2.2	1	17	17	17	1
+179	聚贤庄副本	江湖宵小		Npc_001_yunzhonghe_001_boss	Animation/NPC/Man/MatureMan/One_Sword	head-role		2	1	14	15	16	1
+180	聚贤庄副本	毒蟾除		Npc_001_hama_001	Animation/NPC/Animal/Frog	head-role	Loli	2	1	20	20	20	3
+181	聚贤庄副本	毒狼		Monster_002_zonglang_001	Animation/NPC/Animal/Tiger	head-role	DuanYu	2	1	20	20	20	3
+182	聚贤庄副本	精钢盾		Npc_001_youshishuangxiong_001_dun		head-role		2.5	2	14	15	16	-1
+183	藏经阁BOSS	护塔镇守		Npc_001_zhongwanchou_001	Animation/NPC/Man/MatureMan/Broadsword	head-role	zhongwanchou	2.7	1.5	14	15	16	1
+184	藏经阁BOSS	护塔镇守		Npc_001_jiumozhi_001_boss	Animation/NPC/Man/MatureMan/No_Weapon	head-role	Loli	2.7	1.5	14	15	16	1
+185	藏经阁BOSS	护塔镇守		Npc_001_laoheshang_001	Animation/NPC/Man/Midget/Magic	head-role	Loli	2.7	1.5	14	15	16	2
+186	藏经阁BOSS	护塔镇守		Npc_001_murongfu_001	Animation/NPC/Man/MatureMan/One_Sword	head-role	Loli	2.7	1.5	14	15	16	1
+187	藏经阁BOSS	护塔镇守		Npc_001_youtanzhi_001	Animation/NPC/Man/MatureMan/No_Weapon	head-role	Loli	2.7	1.5	14	15	16	1
+188	藏经阁BOSS	护塔镇守		Npc_001_zuozimu_001_boss	Animation/NPC/Man/MatureMan/One_Sword	head-role	ZuoZiMu	2.7	1.5	14	15	16	1
+189	藏经阁BOSS	护塔镇守		Npc_001_nanhaieshen_001_boss	Animation/NPC/Man/Fat/One_Sword	head-role		2.7	1.5	14	15	16	2
+190	藏经阁BOSS	护塔镇守		Npc_001_fengboe_001	Animation/NPC/Man/Strong/One_Sword	head-role		2.7	1.5	14	15	16	1
+191	藏经阁BOSS	护塔镇守		Npc_001_simalin_002	Animation/NPC/Man/MatureMan/One_Sword	head-role		2.7	1.5	14	15	16	1
+192	藏经阁BOSS	护塔镇守		Npc_001_yunzhonghe_001	Animation/NPC/Man/MatureMan/One_Sword	head-role		2.7	1.5	14	15	16	1
+193	藏经阁BOSS	护塔镇守		Npc_001_duanyanqing_001_boss	Animation/NPC/Man/Special	head-role		2.9	1.5	14	15	16	4
+194	藏经阁BOSS	护塔镇守		Npc_001_saodiseng_001	Animation/Npc/Man/MatureMan/Magic	head-role		2.7	1.5	14	15	16	1
+195	藏经阁BOSS	护塔镇守		Npc_001_youshishuangxiong_001	Animation/NPC/Man/Strong/No_Weapon	head-role		2.7	1.5	14	15	16	1
+196	藏经阁BOSS	护塔镇守		Npc_001_youshishuangxiong_002	Animation/NPC/Man/Strong/No_Weapon	head-role		2.7	1.5	14	15	16	1
+197	虚竹	虚竹		Npc_001_xuzhu_001	Animation/NPC/Man/MatureMan/No_Weapon	head-npc	XuZhu	2	1	14	15	16	1
+198	珍珑棋局副本	白棋子		fb_banghui_qizi02		head-animal		1	2	25	26	27	-1
+199	珍珑棋局副本	黑棋子		fb_banghui_qizi03		head-animal		1	2	25	26	27	-1
+200	珍珑棋局副本	黄金棋子		fb_banghui_qizi01		head-animal		1	2	25	26	27	-1
+201	段延庆	段延庆		Npc_001_duanyanqing_001_boss	Animation/NPC/Man/Special	head-role		2.5	1.3	14	15	16	4
+202	帮会日常活动	一级聚宝盆		fb_banghui_jubaopen01		head-animal		2	2	-1	-1	-1	-1
+203	帮会日常活动	二级聚宝盆		fb_banghui_jubaopen02		head-animal		2	2	-1	-1	-1	-1
+204	帮会日常活动	三级聚宝盆		fb_banghui_jubaopen03		head-animal		2	2	-1	-1	-1	-1
+205	帮会日常活动	四级聚宝盆		fb_banghui_jubaopen04		head-animal		2	2	-1	-1	-1	-1
+206	帮会日常活动	五级聚宝盆		fb_banghui_jubaopen05		head-animal		2	2	-1	-1	-1	-1
+207	狼	狼	伙伴	Monster_001_zonglang_002	Animation/NPC/Animal/Tiger	head-animal	DuanYu	1	0.5	20	20	20	3
+208	进化狼	进化狼	伙伴	Monster_002_zonglang_001	Animation/NPC/Animal/Tiger	head-animal	DuanYu	1	0.6	20	20	20	3
+209	豹	豹	伙伴	Npc_001_baozi_002	Animation/NPC/Animal/Tiger	head-animal	DuanYu	1	0.5	20	20	20	3
+210	进化豹	进化豹	伙伴	Npc_001_baozi_003	Animation/NPC/Animal/Tiger	head-animal	DuanYu	1	0.6	20	20	20	3
+211	虎	虎	伙伴	Npc_001_hu_001	Animation/NPC/Animal/Tiger	head-animal	DuanYu	1	0.5	20	20	20	3
+212	进化虎	进化虎	伙伴	Npc_001_hu_002	Animation/NPC/Animal/Tiger	head-animal	DuanYu	1	0.6	20	20	20	3
+213	狮	狮	伙伴	Npc_001_shizi_002	Animation/NPC/Animal/Tiger	head-animal	DuanYu	1	0.5	20	20	20	3
+214	进化狮	进化狮	伙伴	Npc_001_shizi_001	Animation/NPC/Animal/Tiger	head-animal	DuanYu	1	0.6	20	20	20	3
+215	熊	熊	伙伴	Npc_001_xiong_001	Animation/NPC/Animal/Bear	head-animal	DuanYu	1	0.8	20	20	20	3
+216	钟灵	钟灵	伙伴	Npc_001_zhongling_001	Animation/NPC/Women/Loli/One_Sword	head-role	DuanYu	1.5	1	12	13	13	1
+217	甘宝宝	甘宝宝	伙伴	Npc_001_ganbaobao_001	Animation/NPC/Women/MatureFemale/Magic	head-role	DuanYu	2	1	12	13	13	1
+218	马夫人	马夫人	伙伴	Npc_001_kangmin_001	Animation/NPC/Women/MatureFemale/Magic	head-role	DuanYu	2	1	12	13	13	1
+219	木婉清	木婉清	伙伴	Npc_001_muwanqing_001	Animation/NPC/Women/MatureFemale/One_Sword	head-role	DuanYu	2	1	12	13	13	1
+220	刀白凤	刀客	伙伴	Npc_001_daobaifeng_001	Animation/NPC/Women/MatureFemale/Magic	head-role	DuanYu	2	1	12	13	13	1
+221	阿朱	阿朱	伙伴	Npc_001_azhu_001	Animation/NPC/Women/MatureFemale/One_Sword	head-role	DuanYu	2	1	12	13	13	1
+222	王语嫣	王语嫣	伙伴	Npc_001_wangyuyan_001	Animation/NPC/Women/MatureFemale/Magic	head-role	DuanYu	2	1	12	13	13	1
+223	猛虎	猛虎		Npc_001_hu_001	Animation/NPC/Animal/Tiger	head-animal		2	0.8	20	20	20	3
+224		少林20级上衣	主角	Zy_shaolin_001_slt	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+225		天山20级上衣	主角	Zy_tianshan_001_fqt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+226		大理20级上衣	主角	Zy_dali_001_xjt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+227		逍遥20级上衣	主角	Zy_xiaoyao_001_llt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+228		少林30+级上衣	主角	Zy_shaolin_001_yjt	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+229		天山30+级上衣	主角	Zy_tianshan_001_xyt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+230		大理30+级上衣	主角	Zy_dali_001_ljt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+231		逍遥30+级上衣	主角	Zy_xiaoyao_001_lyt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+232		少林40+级上衣	主角	Zy_shaolin_001_brt	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+233		天山40+级上衣	主角	Zy_tianshan_001_jyt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+234		大理40+级上衣	主角	Zy_dali_001_xdt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+235		逍遥40+级上衣	主角	Zy_xiaoyao_001_slt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+236		少林50+级上衣	主角	Zy_shaolin_001_xjt	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+237		天山50+级上衣	主角	Zy_tianshan_001_ymt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+238		大理50+级上衣	主角	Zy_dali_001_jwt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+239		逍遥50+级上衣	主角	Zy_xiaoyao_001_qhlt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+240	鸠摩智		NPC	Npc_001_jiumozhi_001	Animation/NPC/Man/MatureMan/No_Weapon	head-role	jiumozhi	2	1.2	14	15	16	1
+241	卢煮	卢煮		Npc_000_laifu_001	Animation/Npc/Man/MatureMan/One_LongWeapon	head-npc	LaiFu	2	1	14	15	16	1
+242	苏州	少林弟子	主角	Zy_shaolin_001_bht	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+243	苏州	天山弟子	主角	Zy_tianshan_001_fqt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+244	苏州	大理弟子	主角	Zy_dali_001_hlt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+245	苏州	逍遥弟子	主角	Zy_xiaoyao_001_czt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+246	与1保持一致	少林10级上衣	主角	Zy_shaolin_001_lht	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+247	与1保持一致	天山10级上衣	主角	Zy_tianshan_001_tyt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+248	与1保持一致	大理10级上衣	主角	Zy_dali_001_hlt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+249	与1保持一致	逍遥10级上衣	主角	Zy_xiaoyao_001_czt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+250	世界BOSS	天山童姥		Npc_001_tianshantonglao_001_boss	Animation/NPC/Women/Loli/No_Weapon	head-role	zhongling	4	2.7	12	13	13	1
+251	枯荣大师	枯荣大师		Npc_001_kurongdashi_001	Animation/NPC/Man/Strong/TwoHand_LongWeapon	head-npc	kurongdashi	2.3	1	14	15	16	1
+252	左子穆		友好NPC	Npc_001_zuozimu_001	Animation/NPC/Man/MatureMan/One_Sword	head-npc	ZuoZiMu	2.2	1.2	14	15	16	1
+253	司空玄		友好NPC	Npc_001_sikongxuan_001	Animation/Npc/Man/MatureMan/Magic	head-npc	SiKongXuan	2	1	14	15	16	1
+254	店小二	店小二	友好NPC	Npc_000_laifu_001	Animation/Npc/Man/MatureMan/One_LongWeapon	head-npc	LaiFu	2	1	14	15	16	1
+255	南海鳄神	岳老三	友好NPC	Npc_001_nanhaieshen_001	Animation/NPC/Man/Fat/One_Sword	head-npc	heiyiren	2.5	1.2	14	15	16	2
+256	刀白凤	刀白凤	友好NPC	Npc_001_daobaifeng_001	Animation/NPC/Women/MatureFemale/Magic	head-npc	abi	2	1	12	13	13	1
+257	本因	本因	友好NPC	Npc_001_laoheshang_001	Animation/NPC/Man/Midget/Magic	head-npc	benyin	1.5	0.9	14	15	16	2
+258	鸠摩智		友好NPC	Npc_001_jiumozhi_001	Animation/NPC/Man/MatureMan/No_Weapon	head-npc	jiumozhi	2	1.2	14	15	16	1
+259	穷奇	穷奇	伙伴	Npc_001_qiongqi_001	Animation/NPC/Animal/Tiger	head-animal	DuanYu	1	0.6	20	20	20	3
+260	燕子坞副本	包不同-物理免疫	副本怪	Npc_001_baobutong_002	Animation/NPC/Man/Fat/No_Weapon	head-role	Loli	2.5	1.3	14	15	16	2
+261	燕子坞副本	包不同-魔法免疫	副本怪	Npc_001_baobutong_003	Animation/NPC/Man/Fat/No_Weapon	head-role	Loli	2.5	1.3	14	15	16	2
+262		少林60+级上衣	主角	Zy_shaolin_001_bht	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+263		天山60+级上衣	主角	Zy_tianshan_001_yxt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+264		大理60+级上衣	主角	Zy_dali_001_szt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+265		逍遥60+级上衣	主角	Zy_xiaoyao_001_qyt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+266		少林70+级上衣	主角	Zy_shaolin_001_fht	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+267		天山70+级上衣	主角	Zy_tianshan_001_hyt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+268		大理70+级上衣	主角	Zy_dali_001_jlt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+269		逍遥70+级上衣	主角	Zy_xiaoyao_001_hyt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+270		少林80级上衣	主角	Zy_shaolin_001_fjt	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+271		天山80级上衣	主角	Zy_tianshan_001_fyt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+272		大理80级上衣	主角	Zy_dali_001_plt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+273		逍遥80级上衣	主角	Zy_xiaoyao_001_mxt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+274		橙少林30+上衣	主角	Zy_shaolin_002_yjt	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+275		橙天山30+上衣	主角	Zy_tianshan_002_xyt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+276		橙大理30+上衣	主角	Zy_dali_002_ljt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+277		橙逍遥30+上衣	主角	Zy_xiaoyao_002_lyt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+278		橙少林40+上衣	主角	Zy_shaolin_002_brt	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+279		橙天山40+上衣	主角	Zy_tianshan_002_jyt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+280		橙大理40+上衣	主角	Zy_dali_002_xdt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+281		橙逍遥40+上衣	主角	Zy_xiaoyao_002_slt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+282		橙少林50+上衣	主角	Zy_shaolin_002_xjt	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+283		橙天山50+上衣	主角	Zy_tianshan_002_ymt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+284		橙大理50+上衣	主角	Zy_dali_002_jwt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+285		橙逍遥50+上衣	主角	Zy_xiaoyao_002_qhlt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+286		橙少林60+上衣	主角	Zy_shaolin_002_bht	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+287		橙天山60+上衣	主角	Zy_tianshan_002_yxt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+288		橙大理60+上衣	主角	Zy_dali_002_szt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+289		橙逍遥60+上衣	主角	Zy_xiaoyao_002_qyt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+290	珍珑棋局副本	远古棋魂	副本怪	Npc_001_yuanguqihun_001_boss	Animation/NPC/Man/MatureMan/Magic	head-npc	zhongwanchou	2.9	1.4	14	15	16	1
+291	少室山副本	慕容博	副本怪	Npc_001_murongbo_001	Animation/NPC/Man/MatureMan/One_Sword	head-role	heiyiren	2.5	1.5	14	15	16	1
+292	少室山副本	萧远山	副本怪	Npc_001_xiaoyuanshan_001	Animation/NPC/Man/Strong/No_Weapon	head-role	heiyiren	2.5	1.5	14	15	16	1
+293	少室山副本	游坦之	副本怪	Npc_001_youtanzhi_001	Animation/NPC/Man/MatureMan/No_Weapon	head-role	heiyiren	2.5	1.5	14	15	16	1
+294	少室山副本	鸠摩智	副本怪	Npc_001_jiumozhi_001_boss	Animation/NPC/Man/MatureMan/No_Weapon	head-role	jiumozhi	2.5	1.5	14	15	16	1
+295	少室山副本	丁春秋	副本怪	Npc_001_dingchunqiu_001	Animation/NPC/Man/MatureMan/One_Sword	head-role	heiyiren	2.5	1.5	14	15	16	1
+296	苏星河	苏星河	副本怪	Npc_001_xiaoyaozi_001_boss	Animation/NPC/Man/MatureMan/Magic	head-role	heiyiren	2.5	1.3	14	15	16	1
+297		结婚-媒婆	友好NPC	Npc_001_kangmin_002	Animation/NPC/Women/MatureFemale/Magic	head-npc	mafuren	2	1	12	13	13	1
+298		大理元宝时装1	主角	Sz_dali_001_tst	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+299		大理元宝时装2	主角	Sz_dali_001_zshf	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+300		少林元宝时装1	主角	Sz_shaolin_001_tst	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+301		少林元宝时装2	主角	Sz_shaolin_001_zshf	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+302		天山元宝时装1	主角	Sz_tianshan_001_tst	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+303		天山元宝时装2	主角	Sz_tianshan_001_zshf	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+304		逍遥元宝时装1	主角	Sz_xiaoyao_001_tst	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+305		逍遥元宝时装2	主角	Sz_xiaoyao_001_zshf	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+306		平婆婆-战斗	战斗NPC	Npc_001_pingpopo_001	Animation/NPC/Women/Midget/One_LongWeapon	head-role	pingpopo	1.7	1	12	13	13	2
+307	穷奇-战斗	穷奇-战斗	战斗NPC	Npc_001_qiongqi_001	Animation/NPC/Animal/Tiger	head-animal	DuanYu	1	0.6	20	20	20	3
+308		橙少林70+上衣	主角	Zy_shaolin_002_fht	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+309		橙天山70+上衣	主角	Zy_tianshan_002_hyt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+310		橙大理70+上衣	主角	Zy_dali_002_jlt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+311		橙逍遥70+上衣	主角	Zy_xiaoyao_002_hyt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+312		橙少林80+上衣	主角	Zy_shaolin_002_fjt	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+313		橙天山80+上衣	主角	Zy_tianshan_002_fyt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+314		橙大理80+上衣	主角	Zy_dali_002_plt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+315		橙逍遥80+上衣	主角	Zy_xiaoyao_002_mxt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+316	天山童姥	天山童姥	伙伴	Npc_001_tianshantonglao_001	Animation/NPC/Women/Loli/No_Weapon	head-role	DuanYu	1.5	1	12	13	13	1
+317	秦红棉	秦红棉	伙伴	Npc_001_qinhongmian_001	Animation/NPC/Women/MatureFemale/Magic	head-role	DuanYu	2	1	12	13	13	1
+318	阮星竹	阮星竹	伙伴	Npc_001_ruanxingzhu_001	Animation/NPC/Women/MatureFemale/Magic	head-role	DuanYu	2	1	12	13	13	1
+319	阿碧	阿碧	伙伴	Npc_001_azhu_002	Animation/NPC/Women/MatureFemale/One_Sword	head-role	DuanYu	2	1	12	13	13	1
+320	阿紫	阿紫	伙伴	Npc_001_azi_001	Animation/NPC/Women/MatureFemale/One_Sword	head-role	DuanYu	2	1	12	13	13	1
+321	李秋水	李秋水	伙伴	Npc_001_liqiushui_001	Animation/NPC/Women/MatureFemale/One_Sword	head-role	DuanYu	2	1	12	13	13	1
+322	李青萝	李青萝	伙伴	Npc_001_liqingluo_001	Animation/NPC/Women/MatureFemale/Magic	head-role	DuanYu	2	1	12	13	13	1
+323	西夏公主	西夏公主	伙伴	Npc_001_menggu_001	Animation/NPC/Women/MatureFemale/One_Sword	head-role	DuanYu	1.8	1	12	13	13	1
+324	结婚礼服	结婚礼服：少林	主角	Sz_shaolin_001_jht	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+325	结婚礼服	结婚礼服：天山	主角	Sz_tianshan_001_jht	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+326	结婚礼服	结婚礼服：大理	主角	Sz_dali_001_jht	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+327	结婚礼服	结婚礼服：逍遥	主角	Sz_xiaoyao_001_jht	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+328	雁门关BOSS	慕容博		Npc_001_murongbo_001	Animation/NPC/Man/MatureMan/One_Sword	head-role	heiyiren	2.5	1.3	14	15	16	1
+329	琅嬛福地-小怪	伏地武士		Npc_001_youshishuangxiong_002	Animation/NPC/Man/Strong/No_Weapon	head-role	heiyiren	2	1	14	15	16	1
+330		少林90级上衣	主角	Zy_shaolin_001_90t	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+331		天山90级上衣	主角	Zy_tianshan_001_90t	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+332		大理90级上衣	主角	Zy_dali_001_90t	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+333		逍遥90级上衣	主角	Zy_xiaoyao_001_90t	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+334		少林100级上衣	主角	Zy_shaolin_001_90t	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+335		天山100级上衣	主角	Zy_tianshan_001_90t	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+336		大理100级上衣	主角	Zy_dali_001_90t	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+337		逍遥100级上衣	主角	Zy_xiaoyao_001_90t	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+338		橙少林90+上衣	主角	Zy_shaolin_002_90t	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+339		橙天山90+上衣	主角	Zy_tianshan_002_90t	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+340		橙大理90+上衣	主角	Zy_dali_002_90t	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+341		橙逍遥90+上衣	主角	Zy_xiaoyao_002_90t	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+342		橙少林100+上衣	主角	Zy_shaolin_002_90t	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+343		橙天山100+上衣	主角	Zy_tianshan_002_90t	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+344		橙大理100+上衣	主角	Zy_dali_002_90t	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+345		橙逍遥100+上衣	主角	Zy_xiaoyao_002_90t	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+346	结婚骑乘	结婚骑乘	友好NPC	Qicheng_001_jiehunmache_001	Animation/Ride/Animation/Marryhorse	head-npc	DuanYu	1	1	20	20	20	3
+347	结婚车队	结婚车队	友好NPC	Npc_002_laifu_001	Animation/NPC/Man/MatureMan/One_LongWeapon/Npc_002_laifu_001	head-npc	LaiFu	2	1	14	15	16	1
+348	空白点	空白点		SnareObj			-1	1.5	1	-1	-1	-1	-1
+349		少林_熊猫时装	主角	Sz_shaolin_001_xmtt	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+350		天山_熊猫时装	主角	Sz_tianshan_001_xmt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+351		大理_熊猫时装	主角	Sz_dali_001_xmt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+352		逍遥_熊猫时装	主角	Sz_xiaoyao_001_xmt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+353		雁门关副本-少林	主角	Zy_shaolin_001_brt	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+354		雁门关副本-天山	主角	Zy_tianshan_001_xyt	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+355		雁门关副本-大理	主角	Zy_dali_001_hlt	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+356		雁门关副本-逍遥	主角	Zy_xiaoyao_001_llt	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+357	闪电貂	闪电貂	伙伴	Npc_001_shandiandiao_001	Animation/NPC/Animal/Mouse	head-animal	DuanYu	1	0.9	20	20	20	3
+358	VIP宝宝	VIP宝宝	伙伴	Npc_001_xiaodiao_001	Animation/NPC/Animal/Bird	head-animal	DuanYu	1	0.5	20	20	20	3
+359	珍珑棋局副本	琉璃棋子		fb_banghui_qizi04		head-animal		1	2	25	26	27	-1
+360	珍珑棋局副本	墨晶棋子		fb_banghui_qizi05		head-animal		1	2	25	26	27	-1
+361	小镜湖野怪	宵小	野怪	Npc_001_yunzhonghe_001	Animation/NPC/Man/MatureMan/One_Sword	head-role	heiyiren	2	1	14	15	16	1
+362	雁门关末尾剧情-黑衣人瘦	雁门关末尾剧情-黑衣人瘦	副本怪	Npc_Yanmenguan_matureman	Animation/NPC/Man/MatureMan/No_Weapon	head-role	heiyiren	1.5	1.2	14	15	16	1
+363	雁门关末尾剧情-黑衣人胖	雁门关末尾剧情-黑衣人胖	副本怪	Npc_Yanmenguan_Strong	Animation/NPC/Man/Strong/No_Weapon	head-role	heiyiren	1.5	1.2	14	15	16	1
+364		橙少林100+上衣	主角	Zy_shaolin_002_90t_erhai	Animation/Player/Shaolin_001	head-shaolin	head-shaolin	2.2	1	17	17	17	1
+365		橙天山100+上衣	主角	Zy_tianshan_002_90t_erhai	Animation/Player/Tianshan_001	TianShanHead	TianShanHead	2	1	18	18	18	1
+366		橙大理100+上衣	主角	Zy_dali_002_90t_erhai	Animation/Player/Dali_001	DaLiHead	DaLiHead	2	1	11	11	11	1
+367		橙逍遥100+上衣	主角	Zy_xiaoyao_002_90t_erhai	Animation/Player/Xiaoyao_001	head-xiaoyao	head-xiaoyao	1.7	1	19	19	19	1
+373	火狐	火狐	伙伴	Npc_001_huohu_001	Animation/NPC/Animal/Fox	head-role	zhongling	1.1	1	12	13	13	1
+374	凤凰	凤凰	伙伴	Npc_001_fenghuang_001	Animation/NPC/Animal/Bird	head-role	zhongling	0.5	1	12	13	13	1

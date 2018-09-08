@@ -1,0 +1,12 @@
+{application, yulong,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { yulong_app, []}},
+  {env, []}
+ ]}.

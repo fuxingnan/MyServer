@@ -1,0 +1,40 @@
+SceneID	Desc	Name	ResName	Type	Length	Width	Obstacle	TerrainHeightMax	TerrainHeightMapLength	TerrainHeightMapWidth	BGMusic	PVPRule	ReliveType_1	ReliveType_2	ReliveType_3	Entry_x	Entry_z	DeadPunishRule	CopySceneID	PlayersMaxA	PlayersMaxB	IsCanUseXp	SceneMapTexture	SceneMapWidth	SceneMapHeight	SceneMapLogicWidth
+INT	STRING	STRING	STRING	INT	INT	INT	STRING	INT	INT	INT	INT	INT	INT	INT	INT	FLOAT	FLOAT	INT	INT	INT	INT	INT	STRING	INT	INT	INT
+#MAX_ID=1023;MAX_RECORD=1024;TableType=Index;																										
+#场景ID	描述(不读)	名称	资源名称	类型(-1客户端场景，0主城，1野外，2副本)	长度	宽度	阻挡文件(服务器使用)	地表高度最大值	地表高度图长度	地表高度图宽度	背景音乐ID	PVP规则	原地复活	入口复活	主城复活	入口坐标X	入口坐标Z	死亡惩罚规则	对应副本表CopyScene的ID	场景内玩家数量上限A	场景内玩家数量上限B	场景是否可以使用XP技能	雷达地图对应资源	雷达地图图片宽度	雷达地图图片高度	地图实际逻辑宽度
+0	登陆	登陆场景	Login	-1	50	40		600	32	32	-1	-1	1	1	1	19.6	14.7	0	-1	-1	-1	1	Texture/Map/UI_minimap_shaoshishan	320	320	64
+1	京师	洱海	ErHai	0	96	96	./Scene/ErHai.path	600	128	128	35	-1	1	1	1	20	18	0	-1	16	36	1	Texture/Map/UI_minimap_erhai	480	480	96
+2	野外	无量山	WuLiangShan	1	64	64	./Scene/WuLiangShan.path	600	32	32	47	1	1	1	1	50	4	0	-1	16	36	1	Texture/Map/UI_minimap_wuliangshan	330	330	66
+3	野外	加载场景	LoadingScene	-1	1	1		600	1	1	-1	-1	1	1	1	50	50	0	-1	-1	-1	1	Texture/Map/UI_minimap_shaoshishan	320	320	64
+4	野外	雪原	XueYuan	1	64	64	./Scene/XueYuan.path	600	64	64	49	3	1	1	1	15	53	0	-1	12	14	1	Texture/Map/UI_minimap_xueyuan	500	500	64
+5	野外	万劫谷	WanJieGu	1	64	64	./Scene/WanJieGu.path	600	32	32	48	1	1	1	1	59	10	0	-1	16	36	1	Texture/Map/UI_minimap_wanjiegu	320	320	64
+6	剧情副本	剑湖宫	JianHuGong	2	32	32	./Scene/JianHuGong.path	600	32	32	41	-1	1	1	1	17	9.5	0	0	-1	-1	1	Texture/Map/UI_minimap_fb_jianhugong	165	165	33
+7	副本	虎头战船	HuTouZhanChuan	2	125	125	./Scene/HuTouZhanChuan.path	600	32	32	119	-1	1	1	1	91.77	54.74	0	13	-1	-1	0	Texture/Map/UI_minimap_hutouzhanchuan	580	580	116
+8	副本	江湖名人录	WuDaoZhiDian	2	32	32	./Scene/WuDaoZhiDian.path	600	32	32	40	-1	1	0	0	19	12	0	2	-1	-1	0	Texture/Map/UI_minimap_shaoshishan	320	320	64
+9	野外	小镜湖	XiaoJingHu	1	64	64	./Scene/XiaoJingHu.path	600	64	64	48	1	1	1	1	55	6	0	-1	12	36	1	Texture/Map/UI_minimap_xiaojinghu	320	320	64
+10	野外	玉清宫	YuQingGong	1	32	32	./Scene/YuQingGong.path	600	32	32	40	1	1	1	1	19.6	14.7	0	-1	16	36	1	Texture/Map/UI_minimap_fb_yuqinggong	320	320	42
+11	副本	聚贤庄	FB_JuXianZhuang	2	64	64	./Scene/FB_JuXianZhuang.path	600	32	32	37	-1	1	1	1	22.56	19.54	0	3	-1	-1	0	Texture/Map/UI_minimap_fb_juxianzhuang	183	183	46
+12	副本	雁门关外	YanMenGuanWai	2	32	74	./Scene/YanMenGuanWai.path	600	64	64	50	-1	1	1	1	25.5	9.4	0	1	-1	-1	0	Texture/Map/UI_minimap_yanmenguanwai	169	337	35
+13	主城	苏州	SuZhou	0	128	128	./Scene/SuZhou.path	600	128	128	46	-1	1	1	1	63	14.55	0	1	60	120	1	Texture/Map/UI_minimap_suzhou	605	605	121
+14	副本	藏经阁	FB_CangJingGe	2	64	64	./Scene/FB_CangJingGe.path	600	32	32	33	-1	1	1	1	15	0	0	4	-1	-1	0	Texture/Map/UI_minimap_fb_cangjingge	190	190	38
+15	野外	少室山	ShaoShiShan	1	64	64	./Scene/ShaoShiShan.path	600	64	64	45	1	1	1	1	45.5	9.07	0	-1	16	36	1	Texture/Map/UI_minimap_shaoshishan	320	320	64
+16	副本	华山论剑	FB_HuaShanLunJian	2	32	32	./Scene/FB_HuaShanLunJian.path	600	32	32	40	-1	1	1	1	19	12	0	6	-1	-1	0	Texture/Map/UI_minimap_fb_juxianzhuang	183	183	46
+17	副本	决斗副本	FB_RiChangJueDou	2	32	32	./Scene/FB_HuaShanLunJian.path	600	32	32	40	-1	1	0	0	19	12	0	7	-1	-1	0	Texture/Map/UI_minimap_fb_yuqinggong	320	320	42
+18	剧情副本	忘忧谷	FB_WangYouGu	2	16	16	./Scene/FB_WangYouGu.path	600	32	32	40	-1	1	1	1	9	7	0	5	-1	-1	0	Texture/Map/UI_minimap_fb_wangyougu	165	165	17
+19	副本	燕子坞副本	FB_YanZiWu	2	64	64	./Scene/FB_YanZiWu.path	600	32	32	39	-1	1	1	1	50	10	0	8	-1	-1	0	Texture/Map/UI_minimap_fb_yanziwu	330	330	66
+20	野外	苍山	CangShan	1	64	64	./Scene/CangShan.path	600	32	32	45	1	1	1	1	5	7	0	-1	16	36	1	Texture/Map/UI_minimap_cangshan	320	320	64
+21	野外	燕子坞野外	YanZiWu	1	64	64	./Scene/YanZiWu.path	600	32	32	47	1	1	1	1	52	13	0	-1	12	36	1	Texture/Map/UI_minimap_yanziwu	330	330	66
+22	野外	聚贤庄野外	JuXianZhuang	1	80	80	./Scene/JuXianZhuang.path	600	32	32	45	1	1	1	1	68	17	0	-1	16	36	1	Texture/Map/UI_minimap_juxianzhuang	400	400	80
+23	野外	雁门关野外	YanMenGuan	1	64	64	./Scene/YanMenGuan.path	600	32	32	52	3	1	1	1	9	10	0	-1	16	36	1	Texture/Map/UI_minimap_yanmenguan	320	320	64
+24	野外	敦煌	DunHuang	1	64	64	./Scene/DunHuang.path	64	64	64	34	1	1	1	1	50	11	0	-1	16	36	1	Texture/Map/UI_minimap_dunhuang	315	315	64
+25	野外	飘渺峰	PiaoMiaoFeng	1	64	64	./Scene/PiaoMiaoFeng.path	600	32	32	49	1	1	1	1	16	8	0	-1	16	36	1	Texture/Map/UI_minimap_piaomiaofeng	320	320	64
+26	野外	杏子林	XingZiLin	1	64	64	./Scene/XingZiLin.path	600	64	64	47	1	1	1	1	32	6.3	0	-1	12	36	1	Texture/Map/UI_minimap_xingzilin	320	320	64
+27	副本	燕王古墓	FB_YanWangGuMu	2	40	40	./Scene/FB_YanWangGuMu.path	600	32	32	51	-1	1	1	1	10	10	0	9	-1	-1	0	Texture/Map/UI_minimap_fb_yanwanggumu	190	190	38
+28	副本	珍珑棋局	FB_ZhenLongQiJu	2	64	64	./Scene/FB_ZhenLongQiJu.path	600	32	32	53	-1	1	1	1	8	9	0	10	-1	-1	0	Texture/Map/UI_minimap_fb_zhenlongqiju	170	170	34
+29	野外	婚礼	FB_BaiTang	0	32	32	./Scene/FB_BaiTang.path	600	32	32	36	-1	1	1	1	15	7	0	-1	60	120	1	Texture/Map/UI_minimap_fb_baitang	150	150	30
+30	副本	帮战	FB_GuildWar	2	32	32	./Scene/FB_GuildWar.path	600	32	32	40	-1	0	0	0	22.56	19.54	0	12	-1	-1	0	Texture/Map/UI_minimap_fb_bangzhan	190	190	38
+31	副本	少室山副本	FB_ShaoShiShan	2	46	46	./Scene/FB_ShaoShiShan.path	600	32	32	38	-1	1	1	1	17.6	17.6	0	11	-1	-1	0	Texture/Map/UI_minimap_fb_shaoshishan	175	175	35
+32	野外	监狱	JianYu	1	32	32		600	32	32	109	3	1	1	0	16	15	0	-1	16	36	1	Texture/Map/UI_minimap_fb_shaoshishan	175	175	35
+33	野外	武场	WuChang	1	85	85	./Scene/WuChang.path	600	64	64	40	3	1	1	1	19	10	0	-1	16	36	1	Texture/Map/UI_minimap_wuchang	420	420	84
+34	野外	琅嬛福地	LangHuanFuDi	1	64	64	./Scene/LangHuanFuDi.path	600	32	32	137	3	1	1	1	6.13	16.5	0	-1	16	36	1	Texture/Map/UI_minimap_langhuanfudi	320	320	64
+35	雪原副本	雪原	FB_WorldBoss	2	64	64	./Scene/FB_WorldBoss.path	600	64	64	49	-1	0	0	0	15	53	0	14	-1	-1	0	Texture/Map/UI_minimap_xueyuan	500	500	64

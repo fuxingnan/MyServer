@@ -1,0 +1,16 @@
+Level	Desc	Normal_ConsumeType	Normal_ConsumeSubType	Normal_ConsumeNum	Normal_Add1Rate	Normal_Add2Rate	Normal_Add3Rate	Normal_Add4Rate	Normal_Add5Rate	Normal_AddMin	Normal_AddMax	Normal_Reduce1Rate	Normal_Reduce2Rate	Normal_Reduce3Rate	Normal_Reduce4Rate	Normal_Reduce5Rate	Normal_ReduceMin	Normal_ReduceMax	YuanBao_ConsumeType	YuanBao_ConsumeSubType	YuanBao_ConsumeNum	YuanBao_Add1Rate	YuanBao_Add2Rate	YuanBao_Add3Rate	YuanBao_Add4Rate	YuanBao_Add5Rate	YuanBao_AddMin	YuanBao_AddMax
+INT	STRING	INT	INT	INT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	INT	INT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	INT	INT	INT	INT	INT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	INT	INT
+#MAX_ID=16;MAX_RECORD=16;TableType=Index;																												
+#星级	程序不读	普通强化-消耗类型	普通强化-消耗子类型	普通强化-消耗数量	普通强化-1项资质提高概率（1-5项概率和为1）	普通强化-2项资质提高概率（1-5项概率和为1）	普通强化-3项资质提高概率（1-5项概率和为1）	普通强化-4项资质提高概率（1-5项概率和为1）	普通强化-5项资质提高概率（1-5项概率和为1）	普通强化-资质提高下限	普通强化-资质提高上限	普通强化-1项资质降低概率（1-5项概率和为1）	普通强化-2项资质降低概率（1-5项概率和为1）	普通强化-3项资质降低概率（1-5项概率和为1）	普通强化-4项资质降低概率（1-5项概率和为1）	普通强化-5项资质降低概率（1-5项概率和为1）	普通强化-资质降低下限	普通强化-资质降低上限	元宝强化-消耗类型	元宝强化-消耗子类型	元宝强化-消耗数量	元宝强化-1项资质提高概率（1-5项概率和为1）	元宝强化-2项资质提高概率（1-5项概率和为1）	元宝强化-3项资质提高概率（1-5项概率和为1）	元宝强化-4项资质提高概率（1-5项概率和为1）	元宝强化-5项资质提高概率（1-5项概率和为1）	元宝强化-资质提高下限	元宝强化-资质提高上限
+1	星级1	5	24	1	0.3	0.7	0	0	0	3	5	0.3	0.7	0	0	0	1	2	1	1	10	0.3	0.7	0	0	0	1	5
+2	星级2	5	24	1	0.3	0.7	0	0	0	3	5	0.3	0.7	0	0	0	1	2	1	1	10	0.3	0.7	0	0	0	1	5
+3	星级3	5	24	1	0.3	0.7	0	0	0	3	5	0.3	0.7	0	0	0	1	2	1	1	10	0.3	0.7	0	0	0	1	5
+4	星级4	5	24	1	0.3	0.7	0	0	0	3	5	0.3	0.7	0	0	0	1	2	1	1	10	0.3	0.7	0	0	0	1	5
+5	星级5	5	24	1	0.3	0.7	0	0	0	3	5	0.3	0.7	0	0	0	1	2	1	1	10	0.3	0.7	0	0	0	1	5
+																												
+																												
+																												
+																												
+																												
+																												
+																												

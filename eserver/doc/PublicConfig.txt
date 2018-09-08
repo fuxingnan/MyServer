@@ -1,0 +1,5 @@
+Id	Desc	Key	IntValue	StringValue	FloatValue
+INT	STRING	STRING	INT	STRING	FLOAT
+#MAX_ID=10;MAX_RECORD=10;TableType=Hash;					
+#	描述		INT值	STRING值	FLOAT值
+0	公共资源版本，INT	PublicResourceVersion	0		0

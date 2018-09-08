@@ -1,0 +1,4 @@
+包含玩家逻辑的处理
+每个玩家登录游戏后会有一个gate_client对应，用来维护TCP连接，同时会有一个
+player_server对应，用来处理玩家逻辑。
+mod_xxx用来处理各个子系统如任务，物品，聊天，好友等,其为gen_mod behaviour

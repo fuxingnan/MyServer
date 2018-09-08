@@ -1,0 +1,5 @@
+Id	Desc	News	Date	Repeat
+INT	STRING	STRING	INT	INT
+#MAX_ID=1024;MAX_RECORD=1025;TableType=Index;				
+#ID	程序不读	内容信息	日期（月日时分）	"是否重复(0:不重复,1:日重复(忽略年月日),2:周重复(填写周几:030630,周三6点30))"
+0	副本次数刷新	副本次数已刷新，等你来战！	7251755	1

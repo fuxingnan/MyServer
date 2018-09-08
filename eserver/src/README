@@ -1,0 +1,11 @@
+gateway(app) - 包含gateway的数据
+area(app) - 包含地图，怪物相关信息
+world(app) - 包含所有的跨图信息
+db(app) - 包含db操作，作为独立的app，防止系统停止时过早的关闭数据库连接
+data - 包含系统数据模块
+proto - 协议的解析和编码
+wgbase - 通用的基础库
+util - 包含和游戏相关的其它公用模块
+robot - 机器人相关的代码
+single - 包含用来将gateway, world，map多个app集成到一个node的工具和脚本
+cluster - 一个小型集群作为单服，包含gateway, world, area, gls等多种角色，每种角色可以有多台机器

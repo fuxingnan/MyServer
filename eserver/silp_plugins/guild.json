@@ -1,0 +1,81 @@
+{
+    "description": "公会",
+    "fields": [{
+        "name": "id",
+        "description": "编号",
+        "type": "integer",
+        "default": null,
+        "sql_type": "INT(11) NOT NULL"
+    }, {
+        "name": "name",
+        "description": "名称",
+        "type": "string",
+        "default": null,
+        "sql_type": "VARCHAR(50) NOT NULL"
+    }, {
+        "name": "chief_id",
+        "description": "会长ID",
+        "type": "integer",
+        "default": null,
+        "sql_type": "INT(11) NOT NULL"
+    }, {
+        "name": "chief_name",
+        "description": "会长名称",
+        "type": "string",
+        "sql_type": "VARCHAR(50) NOT NULL"
+    }, {
+        "name": "level",
+        "description": "等级",
+        "type": "integer",
+        "default": 1,
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "member_num",
+        "description": "帮会人数",
+        "type": "integer",
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "combat",
+        "description": "战力",
+        "type": "integer",
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "apply_num",
+        "description": "申请人数",
+        "type": "integer",
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "max_apply_num",
+        "description": "最大申请人数",
+        "type": "integer",
+        "default": 100,
+        "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+    }, {
+        "name": "notice",
+        "description": "公告",
+        "type": "string",
+        "sql_type": "VARCHAR(250) NOT NULL"
+    }],
+    "primaryKey": "id",
+    "autoIncrement": "id",
+    "cache_keys": ["chief_id"],
+    "cache_fields": ["chief_name", "member_num", "apply_num"],
+    "pb_types": {
+        "gc_guild_ret_list": [
+            ["preserveguildguid", "PreserveGuildGuid"],
+            ["guildguid", "_Guild_Id_List"],
+            ["guildname", "_Guild_Name_List"],
+            ["guildchiefname", "_Guild_Chief_Name_List"],
+            ["guildlevel", "_Guild_Level_List"],
+            ["guildmembernum", "_Guild_Member_Num_List"],
+            ["guildcombat", "_Guild_Combat_List"],
+            ["guildapplynum", "_Guild_Apply_Num_List"],
+            ["guildapplymaxnum", "_Guild_Max_Apply_Num_List"],
+            ["isenemyguild", "IsEnemyGuild_List"]
+        ],
+        "gc_guild_create": [
+            ["guildguid", "GuildId"],
+            ["guildname", "GuildName"]
+        ]
+    }
+}

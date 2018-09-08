@@ -1,0 +1,7 @@
+Id	DESC	NAME	SEX	Level	HP	MP	Act
+INT	STRING	STRING	BOOL	SHORT	INT	BYTE	INT
+#MAX_ID=69900;TableType=Index;							
+#唯一标示	描述，策划维护	名称	性别	等级	血量	魔法	攻击
+1	小猫	Cat	1	20	25	30	35
+2	小狗	Dog	0	20	25	30	35
+3	小兔	Robbit	1	20	25	30	35

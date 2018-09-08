@@ -1,0 +1,9 @@
+Id	Desc	LimitLevel
+INT	STRING	INT
+#MAX_ID=16;MAX_RECORD=16;TableType=Index;		
+#品质ID	程序不读	星级上限
+1	白装	0
+2	绿装	0
+3	蓝装	0
+4	紫装	60
+5	橙装	60

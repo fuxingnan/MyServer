@@ -1,0 +1,10 @@
+{application, @APP_NAME@,
+    [{description, "The world application"},
+     {vsn, "@APP_VSN@"},
+     {modules, [@MODULES@]},
+     {registered, []},
+     {applications, [kernel, stdlib, sasl]},
+     {mod, {@APP_NAME@, []}},
+     {env, []}
+    ]
+}.

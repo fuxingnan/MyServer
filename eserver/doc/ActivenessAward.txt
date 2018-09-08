@@ -1,0 +1,10 @@
+Id	Desc	MiniActiveness	Exp	Money	BindYuanbao	AwardSkillExp	AwardReputation	ItemDataID	ItemIsBind	ItemCount
+INT	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT
+#MAX_ID=49;MAX_RECORD=50;TableType=Index;										
+#ID(索引不可跳跃，限7行，如需扩展找程序确认)	策划维护(活跃度)	名称(显示用)	奖励经验	奖励金钱(单位金)	绑定元宝	真气奖励	声望奖励	奖励物品ID	物品是否绑定	奖励物品数量
+0	20活跃度	20	-1	100	-1	-1	60	-1	1	0
+1	40活跃度	40	-1	-1	-1	500	90	-1	1	0
+2	60活跃度	60	-1	-1	-1	-1	120	4035	1	1
+3	80活跃度	80	-1	-1	10	-1	150	-1	1	0
+4	100活跃度	100	-1	-1	15	-1	-1	-1	1	0
+5	140活跃度	140	-1	-1	20	-1	-1	-1	1	0

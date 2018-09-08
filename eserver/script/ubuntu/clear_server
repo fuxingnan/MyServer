@@ -1,0 +1,13 @@
+#!/bin/bash
+# http://elixir-lang.org/install.html
+
+cd ~/Download/eserver/
+sudo rm -rf ./deps
+sudo rm -rf ./etc
+sudo rm -rf ./data
+sudo rm -rf ./ebin
+sudo rm -rf ./include
+sudo rm -rf ./*.dump
+
+
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+# http://elixir-lang.org/install.html
+
+sudo rm -rf /tmp/screenlog_bash.log
+
+

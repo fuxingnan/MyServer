@@ -1,0 +1,12 @@
+#!/bin/bash
+# http://elixir-lang.org/install.html
+
+
+cd ~/Documents/porker/eserver
+
+scp -r ./duifeng.zip  qisike@92.38.128.147:/opt/lampp/htdocs
+
+
+
+
+

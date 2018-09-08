@@ -1,0 +1,6 @@
+Id	TypeName	ShowLevelID
+INT	STRING	SHORT
+#		
+#唯一标示	类型名称	显示等级
+0	京师	45
+1	扬州	1

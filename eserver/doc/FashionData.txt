@@ -1,0 +1,13 @@
+Id	Desc	Name	Icon	IsSale	PriceWeek	PriceMonth	PriceForever	ItemVisualID
+INT	STRING	STRING	STRING	INT	INT	INT	INT	INT
+#MAX_ID=19;MAX_RECORD=20;TableType=Index;								
+#ID	描述(程序不读)	游戏中描述	图标	是否上架	7天售价	30天售价	永久售价	对应ItemVisual表ID
+0	仙侣情缘	仙侣情缘	tianshentao	1	150	450	1350	19
+1	暗淡雕灵	暗淡雕灵	zisehuafu	1	120	350	1000	20
+2	结婚礼服	新婚礼服	jiehunshizhuang	1	100	300	900	23
+3	10级职业套	龙门飞甲	xiujintao	1	50	150	450	9
+4	20级职业套	大方无隅	lanjintao	1	50	150	450	6
+5	30级职业套	弦月菩心	xiudaotao	1	80	250	700	7
+6	40级职业套	寒山采晴	jingwutao	1	80	250	700	8
+7	50级职业套	日月同辉	suzhitao	1	80	250	700	10
+8	熊猫时装	清新翠竹	xiongmaoshizhuang	0	-1	-1	-1	28

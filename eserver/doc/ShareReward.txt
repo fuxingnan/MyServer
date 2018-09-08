@@ -1,0 +1,5 @@
+Index	Desc	ShareRewardBindYuanBao	TargetType1	ItemDataId1	TargetType2	ItemDataId2	TargetType3	ItemDataId3	TargetType4	ItemDataId4	TargetType5	ItemDataId5
+INT	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+#MAX_ID=255;MAX_RECORD=256;TableType=Hash;												
+#ID	程序不读	分享者绑定元宝奖励	0分享者；1参与者	礼包ID	0分享者；1参与者	礼包ID	0分享者；1参与者	礼包ID	0分享者；1参与者	礼包ID	0分享者；1参与者	礼包ID
+1	万圣节南瓜	0	0	59117	0	59117	1	59117	1	59117	1	-1

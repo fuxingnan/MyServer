@@ -1,0 +1,14 @@
+Id	NpcName	MonsterCount
+INT	STRING	INT
+#MAX_ID=1024;MAX_RECORD=1024;TableType=Hash;		
+#索引	策划维护	需要杀怪数量
+1	任务2	0
+2	任务6	0
+3	任务7	0
+4	毒王	1
+5	溜走	1
+6	切磋	2
+7	焚烧	1
+8	燕子坞	2
+9	劲敌	1
+10	比武	1

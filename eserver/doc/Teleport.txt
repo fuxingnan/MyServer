@@ -1,0 +1,41 @@
+Id	DESC	TeleportName	SrcSceneID	SrcPosX	SrcPosZ	DstSceneID	DstPosX	DstPosZ
+INT	STRING	STRING	INT	INT	INT	INT	INT	INT
+#MAX_ID=200;MAX_RECORD=200;TableType=Index;								
+#传送点ID  	描述		传送点所在场景ID	传送点坐标X	传送点坐标Z	目的地所在场景ID	目的地坐标X	目的地坐标Z
+0	ErHai - WuLiangShan	前往无量山	1	41	79	2	50	4
+1	WuLiangShan - ErHai	前往洱海	2	57	4	1	46	79
+2	WuLiangShan - WanJieGu	前往万劫谷	2	56	51	5	59	10
+3	WanJieGu - WuLiangShan	前往无量山	5	61	16	2	51	51
+4	WanJieGu - CangShan	前往苍山	5	7	5	20	5	7
+5	CangShan - WanJieGu	前往万劫谷	20	3	11	5	10	11
+6	CangShan - SuZhou	前往苏州	20	9	33	13	64	15
+7	SuZhou - CangShan	前往苍山	13	64	10	20	16	37
+8	SuZhou - YanZiWu	前往燕子坞	13	114	63	21	52	13
+9	YanZiWu - SuZhou	前往苏州	21	49	8	13	110	64
+10	SuZhou - XiaoJingHu	前往小镜湖	13	15	63	9	55	6
+11	XiaoJingHu - SuZhou	前往苏州	9	60	5	13	20	64
+12	XiaoJingHu - XingZiLin	前往杏子林	9	6	32	26	34	6
+13	XingZiLin - XiaoJingHU	前往小镜湖	26	27	6	9	10	32
+14	XingZiLin - JuXianZhuang	前往聚贤庄	26	29	18	22	68	17
+15	JuXianZhuang - XingZiLin	前往杏子林	22	68	17	26	24	19
+16	XingZiLin - ShaoShiShan	前往少室山	26	32	54	15	47	9
+17	ShaoShiShan - XingZiLin	前往杏子林	15	47	9	26	32	51
+18	ShaoShiShan - YanMenGuan	前往雁门关	15	14	15	23	9	10
+19	YanMenGuan - ShaoShiShan	前往少室山	23	9	10	15	14	15
+20	YanMenGuan - DunHuang	前往敦煌	23	24	53	24	50	11
+21	DunHuang - YanMenGuan	前往雁门关	24	50	11	23	24	53
+22	DunHuang - XueYuan	前往雪原	24	11	12	4	15	53
+23	XueYuan - DunHuang	前往敦煌	4	15	53	24	11	12
+24	XueYuan - PiaoMiaoFeng	前往缥缈峰	4	35	50	25	16	8
+25	PiaoMiaoFeng - XueYuan	前往雪原	25	16	8	4	35	50
+26	JianHuGong - Out	离开副本	-1	17	6	-1	-1	-1
+27	JianYu - ErHai	前往洱海	2	0	0	1	20	18
+28	CangJingGe - Out	进入下一层	-1	15	27	14	-1	-1
+29	BaiTang - SuZhou	前往苏州	29	15	7	13	41	100
+30	SuZhou - BaiTang	前往结婚场景	13	36	99	29	15	7
+31	SuZhou - WuChang	前往武场东	13	69	112	33	80	39
+32	SuZhou - WuChang	前往武场西	13	58	112	33	4	39
+33	WuChang - SuZhou	前往苏州东	33	79	47	13	64	110
+34	WuChang - SuZhou	前往苏州西	33	4	45	13	64	110
+35	PiaoMiaoFeng - LangHuanFuDi	前往琅嬛福地	25	20	41	34	6	17
+36	LangHuanFuDi - PiaoMiaoFeng	前往缥缈峰	34	6	26	25	23	40

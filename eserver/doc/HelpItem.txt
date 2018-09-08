@@ -1,0 +1,21 @@
+Id	Desc	HelpName	RecomTitle1	RecomIcon1	RecomStar1	RecomDesc1	RecomTitle2	RecomIcon2	RecomStar2	RecomDesc2	RecomTitle3	RecomIcon3	RecomStar3	RecomDesc3	RecomTitle4	RecomIcon4	RecomStar4	RecomDesc4	RecomTitle5	RecomIcon5	RecomStar5	RecomDesc5
+INT	STRING	STRING	STRING	STRING	INT	STRING	STRING	STRING	INT	STRING	STRING	STRING	INT	STRING	STRING	STRING	INT	STRING	STRING	STRING	INT	STRING
+#MAX_ID=1023;MAX_RECORD=1024;TableType=Index;																						
+#	程序不读	游戏帮助	推荐功能1	图标	推荐星级	描述	推荐功能2	图标	推荐星级	描述	推荐功能3	图标	推荐星级	描述	推荐功能4	图标	推荐星级	描述	推荐功能5	图标	推荐星级	描述
+1		人物升级	少室山	icon-jishou	1	xxxxxxx	燕子坞2	icon-yaoqianshu	2	描述描述描述描述描述描述描述描述描述	燕子坞3	icon-guild01	3	描述描述描述描述描述描述描述描述描述	燕子坞4	icon-yaoqianshu	4	描述描述描述描述描述描述描述描述描述	燕子坞5	icon-yaoqianshu	5	描述描述描述描述描述描述描述描述描述
+		人物升级2	少室山2	icon-jishou	2	xxxxxxx	燕子坞3	icon-yaoqianshu	3	描述描述描述描述描述描述描述描述描述	燕子坞4	icon-guild01	4	描述描述描述描述描述描述描述描述描述	燕子坞5	icon-yaoqianshu	5	描述描述描述描述描述描述描述描述描述	燕子坞6	icon-yaoqianshu	6	描述描述描述描述描述描述描述描述描述
+		人物升级3	少室山3	icon-jishou	3	xxxxxxx	燕子坞4	icon-yaoqianshu	4	描述描述描述描述描述描述描述描述描述	燕子坞5	icon-guild01	5	描述描述描述描述描述描述描述描述描述	燕子坞6	icon-yaoqianshu	6	描述描述描述描述描述描述描述描述描述	燕子坞7	icon-yaoqianshu	7	描述描述描述描述描述描述描述描述描述
+		人物升级4	少室山4	icon-jishou	4	xxxxxxx	燕子坞5	icon-yaoqianshu	5	描述描述描述描述描述描述描述描述描述	燕子坞6	icon-guild01	6	描述描述描述描述描述描述描述描述描述	燕子坞7	icon-yaoqianshu	7	描述描述描述描述描述描述描述描述描述	燕子坞8	icon-yaoqianshu	8	描述描述描述描述描述描述描述描述描述
+		人物升级5	少室山5	icon-jishou	5	xxxxxxx	燕子坞6	icon-yaoqianshu	6	描述描述描述描述描述描述描述描述描述	燕子坞7	icon-guild01	7	描述描述描述描述描述描述描述描述描述	燕子坞8	icon-yaoqianshu	8	描述描述描述描述描述描述描述描述描述	燕子坞9	icon-yaoqianshu	9	描述描述描述描述描述描述描述描述描述
+		人物升级6	少室山6	icon-jishou	6	xxxxxxx	燕子坞7	icon-yaoqianshu	7	描述描述描述描述描述描述描述描述描述	燕子坞8	icon-guild01	8	描述描述描述描述描述描述描述描述描述	燕子坞9	icon-yaoqianshu	9	描述描述描述描述描述描述描述描述描述	燕子坞10	icon-yaoqianshu	10	描述描述描述描述描述描述描述描述描述
+		人物升级7	少室山7	icon-jishou	7	xxxxxxx	燕子坞8	icon-yaoqianshu	8	描述描述描述描述描述描述描述描述描述	燕子坞9	icon-guild01	9	描述描述描述描述描述描述描述描述描述	燕子坞10	icon-yaoqianshu	10	描述描述描述描述描述描述描述描述描述	燕子坞11	icon-yaoqianshu	11	描述描述描述描述描述描述描述描述描述
+		人物升级8	少室山8	icon-jishou	8	xxxxxxx	燕子坞9	icon-yaoqianshu	9	描述描述描述描述描述描述描述描述描述	燕子坞10	icon-guild01	10	描述描述描述描述描述描述描述描述描述	燕子坞11	icon-yaoqianshu	11	描述描述描述描述描述描述描述描述描述	燕子坞12	icon-yaoqianshu	12	描述描述描述描述描述描述描述描述描述
+		人物升级9	少室山9	icon-jishou	9	xxxxxxx	燕子坞10	icon-yaoqianshu	10	描述描述描述描述描述描述描述描述描述	燕子坞11	icon-guild01	11	描述描述描述描述描述描述描述描述描述	燕子坞12	icon-yaoqianshu	12	描述描述描述描述描述描述描述描述描述	燕子坞13	icon-yaoqianshu	13	描述描述描述描述描述描述描述描述描述
+2		人物升级10	少室山10	icon-jishou	10	xxxxxxx	燕子坞11	icon-yaoqianshu	11	描述描述描述描述描述描述描述描述描述	燕子坞12	icon-guild01	12	描述描述描述描述描述描述描述描述描述	燕子坞13	icon-yaoqianshu	13	描述描述描述描述描述描述描述描述描述	燕子坞14	icon-yaoqianshu	14	描述描述描述描述描述描述描述描述描述
+		人物升级11	少室山11	icon-jishou	11	xxxxxxx	燕子坞12	icon-yaoqianshu	12	描述描述描述描述描述描述描述描述描述	燕子坞13	icon-guild01	13	描述描述描述描述描述描述描述描述描述	燕子坞14	icon-yaoqianshu	14	描述描述描述描述描述描述描述描述描述	燕子坞15	icon-yaoqianshu	15	描述描述描述描述描述描述描述描述描述
+		人物升级12	少室山12	icon-jishou	12	xxxxxxx	燕子坞13	icon-yaoqianshu	13	描述描述描述描述描述描述描述描述描述	燕子坞14	icon-guild01	14	描述描述描述描述描述描述描述描述描述	燕子坞15	icon-yaoqianshu	15	描述描述描述描述描述描述描述描述描述	燕子坞16	icon-yaoqianshu	16	描述描述描述描述描述描述描述描述描述
+		人物升级13	少室山13	icon-jishou	13	xxxxxxx	燕子坞14	icon-yaoqianshu	14	描述描述描述描述描述描述描述描述描述	燕子坞15	icon-guild01	15	描述描述描述描述描述描述描述描述描述	燕子坞16	icon-yaoqianshu	16	描述描述描述描述描述描述描述描述描述	燕子坞17	icon-yaoqianshu	17	描述描述描述描述描述描述描述描述描述
+		人物升级14	少室山14	icon-jishou	14	xxxxxxx	燕子坞15	icon-yaoqianshu	15	描述描述描述描述描述描述描述描述描述	燕子坞16	icon-guild01	16	描述描述描述描述描述描述描述描述描述	燕子坞17	icon-yaoqianshu	17	描述描述描述描述描述描述描述描述描述	燕子坞18	icon-yaoqianshu	18	描述描述描述描述描述描述描述描述描述
+		人物升级15	少室山15	icon-jishou	15	xxxxxxx	燕子坞16	icon-yaoqianshu	16	描述描述描述描述描述描述描述描述描述	燕子坞17	icon-guild01	17	描述描述描述描述描述描述描述描述描述	燕子坞18	icon-yaoqianshu	18	描述描述描述描述描述描述描述描述描述	燕子坞19	icon-yaoqianshu	19	描述描述描述描述描述描述描述描述描述
+		人物升级16	少室山16	icon-jishou	16	xxxxxxx	燕子坞17	icon-yaoqianshu	17	描述描述描述描述描述描述描述描述描述	燕子坞18	icon-guild01	18	描述描述描述描述描述描述描述描述描述	燕子坞19	icon-yaoqianshu	19	描述描述描述描述描述描述描述描述描述	燕子坞20	icon-yaoqianshu	20	描述描述描述描述描述描述描述描述描述
+		人物升级17	少室山17	icon-jishou	17	xxxxxxx	燕子坞18	icon-yaoqianshu	18	描述描述描述描述描述描述描述描述描述	燕子坞19	icon-guild01	19	描述描述描述描述描述描述描述描述描述	燕子坞20	icon-yaoqianshu	20	描述描述描述描述描述描述描述描述描述	燕子坞21	icon-yaoqianshu	21	描述描述描述描述描述描述描述描述描述

@@ -1,0 +1,9 @@
+Id	Desc	InitRate	TimeRandomRate	RandomRate	AwardFactor	LevelFactor1	LevelFactor2	LevelFactor3	LevelFactor4	LevelFactor5	LevelFactor6	LevelFactor7	LevelFactor8	LevelFactor9	LevelFactor10	LevelFactor11
+INT	STRING	INT	INT	INT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT
+#MAX_ID=49;MAX_RECORD=50;TableType=Index;																
+#ID(索引不可跳跃)	策划维护(品质)	初始品质概率	半小时随机概率	元宝随机概率	奖励系数	1-10级	11-20级	21-30级	31-40级	41-50级	51-60级	61-70级	71-80级	81-90级	91-100级	101-200级
+1	白	33	20	0	0.4	1	2.43	3.86	5.29	8.14	8.14	9.57	11	12.43	13.86	15.75
+2	绿	33	20	0	0.7	1	2.43	3.86	5.29	8.14	8.14	9.57	11	12.43	13.86	15.75
+3	蓝	30	20	38	1	1	2.43	3.86	5.29	8.14	8.14	9.57	11	12.43	13.86	15.75
+4	紫	2	20	35	1.3	1	2.43	3.86	5.29	8.14	8.14	9.57	11	12.43	13.86	15.75
+5	橙	2	20	27	1.6	1	2.43	3.86	5.29	8.14	8.14	9.57	11	12.43	13.86	15.75

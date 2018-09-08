@@ -1,0 +1,32 @@
+#!/bin/sh
+
+# http://breandan.net/2014/08/18/shell-script/
+
+echo "Installing IntelliJ IDEA 14.1.3 Community Version..."
+
+# We need root to install
+[ $(id -u) != "0" ] && exec sudo "$0" "$@"
+
+DIR='ideaIC-14.1.3'
+
+cd ~/Downloads
+axel https://d1opms6zj7jotq.cloudfront.net/idea/${DIR}.tar.gz
+
+# Untar file
+if mkdir /tmp/${DIR}; then
+    tar -xvzf ~/Downloads/${DIR}.tar -C /tmp/${DIR} --strip-components=1
+fi
+
+# Grab executable folder
+BIN="/tmp/$DIR/bin"
+
+# Add permissions to install directory
+chmod 755 ${BIN}/idea.sh
+
+# Set desktop shortcut path
+DESK=/Applications/IDEA.desktop
+
+# Add desktop shortcut
+echo "[Desktop Entry]\nEncoding=UTF-8\nName=IntelliJ IDEA\nComment=IntelliJ IDEA\nExec=${BIN}/idea.sh\nIcon=${BIN}/idea.png\nTerminal=false\nStartupNotify=true\nType=Application" -e > ${DESK}
+
+echo "Done."

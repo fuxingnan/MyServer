@@ -1,0 +1,8 @@
+Index	Desc	ConsumeType	ConsumeSubType	ConsumeNum
+INT	STRING	INT	INT	INT
+#MAX_ID=32;MAX_RECORD=32;TableType=Index;				
+#Index	程序不读	消耗类型	消耗子类型	消耗数量
+1	第1孔	2	1	200
+2	第2孔	2	1	200
+3	第3孔	2	1	200
+4	第4孔	2	1	200

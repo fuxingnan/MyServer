@@ -1,0 +1,10 @@
+Id	Desc	CharModelID	ItemCount
+INT	STRING	INT	INT
+#MAX_ID=1024;MAX_RECORD=1024;TableType=Hash;			
+#ID	策划维护	CollectItem表CharModelID	需求物品数
+0	任务30	53	1
+1	任务5	52	1
+2	任务99-采青梅	53	1
+3	任务104-采青梅	53	1
+4	【主】丹药18	53	1
+5	【主】美食38	53	1

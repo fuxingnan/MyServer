@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<!-- c2s 客户端到服务器请求 -->
+<!-- s2c 服务器客到户端推送 -->
+<!--
+  协议定义：
+      头4个字节长度，后2个字节是msgid
+-->
+<protocol version="1" desc="">
+<revise desc="修订记录">
+</revise>
+<error desc="错误码描述">
+    <code id="0" name="E_OK" desc="成功" />
+    <code id="1" name="E_FAILED" desc="失败" />
+    <code id="1" name="E_OK_LOGIN" desc="登陆成功" />
+    <code id="2" name="E_UNKNOWN" desc="未知错误" />
+    <code id="3" name="E_NEXIST" desc="对象不存在" />
+
+    <!-- 关于数据库 -->
+    <code id="3" name="E_DB" desc="数据库错误" />
+
+    <!-- 关于角色创建 -->
+    <code id="0" name="E_CREATEROLE_SUCCESS" desc="创建角色成功" />
+    <code id="1" name="E_CREATEROLE_FAIL" desc="创建角色失败" />
+    <code id="2" name="E_CREATEROLE_FAIL_NAMEEXIST" desc="创建角色名字存在" />
+    <code id="3" name="E_CREATEROLE_FAIL_NAMESCREENING" desc="创建角色名字包含屏蔽字" />
+    <!-- 关于玩家操作 -->
+    <code id="2" name="E_BIND_ACCOUNT_SUCCESS" desc="绑定facebook帐号成功" />
+    <code id="3" name="E_LOGIN_SUCESS" desc="登录facebook帐号成功" />
+    <code id="4" name="E_ALREADY_LOGIN" desc="当前帐号已经登录" />
+    <code id="5" name="E_ACCOUNT_ALREADY_BIND" desc="帐号已经绑定" />
+
+</error>
+    <section id="0" name="attr" desc="玩家属性处理模块">
+        <msg id="1" name="cg_get_register" desc="获取签到数据" />
+        <msg id="2" name="gc_ret_register" desc="返回签到数据结果" />
+        <msg id="3" name="cg_register" desc="点击签到" />
+        <msg id="4" name="gc_register_ret" desc="签到结果" />
+        <msg id="6" name="cg_change_attr" desc="属性改变" />
+        <msg id="7" name="gc_change_ret" desc="属性改变结果" />
+        <msg id="8" name="gc_player_kickoff" desc="踢掉已经登录的玩家" />
+        <msg id="9" name="cg_bind_account" desc="" />
+        <msg id="10" name="gc_bind_account_ret" desc="踢掉已经登录的玩家" />
+        <msg id="11" name="gc_give_money" desc="赠送玩家金币" />
+        <msg id="12" name="cg_req_money" desc="赠送玩家金币" />
+    </section>
+    <section id="1" name="acc" desc="账户信息">
+        <msg id="1" name="cg_login" desc="用户登录" />
+        <msg id="2" name="gc_login_ret" desc="用户登录返回值" />
+        <msg id="3" name="cg_selectrole" desc="选择角色" />
+        <msg id="4" name="gc_selectrole_ret" desc="选择角色结果" />
+        <msg id="5" name="cg_createrole" desc="创建角色" />
+        <msg id="6" name="gc_createrole_ret" desc="创建角色结果" />
+        <msg id="7" name="cg_connected_heartbeat" desc="创建角色结果" />
+    </section>
+    <section id="2" name="room" desc="房间信息">
+        <msg id="1" name="cg_join_room" desc="随机匹配加入房间" />
+        <msg id="2" name="gc_join_room" desc="随机匹配加入房间" />
+        <msg id="3" name="gc_add_member" desc="随机匹配加入房间" />
+        <msg id="4" name="cg_add_money" desc="随机匹配加入房间" />
+        <msg id="5" name="gc_add_money" desc="随机匹配加入房间" />
+        <msg id="6" name="gc_player_turn" desc="随机匹配加入房间" />
+        <msg id="7" name="cg_bet_money" desc="随机匹配加入房间" />
+        <msg id="8" name="gc_bet_money" desc="随机匹配加入房间" />
+        <msg id="9" name="gc_ret_ready" desc="随机匹配加入房间" />
+        <msg id="10" name="cg_get_rank" desc="随机匹配加入房间" />
+        <msg id="11" name="gc_get_rank" desc="随机匹配加入房间" />
+        <msg id="12" name="cg_quit_room" desc="随机匹配加入房间" />
+        <msg id="13" name="gc_quit_room" desc="随机匹配加入房间" />
+        <msg id="14" name="gc_reconnect_failed" desc="随机匹配加入房间" />
+        <msg id="15" name="cg_force_join" desc="随机匹配加入房间" />
+        <msg id="16" name="gc_force_join" desc="随机匹配加入房间" />
+        <msg id="17" name="cg_change_room" desc="随机匹配加入房间" />
+        <msg id="18" name="gc_change_room" desc="随机匹配加入房间" />
+        <msg id="19" name="cg_deleteroom" desc="随机匹配加入房间" />
+        <msg id="20" name="gc_deleteroom" desc="随机匹配加入房间" />
+        <msg id="21" name="gc_friend_result" desc="随机匹配加入房间" />
+        <msg id="22" name="gc_friend_join_result" desc="随机匹配加入房间" />
+        <msg id="23" name="gc_game_over" desc="随机匹配加入房间" />
+        <msg id="24" name="gc_hide_loading" desc="随机匹配加入房间" />
+        <msg id="25" name="gc_rank_win_money_video" desc="随机匹配加入房间" />
+        <msg id="26" name="cg_get_video" desc="随机匹配加入房间" />
+        <msg id="27" name="cg_give_room_card" desc="随机匹配加入房间" />
+        <msg id="28" name="gc_give_room_card" desc="随机匹配加入房间" />
+    </section>
+
+    <section id="3" name="chat" desc="账户信息">
+        <msg id="1" name="cg_chat" desc="聊天" />
+        <msg id="2" name="gc_chat" desc="聊天" />
+        <msg id="3" name="cg_face" desc="聊天" />
+        <msg id="4" name="gc_face" desc="聊天" />
+        <msg id="5" name="cg_sound" desc="聊天" />
+        <msg id="6" name="gc_sound" desc="聊天" />
+        <msg id="7" name="cg_voice" desc="聊天" />
+        <msg id="8" name="gc_voice" desc="聊天" />
+    </section>
+
+    <section id="4" name="gm" desc="账户信息">
+        <msg id="1" name="cg_gm_commond" desc="聊天" />
+        <msg id="2" name="gc_gm_commond" desc="聊天" />
+        <msg id="3" name="cg_gm_player_recharge" desc="聊天" />
+        <msg id="4" name="gc_gm_player_recharge" desc="聊天" />
+
+    </section>
+
+    <section id="5" name="kenroom" desc="账户信息">
+        <msg id="1" name="cg_join_ken_room" desc="加入填大坑房间" />
+        <msg id="2" name="gc_join_ken_room" desc="返回加入填大坑房间" />
+        <msg id="3" name="gc_add_ken_member" desc="房间加入新成员" />
+        <msg id="4" name="cg_ken_add_money" desc="准备消息" />
+        <msg id="5" name="gc_ken_add_money" desc="准备返回" />
+        <msg id="6" name="gc_ken_player_turn" desc="随机匹配加入房间" />
+        <msg id="7" name="cg_ken_bet_money" desc="随机匹配加入房间" />
+        <msg id="8" name="gc_ken_bet_money" desc="随机匹配加入房间" />
+        <msg id="9" name="cg_ken_open_card" desc="随机匹配加入房间" />
+        <msg id="10" name="gc_ken_open_card" desc="随机匹配加入房间" />
+    </section>
+</protocol>

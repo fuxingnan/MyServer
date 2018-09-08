@@ -1,0 +1,58 @@
+{
+  "description": "师门申请",
+  "fields": [{
+    "name": "player_id",
+    "description": "玩家id",
+    "type": "integer",
+    "default": 0,
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "master_id",
+    "description": "师门id",
+    "type": "integer",
+    "default": 0,
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "player_name",
+    "description": "玩家名字",
+    "type": "string",
+    "default": "",
+    "sql_type": "VARCHAR(50) NOT NULL"
+  }, {
+    "name": "guild_name",
+    "description": "帮会名字",
+    "type": "string",
+    "default": "",
+    "sql_type": "VARCHAR(50) NOT NULL"
+  }, {
+    "name": "player_lvl",
+    "description": "玩家等级",
+    "type": "integer",
+    "default": 0,
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "player_prof",
+    "description": "玩家职业",
+    "type": "integer",
+    "default": 0,
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "player_contribute",
+    "description": "战斗力",
+    "type": "integer",
+    "default": 0,
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "apply_time",
+    "description": "玩家申请时间",
+    "type": "integer",
+    "default": 0,
+    "sql_type": "INT(11) NOT NULL"
+  }],
+  "primaryKey": ["player_id", "master_id"],
+  "cache_keys": ["player_id"],
+  "cache_fields": [
+    "player_name", "player_prof",
+    "player_lvl", "time"
+  ]
+}

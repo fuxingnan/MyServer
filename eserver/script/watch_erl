@@ -1,0 +1,27 @@
+#!/bin/bash
+
+SCRIPT_PATH=`dirname $0`
+cd ${SCRIPT_PATH}
+cd ..
+
+has_inotifywait=`which inotifywait`
+
+if [ -z $has_inotifywait ] ; then
+    echo Please install inotify-tools to run this script
+    echo ""
+    echo "sudo apt-get install inotify-tools"
+    echo ""
+    exit 1
+fi
+
+echo Start Watching: ${SCRIPT_PATH}/src/
+echo "------------------------------------------------------------------------"
+
+inotifywait -m -r -q -e close_write --format '%w%f' src/ | while read FILE
+do
+    if [[ $FILE =~ \.erl$ ]] ; then
+        echo \[`date "+%T"`\] Compiling: $FILE
+        erlc -o ebin/ -I include/ $FILE
+        echo "------------------------------------------------------------------------"
+    fi
+done

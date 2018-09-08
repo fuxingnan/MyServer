@@ -1,0 +1,104 @@
+{
+  "description": "师门",
+  "fields": [{
+    "name": "id",
+    "description": "编号",
+    "type": "integer",
+    "default": null,
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "name",
+    "description": "名称",
+    "type": "string",
+    "default": null,
+    "sql_type": "VARCHAR(50) NOT NULL"
+  }, {
+    "name": "chief_id",
+    "description": "师门师傅",
+    "type": "integer",
+    "default": null,
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "chief_name",
+    "description": "师傅名字",
+    "type": "string",
+    "default": null,
+    "sql_type": "VARCHAR(50) NOT NULL"
+  }, {
+    "name": "member_num",
+    "description": "师门人数",
+    "type": "integer",
+    "default": 0,
+    "sql_type": "TINYINT NOT NULL DEFAULT '0'"
+  }, {
+    "name": "apply_num",
+    "description": "申请人数",
+    "type": "integer",
+    "default": 0,
+    "sql_type": "TINYINT NOT NULL DEFAULT '0'"
+  }, {
+    "name": "notice",
+    "description": "公告",
+    "type": "string",
+    "default": null,
+    "sql_type": "VARCHAR(250) NOT NULL"
+  }, {
+    "name": "create_time",
+    "description": "公会创建时间",
+    "type": "integer",
+    "default": null,
+    "sql_type": "INT(11) NOT NULL"
+  }, {
+    "name": "torch",
+    "description": "师门薪火值",
+    "type": "integer",
+    "default": 0,
+    "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+  }, {
+    "name": "skill_list",
+    "description": "师门技能标记",
+    "type":  "string",
+    "default": null,
+    "sql_type": "VARCHAR(50) NOT NULL"
+  }, {
+    "name": "warn_liveness_time",
+    "description": "活跃度警告时间",
+    "type":  "integer",
+    "default": null,
+    "sql_type": "INT(11) NOT NULL DEFAULT '0'"
+  }, {
+    "name": "warn_flag1",
+    "description": "活跃度不够警告标识符",
+    "type":  "integer",
+    "default": 0,
+    "sql_type": "TINYINT NOT NULL DEFAULT '0'"
+  }, {
+    "name": "warn_flag2",
+    "description": "师傅不在线时间过长警告标识符",
+    "type":  "integer",
+    "default": 0,
+    "sql_type": "TINYINT NOT NULL DEFAULT '0'"
+  }],
+  "primaryKey": "id",
+  "autoIncrement": "id",
+  "cache_keys": ["chief_id"],
+  "cache_fields": ["chief_name", "member_num", "apply_num"],
+  "pb_types": {
+    "gc_master_ret_list": [
+      ["masterguid", "_Master_Id_List"],
+      ["mastername", "_Master_Name_List"],
+      ["masterchiefname", "_Master_Chief_Name_List"],
+      ["membernum", "_Master_Member_Num_List"],
+      ["mastertorch", "_Master_Torch_List"],
+      ["createtime", "_Master_Create_Time_List"],
+      ["skillid1", "_Master_Skill_Id1_List"],
+      ["skillid2", "_Master_Skill_Id2_List"],
+      ["skillid3", "_Master_Skill_Id3_List"],
+      ["skillid4", "_Master_Skill_Id4_List"]
+    ],
+    "gc_master_create": [
+      ["masterguid", "MasterId"],
+      ["mastername", "MasterName"]
+    ]
+  }
+}

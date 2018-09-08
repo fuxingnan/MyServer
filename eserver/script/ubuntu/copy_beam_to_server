@@ -1,0 +1,10 @@
+#!/bin/bash
+# http://elixir-lang.org/install.html
+
+
+cd ~/Documents/eserver
+
+scp -r ./ebin  qisike@52.37.204.46:~/Download/eserver/
+
+
+

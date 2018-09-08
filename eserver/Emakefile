@@ -1,0 +1,79 @@
+% -*- mode: erlang -*-
+%% 首先编译各种behaviour和基本代码
+{[	
+	"src/gen/genbase",
+	"src/gen/genall",
+	"src/gen/gen_*",
+	"src/player/gen_mod.erl",
+	"src/area/gen_mon_ai.erl",
+	"src/area/gen_map_ai.erl"
+ ], 
+ [
+    encrypt_debug_info
+	{i, "."},
+ 	{i, "include"},
+ 	{i, "include/task"},
+ 	{i, "./src"},
+ 	{i, "./src/player"},
+ 	{i, "./src/area"},
+ 	encrypt_debug_info,
+  	{outdir, "ebin"},
+	inline,
+	{inline_size, 30},
+	report,
+	%warnings_as_errors,
+	verbose
+ ]
+}.
+
+%% 主体代码
+{[	
+	"src/area/*",
+	"src/area/ai/*",
+	"src/area/*/*",
+	"src/data/*",
+	"src/db/*",
+	"src/gateway/*",
+	"src/log/*",
+	"src/player/*",
+	"src/player/*/*",
+	"src/proto/*",
+	"src/ctl/*",
+	"src/util/*",
+	"src/wgbase/*",
+	"src/world/*",
+	"src/world/*/*",
+	"data/*"
+ ], 
+ [	
+	{i, "."},
+ 	{i, "include"},
+ 	{i, "include/task"},
+ 	{i, "./src"},
+ 	{i, "./src/player"},
+ 	{i, "./src/area"},
+  	{outdir, "ebin"},
+	inline,
+	{inline_size, 30},
+	%'S',
+	report,
+	%warnings_as_errors,
+	verbose
+ ]
+}.
+
+
+% for deps source
+{[	
+	"deps/*/*"
+ ], 
+ [	
+	{i, "."},
+ 	{i, "include"},
+  	{outdir, "deps/ebin"},
+	inline,
+	report,
+	%warnings_as_errors,
+	verbose
+ ]
+}.

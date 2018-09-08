@@ -1,0 +1,9 @@
+Id	Desc	LevelupExp	AdditionPrecent
+INT	STRING	INT	FLOAT
+#MAX_ID=128;MAX_RECORD=128;TableType=Index;			
+#等级	程序不读	升级所需经验	
+1	等级1	196	1
+2	等级2	6185	1.5
+3	等级3	39995	2
+4	等级4	86162	2.5
+5	等级5	99999999	3

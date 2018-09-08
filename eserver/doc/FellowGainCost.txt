@@ -1,0 +1,15 @@
+Index	Desc	NormalConsumeType	NormalConsumeSubType	NormalConsumeNum	YuanBaoConsumeType	YuanBaoConsumeSubType	YuanBaoConsumeNum
+INT	STRING	INT	INT	INT	INT	INT	INT
+#MAX_ID=4096;MAX_RECORD=4096;TableType=Hash;							
+#次数	程序不读	普通抽取消耗类型	普通抽取消耗子类型	普通抽取消耗数量	元宝抽取消耗类型	元宝抽取消耗子类型	元宝抽取消耗数量
+1	第1次抽取	2	1	3800	1	2	150
+2	第2次抽取	2	1	4300	1	2	150
+3	第3次抽取	2	1	5000	1	2	150
+4	第4次抽取	2	1	5700	1	2	150
+5	第5次抽取	2	1	6600	1	2	150
+6	第6次抽取	2	1	7800	1	2	150
+7	第7次抽取	2	1	8700	1	2	150
+8	第8次抽取	2	1	10000	1	2	150
+9	第9次抽取	2	1	11500	1	2	150
+10	第10次抽取	2	1	13200	1	2	150
+11	第11次抽取	2	1	13200	1	2	150

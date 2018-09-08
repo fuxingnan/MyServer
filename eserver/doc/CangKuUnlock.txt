@@ -1,0 +1,13 @@
+Index	Desc	ConsumeType	ConsumeSubType	ConsumeNum
+INT	STRING	INT	INT	INT
+#MAX_ID=128;MAX_RECORD=128;TableType=Index;				
+#仓库页数	程序不读	消耗类型	消耗子类型	消耗数量
+1	扩充第1页	2	1	-1
+2	扩充第2页	2	1	1000
+3	扩充第3页	2	1	1000
+4	扩充第4页	1	2	100
+5	扩充第5页	1	2	200
+6	扩充第6页	1	2	300
+7	扩充第7页	1	2	400
+8	扩充第8页	1	2	500
+9	扩充第9页	1	2	600

@@ -1,0 +1,9 @@
+#!/bin/bash
+# http://elixir-lang.org/install.html
+
+cd ~/Documents/porker/eserver/script/ubuntu
+scp -r ./etc  qisike@174.138.25.163:~/Download/eserver/
+
+
+
+

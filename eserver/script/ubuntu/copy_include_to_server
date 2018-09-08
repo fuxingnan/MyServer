@@ -1,0 +1,9 @@
+#!/bin/bash
+# http://elixir-lang.org/install.html
+
+
+cd ~/Downloads/eserver
+
+scp -r ./include  qisike@52.37.204.46:~/Download/eserver/
+
+

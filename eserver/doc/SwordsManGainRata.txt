@@ -1,0 +1,9 @@
+Id	Desc	StateUpRata	StateKeepRata	StateDownRata	CostCoinNum	RewardScore	WhiteRata	GreenRata	BlueRata	PrupleRata	OrangeRata
+INT	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT
+#MAX_ID=1023;MAX_RECORD=1024;TableType=Index;											
+#状态ID	程序不读	升级到下一状态的几率	维持本状态的几率	回退到上一状态的几率	消耗金币数量	奖励积分	白色侠客的几率	绿色侠客的几率	蓝色侠客的几率	紫色侠客的几率	橙色侠客的几率
+0		40	60	0	2200	1	60	40	0	0	0
+1		30	50	20	2200	1	40	40	20	0	0
+2		30	40	30	2200	1	30	40	30	0	0
+3		20	40	40	2200	1	0	40	40	20	0
+4		0	30	70	2200	1	0	30	40	20	10

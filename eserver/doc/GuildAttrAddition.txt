@@ -1,0 +1,9 @@
+Id	Desc	Base1	Base2	Base3	Base4	Base5	Base6	Base7	Base8	Base9	Base10	Growth1	Growth2	Growth3	Growth4	Growth5	Growth6	Growth7	Growth8	Growth9	Growth10	AddtionPercent1	AddtionPercent2	AddtionPercent3	AddtionPercent4	AddtionPercent5	AddtionPercent6	AddtionPercent7	AddtionPercent8	AddtionPercent9	AddtionPercent10
+INT	STRING	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	INT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT	FLOAT
+#MAX_ID=6;MAX_RECORD=6;TableType=Index;																															
+#ID(索引不可跳跃)	策划维护(描述)	生命值初始值	法力初始值	物理攻击初始值	法术攻击初始值	物理防御初始值	法术防御初始值	命中初始值	闪避初始值	暴击初始值	暴抗初始值	生命值成长值	法力成长值	物理攻击成长值	法术攻击成长值	物理防御成长值	法术防御成长值	命中成长值	闪避成长值	暴击成长值	暴抗成长值	生命值加成系数	法力加成系数	物理攻击加成系数	法术攻击加成系数	物理防御加成系数	法术防御加成百分比	命中加成系数	闪避加成系数	暴击加成系数	暴抗加成系数
+1	1级属性加成	660	150	103	103	63	63	0	0	0	0	180	10	11	11	7	7	0	0	0	0	0.1	0.1	0.1	0.1	0.1	0.1	0.1	0.1	0.1	0.1
+2	2级属性加成	660	150	103	103	63	63	0	0	0	0	180	10	11	11	7	7	0	0	0	0	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2	0.2
+3	3级属性加成	660	150	103	103	63	63	0	0	0	0	180	10	11	11	7	7	0	0	0	0	0.3	0.3	0.3	0.3	0.3	0.3	0.3	0.3	0.3	0.3
+4	4级属性加成	660	150	103	103	63	63	0	0	0	0	180	10	11	11	7	7	0	0	0	0	0.4	0.4	0.4	0.4	0.4	0.4	0.4	0.4	0.4	0.4
+5	5级属性加成	660	150	103	103	63	63	0	0	0	0	180	10	11	11	7	7	0	0	0	0	0.5	0.5	0.5	0.5	0.5	0.5	0.5	0.5	0.5	0.5

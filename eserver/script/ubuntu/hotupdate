@@ -1,0 +1,10 @@
+#!/bin/bash
+# http://elixir-lang.org/install.html
+
+cd  ~/Downloads/hotupdate/
+
+scp -r ./config.zip  qisike@52.37.204.46:/opt/lampp/htdocs
+scp -r ./AppVersion.php  qisike@52.37.204.46:/opt/lampp/htdocs
+
+
+

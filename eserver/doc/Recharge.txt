@@ -1,0 +1,26 @@
+Id	Desc	RegisterID	Type	IconName	GoodName
+INT	STRING	STRING	INT	STRING	STRING
+#MAX_ID=1024;MAX_RECORD=1025;TableType=Index;					
+#ID	程序不读	物品ID	类型 0-正常 1-月卡 2-成长基金 3-任意购	物品ICON	商品名称后缀#y代表带有元宝图标
+0	250元宝	com.cyou.mrd.tl3d.item9	1	shouchongfanli	招财进宝
+1	198成长基金	com.cyou.mrd.tl3d.item10	2	chengzhangjijin	成长基金
+2	60元宝	com.cyou.mrd.tl3d.item1	0	yuanbao	60#y
+3	300元宝	com.cyou.mrd.tl3d.item2	0	yuanbao2	300#y
+4	600元宝	com.cyou.mrd.tl3d.item3	0	yuanbao2	600#y
+5	1980元宝	com.cyou.mrd.tl3d.item4	0	yuanbao3	1980#y
+6	3880元宝	com.cyou.mrd.tl3d.item5	0	yuanbao3	3880#y
+7	6480元宝	com.cyou.mrd.tl3d.item6	0	yuanbao3	6480#y
+8	16480元宝	com.cyou.mrd.tl3d.item7	0	yuanbao4	16480#y
+9	64980元宝	com.cyou.mrd.tl3d.item8	0	yuanbao4	64980#y
+10	1:01	com.cyou.mrd.tl3d.item001	3	yuanbao4	10#y
+11	250元宝	9	1	shouchongfanli	招财进宝
+12	198成长基金	10	2	chengzhangjijin	成长基金
+13	60元宝	1	0	yuanbao	60#y
+14	300元宝	2	0	yuanbao2	300#y
+15	600元宝	3	0	yuanbao2	600#y
+16	1980元宝	4	0	yuanbao3	1980#y
+17	3880元宝	5	0	yuanbao3	3880#y
+18	6480元宝	6	0	yuanbao3	6480#y
+19	16480元宝	7	0	yuanbao4	16480#y
+20	64980元宝	8	0	yuanbao4	64980#y
+21	1:01	11	3	yuanbao4	10#y

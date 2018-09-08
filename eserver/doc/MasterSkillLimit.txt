@@ -1,0 +1,10 @@
+Index	Desc	MinMasterTorch	ActiveConsumeType	ActiveConsumeSubType	ActiveConsumeNum
+INT	STRING	INT	INT	INT	INT
+#MAX_ID=256;MAX_RECORD=256;TableType=Hash;					
+#Index	程序不读	要求最低师门薪火	激活消耗类型	激活消耗子类型	激活消耗数量
+1	第1个师门技能	3500	3	3	1000
+2	第2个师门技能	5000	3	3	1500
+3	第3个师门技能	6500	3	3	2000
+4	第4个师门技能	8500	3	3	2500
+5	第5个师门技能	10000	3	3	3000
+6	第6个师门技能	11500	3	3	3500

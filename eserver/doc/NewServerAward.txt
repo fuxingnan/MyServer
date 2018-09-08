@@ -1,0 +1,11 @@
+Id	Desc	DescName	Exp	Money	BindYuanbao	ItemDataID	ItemIsBind	ItemCount
+INT	STRING	STRING	INT	INT	INT	INT	INT	INT
+#MAX_ID=49;MAX_RECORD=50;TableType=Index;								
+#ID(索引不可跳跃，限7行，如需扩展找程序确认)	策划维护(新服开启首周)	名称(显示用)	奖励经验	奖励金钱(单位金)	绑定元宝	奖励物品ID	物品是否绑定	奖励物品数量
+0	第一天	第一天	-1	-1	50	6001	1	1
+1	第二天	第二天	-1	-1	100	56520	1	1
+2	第三天	第三天	-1	-1	200	34	1	1
+3	第四天	第四天	-1	-1	50	24	1	10
+4	第五天	第五天	-1	-1	50	8001	1	10
+5	第六天	第六天	-1	-1	50	23	1	10
+6	第七天	第七天	-1	-1	500	50032	1	1

@@ -1,0 +1,11 @@
+Id	Desc	CharModelId	AliveEffectId	AliveSound	LifeTime
+INT	STRING	INT	INT	STRING	INT
+#MAX_ID=1000;MAX_RECORD=1000;TableType=Index;					
+#烟花ID	描述	CharModel Id	生存期特效	生存期音效	生存时间（单位:毫秒 -1表示永久存在）
+1	【实验】烟花	206	194	-1	30000
+2	粉花小烟花	348	219	-1	10000
+3	蓝星小烟花	348	220	-1	10000
+4	橙桃小烟花	348	221	-1	10000
+5	橙射中烟花	348	222	-1	15000
+6	粉荆中烟花	348	223	-1	15000
+7	缤纷大烟花	348	226	-1	20000

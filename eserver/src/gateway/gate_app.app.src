@@ -1,0 +1,10 @@
+{application, @APP_NAME@,
+    [{description, "some description for gateway"},
+     {vsn, "@APP_VSN@"},
+     {modules, [@MODULES@]},
+     {registered, []},
+     {applications, [kernel, stdlib, sasl]},
+     {mod, {gate_app, []}},
+     {env, []}
+    ]
+}.

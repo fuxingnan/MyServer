@@ -1,0 +1,9 @@
+Id	Desc	ItemID	MaxChangeNum	Price	ConsumItemID
+INT	STRING	INT	INT	INT	INT
+#MAX_ID=1023;MAX_RECORD=1024;TableType=Index;					
+#商品ID	描述	物品ID(对应CommonID表ID)	最大兑换数量	消耗情义	消耗物品
+0	副本钥匙（聚贤庄）	59084	99	4	59083
+1	副本钥匙（燕子坞）	59085	99	2	59083
+2	副本钥匙（燕王古墓）	59086	99	4	59083
+3	副本钥匙（珍珑棋局）	59087	99	2	59083
+4	副本钥匙（少室山）	59088	99	8	59083

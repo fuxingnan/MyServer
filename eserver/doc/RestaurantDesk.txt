@@ -1,0 +1,14 @@
+Index	Desc	OpenConditionType	OpenConditionValue
+INT	STRING	INT	INT
+#MAX_ID=128;MAX_RECORD=128;TableType=Index;			
+#桌位	程序不读	开启条件类型0-默认开启，1-等级开启，2-元宝开启，3-VIP开启	与开启条件对应的值
+0	第1个桌位	0	0
+1	第2个桌位	0	0
+2	第3个桌位	1	50
+3	第4个桌位	1	60
+4	第5个桌位	1	70
+5	第6个桌位	3	1
+6	第7个桌位	3	3
+7	第8个桌位	3	5
+8	第9个桌位	3	7
+9	第10个桌位	2	300

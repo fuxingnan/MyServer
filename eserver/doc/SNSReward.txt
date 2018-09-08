@@ -1,0 +1,8 @@
+Index	Desc	TargetType	RewardType	ItemDataId
+INT	STRING	INT	INT	INT
+#MAX_ID=255;MAX_RECORD=256;TableType=Hash;				
+#索引	程序不读	0，分享者；1，参与者	"0，初次奖励；1,30级奖励"	礼包ID
+1		0	0	59025
+2		0	1	59027
+3		1	0	59026
+4		1	1	59028

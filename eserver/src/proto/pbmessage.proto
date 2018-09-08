@@ -1,0 +1,632 @@
+//#client ask login
+//@CG
+message CG_LOGIN
+{
+  //TEST登录数据
+  required string account               = 1;  //登陆账号
+}
+
+message GC_LOGIN_RET
+{
+  required int32  result            = 1; //结果 0表示成功
+  required string userid            = 2; //平台用
+  required int32 appversion                  = 3;
+  required string appurl                  = 4;
+  required int32  playerId                  = 5;
+  required int32  stopServer                 = 6;
+}
+
+message CG_CREATEROLE
+{
+  required int32 type             = 1;
+}
+
+//#server send create role result
+//@GC
+message GC_CREATEROLE_RET
+{
+  enum CREATEROLE_RESULT
+  {
+    CREATEROLE_SUCCESS      = 0;    // 创建人物成功
+    CREATEROLE_FAIL       = 1;    // 服务器内部错误
+    CREATEROLE_FAIL_NAMEEXIST   = 2;    // 名字已经存在
+    CREATEROLE_FAIL_NAMESCREENING   = 3;    // 名字含有屏蔽字
+
+
+  }
+  required int32 result       = 1;    // 结构枚举
+  required uint64 playerGuid    = 2;    // 玩家GUID
+}
+
+
+
+message CG_CONNECTED_HEARTBEAT
+{
+  required int32 isresponse = 1;
+}
+message GC_CONNECTED_HEARTBEAT
+{
+  required int32 isresponse = 1;
+}
+message CG_GET_REGISTER
+{
+  required int32  userInfo         = 1;
+}
+message GC_RET_REGISTER
+{
+    required int32  user_id            = 1;
+    required int32  user_money         = 2;
+    required int32  user_name        = 3;
+    required int32  user_unit        = 4;
+}
+
+
+message CG_REGISTER
+{
+  required int32  serverversion        = 1;
+}
+message GC_REGISTER_RET
+{
+    required int32  result            = 1; //结果 0表示成功
+  required int32  money             = 2;
+    required int32  registernum         = 3;
+    required int32  serverversion         = 4;
+}
+
+message CG_CHANGE_ATTR
+{
+  required int32  serverversion        = 1;
+  required int32  money            = 2;
+  required int32  level            = 3;
+  required int32  score            = 4;
+}
+message GC_CHANGE_RET
+{
+    required int32  result            = 1; //结果 0表示成功
+    required int32  serverversion         = 2;
+    required int32  money                 = 3;
+    required int32  level                 = 4;
+    required int32  score                 = 5;
+}
+//赠送玩家金币
+message CG_REQ_MONEY
+{
+  required int32  usr_id                      = 1;
+  required string name                        = 2;
+  required string image_url                 = 3;
+}
+message GC_GIVE_MONEY
+{
+      required int32  usr_id                      = 1;
+      required int32  money                       = 2;
+      required int32  room_type                   = 3;
+    required int32  addmoney                    = 4;
+    required int32  firstmoney                  = 5;
+    required int32  firstrank                   = 6;
+    required int32  moneyrank                   = 7;
+    required int32  losemoney                   = 8;
+    required int32  loserank                    = 9;
+    required int32  times                       = 10;
+    required int32  reConnect                   = 11;
+    required int32  table_money                 = 12;
+    required int32  room_card                   = 13;
+    required int32  unit_id                     = 14;
+}
+message CG_GIVE_ROOM_CARD
+{
+  required int32  usr_id                      = 1;
+  required int32  givePlayerId                = 2;
+  required int32  givecardnum                 = 3;
+  required int32  unit_id                     = 4;
+}
+message GC_GIVE_ROOM_CARD
+{
+  required int32  usr_id                      = 1;
+    required int32  senderId                    = 2;
+    required int32  givePlayerId                = 3;
+    required int32  sendcardnum                 = 4;
+    required int32  givecardnum                 = 5;
+    required int32  unit_id                     = 6;
+}
+//房间信息
+
+message CG_JOIN_ROOM
+{
+    required int32  usr_id                    = 1;
+    required int32  room_type                 = 2;
+    optional int32  room_key                 = 3;
+    optional int32  min_money                 = 4;
+    optional int32  max_bet                   = 5;
+    optional bool   is_double                 = 6;
+    optional int32   game_time                 = 7;
+    optional int32   card_num                = 8;
+    required int32  unit_id                   = 9;
+}
+
+message CG_JOIN_HOLE_ROOM
+{
+  required int32  usr_id                    = 1;
+  required int32  room_type                 = 2;
+  optional int32  room_key                 = 3;
+  optional int32  min_money                 = 4;
+  optional int32  max_bet                   = 5;
+  optional bool   is_double                 = 6;
+  required int32  unit_id                   = 7;
+}
+
+
+message GC_JOIN_ROOM
+{
+  required int32  result                        = 1;
+  optional int32  usr_id                        = 2;
+  optional int32  room_id                       = 3;
+  optional int32  room_type                     = 4;
+  optional int32  leader_id                     = 5;
+  optional int32  room_key                      = 6;
+  optional int32  my_pos                        = 7;
+  optional int32  cur_pos                       = 8;
+  optional int32  table_money                   = 9;
+  optional int32  cardOne                       = 10;
+  optional int32  cardTwo                       = 11;
+  optional int32  min_money                     = 12;
+  optional int32  max_bet                       = 13;
+  optional bool  is_double                     = 14;
+    optional int32   game_time                   = 15;
+    optional int32   card_num                   = 16;
+
+
+  repeated string   name_list                   = 17;
+  repeated string   head_list                   = 18;
+  repeated int32   pos_list                     = 19;
+  repeated int32   state_list                   = 20;
+  repeated int32   money_list                   = 21;
+  required int32  unit_id                       = 22;
+  required int32  cardnum                       = 23;
+}
+
+
+message CG_GET_VIDEO
+{
+  required int32  usr_id                        = 1;
+  required int32  player_id                     = 2;
+  required int32  type                          = 3;
+  required int32  unit_id                       = 4;
+}
+message GC_RANK_WIN_MONEY_VIDEO
+{
+  optional int32  usr_id                        = 1;
+  optional int32  my_pos                        = 2;
+  optional int32  table_money                   = 3;
+  optional int32  video_money                   = 4;
+  optional int32  cardOne                       = 5;
+  optional int32  cardTwo                       = 6;
+  repeated string name_list                     = 7;
+  repeated string head_list                     = 8;
+  repeated int32   pos_list                     = 9;
+  repeated int32   money_list                   = 10;
+  required int32  unit_id                       = 11;
+  required int32  cardnum                       = 12;
+}
+message GC_ADD_MEMBER
+{
+  required int32  usr_id                        = 1;
+  required string   name                        = 2;
+  required string   head                        = 3;
+  required int32   pos                          = 4;
+  required int32   state                        = 5;
+  required int32   money                        = 6;
+  required int32  unit_id                       = 12;
+}
+
+message CG_ADD_MONEY
+{
+  required int32  usr_id                         = 1;
+  required int32  roomtype                       = 2;
+  required int32  unit_id                         = 3;
+}
+
+message GC_ADD_MONEY
+{
+  required int32  usr_id                        = 1;
+  required int32  pos                           = 2;
+  required int32  unit_id                       = 3;
+}
+message GC_PLAYER_TURN
+{
+  required int32  usr_id                        = 1;
+  required int32  pos                           = 2;
+  required int32  cardone                       = 3;
+  required int32  cardtwo                       = 4;
+  required int32  cardnum                       = 5;
+  required int32  money                         = 6;
+  required int32  table_money                   = 7;
+  optional int32  left_time                     = 8;
+  required bool   isfresh_card                  = 9;
+  required int32  unit_id                       = 10;
+}
+
+
+message CG_BET_MONEY
+{
+  required int32  usr_id                         = 1;
+  required int32  money                          = 2;
+  required int32  one_chip_num                   = 3;
+  required int32  two_chip_num                   = 4;
+  required int32  three_chip_num                 = 5;
+  required int32  four_chip_num                  = 6;
+  required int32  five_chip_num                  = 7;
+  required int32  unit_id                        = 8;
+}
+
+message GC_BET_MONEY
+{
+  required int32  usr_id                        = 1;
+  required int32  pos                           = 2;
+  required int32  cardres                       = 3;
+  required int32  result                        = 4;
+  optional int32  rank_money                    = 5;
+  optional int32  rank_win_money                = 6;
+  optional int32  rank_lose_money               = 7;
+  required int32  curmoney                      = 8;
+  required int32  betmoney                      = 9;
+  required int32  tablemoney                    = 10;
+  required int32  one_chip_num                   = 11;
+  required int32  two_chip_num                   = 12;
+  required int32  three_chip_num                 = 13;
+  required int32  four_chip_num                  = 14;
+  required int32  five_chip_num                  = 15;
+  optional int32  double_lose_num                = 16;
+  required int32  unit_id                       = 17;
+}
+message GC_RET_READY
+{
+  required int32  usr_id                        = 1;
+  required int32  unit_id                       = 2;
+}
+
+message CG_GET_RANK
+{
+  required int32  usr_id                          = 1;
+  required int32  type                            = 2;
+  required int32  unit_id                         = 3;
+}
+
+message GC_GET_RANK
+{
+  required int32    usr_id                      = 1;
+  required int32    type                        = 2;
+  repeated string   name_list                   = 3;
+  repeated string   head_list                   = 4;
+  repeated int32    money_list                  = 5;
+  repeated int32    cardone_list                = 6;
+  repeated int32    cardtwo_list                = 7;
+  repeated int32    id_list                     = 8;
+  required int32    unit_id                     = 9;
+}
+
+message CG_QUIT_ROOM
+{
+  required int32  usr_id                          = 1;
+  required int32  type                            = 2;
+  required int32  unit_id                         = 3;
+}
+message GC_QUIT_ROOM
+{
+  required int32  usr_id                        = 1;
+  required int32  pos                           = 2;
+  required int32  type                      = 3;
+  required int32  unit_id                       = 4;
+}
+message GC_RECONNECT_FAILED
+{
+  required int32  usr_id                      = 1;
+}
+
+
+
+message CG_CHAT
+{
+  required int32  usr_id                          = 1;
+  required string content                         = 2;
+  required int32  unit_id                         = 3;
+}
+message GC_CHAT
+{
+  required int32  usr_id                        = 1;
+  required int32  pos                           = 2;
+  required string content                       = 3;
+  required int32  unit_id                       = 4;
+}
+message CG_FACE
+{
+  required int32  usr_id                          = 1;
+  required int32      id                          = 2;
+  required int32  unit_id                         = 3;
+}
+message GC_FACE
+{
+  required int32  usr_id                        = 1;
+  required int32  pos                           = 2;
+  required int32  id                       = 3;
+  required int32  unit_id                       = 4;
+}
+
+message CG_SOUND
+{
+  required int32  usr_id                          = 1;
+  required int32      id                          = 2;
+  required int32  unit_id                         = 3;
+}
+message GC_SOUND
+{
+  required int32  usr_id                        = 1;
+  required int32  pos                           = 2;
+  required int32  id                          = 3;
+  required int32  unit_id                       = 4;
+}
+
+message CG_VOICE
+{
+  required int32  usr_id                          = 1;
+  required string     id                          = 2;
+  required int32  unit_id                         = 3;
+}
+message GC_VOICE
+{
+  required int32  usr_id                        = 1;
+  required int32  pos                           = 2;
+  required string id                          = 3;
+  required int32  unit_id                       = 4;
+}
+message CG_DELETEROOM
+{
+  required string     room_id                    = 1;
+}
+message GC_DELETEROOM
+{
+  required int32  result                      = 1;
+}
+message GC_FRIEND_RESULT
+{
+  required int32  result                      = 1;
+}
+message GC_FRIEND_JOIN_RESULT
+{
+  required int32  usr_id                          = 1;
+  required int32  result                          = 2;
+  required int32  unit_id                         = 3;
+}
+message CG_FORCE_JOIN
+{
+  required int32  usr_id                          = 1;
+  required int32  unit_id                         = 2;
+}
+
+message GC_GAME_OVER
+{
+  required int32  usr_id                          = 1;
+  repeated string   name_list                     = 2;
+  repeated string   head_list                     = 3;
+  repeated int32   pos_list                       = 4;
+  repeated int32   state_list                     = 5;
+  repeated int32   money_list                     = 6;
+  required int32  unit_id                         = 7;
+}
+message GC_HIDE_LOADING
+{
+  required int32   result                         = 1;
+}
+message GC_FORCE_JOIN
+{
+  required int32  usr_id                          = 1;
+  required int32  paymoney                        = 2;
+  required int32  curmoney                        = 3;
+  required int32  pos                             = 4;
+  required int32  unit_id                         = 5;
+}
+
+message CG_CHANGE_ROOM
+{
+  required int32  usr_id                          = 1;
+  required int32  unit_id                         = 2;
+}
+message GC_CHANGE_ROOM
+{
+  required int32  usr_id                          = 1;
+  required int32  result                          = 2;
+  required int32  unit_id                         = 3;
+}
+
+message CG_SELECTROLE
+{
+  required uint64 roleGUID  = 1;      // 玩家GUID
+}
+
+//#server send select role result
+//@GC
+message GC_SELECTROLE_RET
+{
+  enum SELECTROLE_RESULT
+  {
+    SELECTROLE_SUCCESS    = 0;
+    SELECTROLE_FAIL     = 1;
+  }
+  required int32 result     = 1;    // 选择人物结构
+  required uint64 playerGuid  = 2;    // 玩家GUID
+}
+message CG_BIND_ACCOUNT
+{
+  required int32  serverversion        = 1;
+  required string facebookuserid       = 2;
+}
+message GC_BIND_ACCOUNT_RET
+{
+  required int32  serverversion        = 1;
+  required int32  result             = 2;
+}
+message GC_PLAYER_KICKOFF
+{
+  required int32  serverversion         = 1;
+}
+
+message CG_GM_COMMOND
+{
+  optional string content                         = 1;
+}
+message GC_GM_COMMOND
+{
+  required int32  online_num                    = 1;
+  required int32  new_room_num                  = 2;
+  required int32  ordinary_num                  = 3;
+  required int32  master_num                    = 4;
+  required int32  friend_num                    = 5;
+  optional int32  recharge_num                  = 6;
+}
+message CG_GM_PLAYER_RECHARGE
+{
+  required string account                         = 1;
+}
+message GC_GM_PLAYER_RECHARGE
+{
+  required int32  recharge_num                   = 1;
+  required int32  get_chips                      = 2;
+}
+
+//填大坑房间
+
+message CG_JOIN_KEN_ROOM
+{
+    required int32  usr_id                    = 1;
+    required int32  room_type                 = 2;
+    optional int32  room_key                  = 3;
+    optional int32  person_num                = 4;
+    optional int32  min_poker                 = 5;
+    optional bool   every_bet                 = 6;
+    optional int32  max_bet                   = 7;
+    optional bool   last_is_boom              = 8;
+    optional bool   is_double                 = 9;
+    optional int32  min_money                 = 10;
+    optional int32  game_times                = 11;
+    optional int32  need_card                 = 12;
+    required int32  unit_id                   = 13;
+}
+
+message GC_JOIN_KEN_ROOM
+{
+  required int32  usr_id                        = 1;
+  optional int32  room_key                      = 2;
+  optional int32  room_type                     = 3;
+  optional int32  person_num                    = 4;
+  optional int32  min_poker                     = 5;
+  optional bool   every_bet                     = 6;
+  optional int32  max_bet                       = 7;
+  optional bool   last_is_boom                  = 8;
+  optional bool   is_double                     = 9;
+  optional int32  min_money                     = 10;
+  optional int32  game_times                    = 11;
+  optional int32  my_pos                        = 12;
+  optional int32  cur_pos                       = 13;
+  optional int32  cur_state                     = 14;
+  optional int32  table_money                   = 15;
+  optional int32   card_num                     = 16;
+  optional int32   room_state                   = 17;
+  optional int32   room_step                    = 18;
+  repeated string   name_list                   = 19;
+  repeated string   head_list                   = 20;
+  repeated int32    pos_list                    = 21;
+  repeated int32   state_list                   = 22;
+  repeated int32   state_list1                  = 23;
+  repeated int32   money_list                   = 24;
+
+  repeated int32   poker_list1                   = 25;
+  repeated int32   poker_list2                   = 26;
+  repeated int32   poker_list3                   = 27;
+  repeated int32   poker_list4                   = 28;
+  repeated int32   poker_list5                   = 29;
+
+  required int32   poker1                         = 30;
+  required int32   poker2                         = 31;
+
+  repeated bool   open_list                      = 32;
+  optional int32  left_game_time                 = 33;
+  required int32  over_time                      = 34;
+  required int32  unit_id                        = 35;
+
+}
+message GC_ADD_KEN_MEMBER
+{
+  required string   name                        = 1;
+  required string   head                        = 2;
+  required int32   pos                          = 3;
+  required int32   state                        = 4;
+  required int32   state1                       = 5;
+  required int32   money                        = 6;
+  required int32   poker3                       = 7;
+  required int32   poker4                       = 8;
+  required int32   poker5                       = 9;
+}
+
+message CG_KEN_ADD_MONEY
+{
+  required int32  roomtype                       = 1;
+
+}
+
+message GC_KEN_ADD_MONEY
+{
+  required int32  pos                           = 1;
+
+}
+
+message GC_KEN_PLAYER_TURN
+{
+  required int32  cur_pos                           = 1;
+  required int32  cur_state                         = 2;
+  required int32  table_money                       = 3;
+  required int32  left_time                         = 4;
+  required int32  room_state                        = 5;
+  required int32  room_step                         = 6;
+  required int32  card_num                          = 7;
+  required int32  max_bet                           = 8;
+  required int32  over_time                         = 9;
+  required int32   poker1                           = 10;
+  required int32   poker2                           = 11;
+  repeated int32   poker_list3                      = 12;
+  repeated int32   poker_list4                      = 13;
+  repeated int32   poker_list5                      = 14;
+  repeated bool   open_list                         = 15;
+  repeated int32    pos_list                        = 16;
+  required bool    isBegin                          = 17;
+}
+
+message CG_KEN_BET_MONEY
+{
+  required int32  usr_id                         = 1;
+  required int32  money                          = 2;
+  required int32  unit_id                        = 3;
+
+}
+message GC_KEN_BET_MONEY
+{
+  required int32  usr_id                         = 1;
+  required int32  money                          = 2;
+  required int32  type                           = 3;
+  required int32  pos                            = 4;
+  required int32  next_type                      = 5;
+  required int32  next_pos                       = 6;
+  required int32  unit_id                        = 7;
+
+}
+message CG_KEN_OPEN_CARD
+{
+  required int32  type                         = 1;
+  required int32  pos                          = 2;
+
+}
+message GC_KEN_OPEN_CARD
+{
+  required int32  type                         = 1;
+  required int32  pos                          = 2;
+  optional int32  poker1                       = 3;
+  optional int32  poker2                       = 4;
+}

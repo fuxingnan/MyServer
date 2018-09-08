@@ -1,0 +1,151 @@
+Id	Desc	SceneID	DataID	PosX	PosZ	FaceDirection
+INT	STRING	INT	INT	FLOAT	FLOAT	FLOAT
+#MAX_ID=4999;MAX_RECORD=5000;TableType=Hash;						
+#唯一标示	描述，策划维护，此列程序不读	所属场景	DataID	位置X	位置Z	Npc朝向(弧度数值)
+0	NPC_YingHong	1	10101	61.74	89.67	-1.57
+1	NPC_ZhenZhang	1	10102	68.46	86.61	-1.89
+2	NPC_XunShanRen	1	10103	85.63	75.21	-2.62
+3	NPC_ZuoCi	1	10104	75.25	82.2	-1.92
+4	NPC_YingCai	1	10105	131.44	118.14	-2.09
+5	NPC_DianXiaoEr	1	10106	55.36	73.28	-0.45
+6	NPC_ShangRen	1	10107	64.1	61.66	-2.23
+7	NPC_SuanMingXianSheng	1	10108	65.49	77.13	-1.91
+8	NPC_JiangLiShiZhe	1	10109	71.57	69.22	-1.63
+9	Monster_BuYi 01	1	10201	129.78	65.11	-1.63
+10	Monster_BuYi 02	1	10201	127.12	64.8	-1.63
+11	Monster_BuYi 03	1	10201	129.07	70.49	-1.63
+12	Monster_BuYi 04	1	10201	125.74	60.64	-1.63
+13	Monster_BuYi 05	1	10201	127.46	65.25	-1.63
+14	Monster_BuYi 06	1	10201	132.51	69.28	-1.63
+15	Monster_BuYi 07	1	10201	130.93	73.89	-1.63
+16	Monster_BuYi 08	1	10201	116.7	104.46	-1.57
+17	Monster_BuYi 09	1	10201	119.99	102.05	-1.57
+18	Monster_BuYi 10	1	10201	120.96	106.52	-1.57
+19	Monster_BuYi 11	1	10201	127.46	101.11	-1.57
+20	Monster_BuYi 12	1	10201	130.39	103.56	-1.57
+21	Monster_BuYi 13	1	10201	123.9	100.51	-1.57
+22	Monster_ShanZei 01	1	10202	63.45	141.68	-0.62
+23	Monster_ShanZei 02	1	10202	64.67	145.58	-0.62
+24	Monster_ShanZei 03	1	10202	67.6	147.1	-0.62
+25	Monster_ShanZei 04	1	10202	67.86	136.94	-0.62
+26	Monster_ShanZei 05	1	10202	71.33	144.36	-0.62
+27	Monster_ShanZei 06	1	10202	72.06	135.22	-0.62
+28	Monster_ShanZei 07	1	10202	74.53	138.95	-0.62
+29	Monster_ShanZei 08	1	10202	69.83	140.26	-0.62
+30	Monster_YinPai	1	10301	83.1	149.95	-1.63
+31	NPC_LiuBei	2	20101	49.76	21.09	-1.75
+32	NPC_GuanYu	2	20102	45.16	23.53	-1.3
+33	NPC_HeJin	2	20103	38.48	39.09	-1.05
+34	NPC_DiaoChan	2	20104	77.64	51.91	-1.92
+35	NPC_DongZhuo	2	20105	66.6	57.04	-1.22
+36	NPC_ZhangJiao	2	20106	32.16	79.56	-1.23
+37	Monster_HuangJinJunWangHun 01	2	20202	47.31	13.06	1.4
+38	Monster_HuangJinJunWangHun 02	2	20202	48.59	9.81	1.4
+39	Monster_HuangJinJunWangHun 03	2	20202	46.19	9.92	1.4
+40	Monster_HuangJinJunWangHun 04	2	20202	49.61	12.54	1.4
+41	Monster_HuangJinJunWangHun 05	2	20202	45.05	12.92	1.4
+42	Monster_HuangJinJunWangHun 06	2	20202	36.18	25.58	0.19
+43	Monster_HuangJinJunWangHun 07	2	20202	46.45	15.62	1.4
+44	Monster_HuangJinJunWangHun 08	2	20202	43.96	16.08	1.4
+45	Monster_HuangJinJunWangHun 09	2	20202	34.82	30.53	1.4
+46	Monster_HuangJinJunWangHun 10	2	20202	31.32	27.32	1.4
+47	Monster_HuangJinJunWangHun 11	2	20202	32.18	30.24	1.4
+48	Monster_HuangJinJunWangHun 12	2	20202	33.42	28.31	1.08
+49	Monster_HuangJinJunWangHun 13	2	20202	35.25	27.35	0.84
+50	Monster_YuanShao	2	20203	41.33	39.98	-1.62
+51	Monster_WangHunQiangKe 01	2	20204	73.91	42.76	-1.68
+52	Monster_WangHunQiangKe 02	2	20204	76.5	41.94	-1.68
+53	Monster_WangHunQiangKe 03	2	20204	79.19	41.37	-1.68
+54	Monster_WangHunQiangKe 04	2	20204	71.21	42.75	-1.68
+55	Monster_WangHunQiangKe 05	2	20204	80.82	43.69	-1.68
+56	Monster_WangHunQiangKe 06	2	20204	78	43.98	-1.68
+57	Monster_WangHunQiangKe 07	2	20204	75.47	44.58	-1.68
+58	Monster_WangHunQiangKe 08	2	20204	72.39	44.99	-1.68
+59	Monster_WangHunQiangKe 09	2	20204	69.35	45.36	-1.68
+60	Monster_WangHunDaoKe 01	2	20205	30.28	68.34	-1.05
+61	Monster_WangHunDaoKe 02	2	20205	25.85	66.68	-1.05
+62	Monster_WangHunDaoKe 03	2	20205	28.32	66.77	-1.05
+63	Monster_WangHunDaoKe 04	2	20205	25.1	64.33	-1.05
+64	Monster_WangHunDaoKe 05	2	20205	27.77	64.08	-1.05
+65	Monster_WangHunDaoKe 06	2	20205	30.83	65.46	-1.05
+66	Monster_WangHunDaoKe 07	2	20205	31.4	70.95	-1.05
+67	Monster_WangHunDaoKe 08	2	20205	32.93	67.83	-1.05
+68	Monster_LangYan	2	20301	26.68	53.59	-4.62
+69	NPC_JiaDing	3	30101	55.95	17.99	-1.22
+70	NPC_ZhangFei	3	30102	35.17	28.08	-1.57
+71	NPC_ZhangFuRen	3	30103	36.88	59.81	-1.57
+72	NPC_YuJi	3	30104	54.21	60.41	-1.57
+73	Monster_YeLang 01	3	30202	30.32	51.45	-1.57
+74	Monster_YeLang 02	3	30202	30.12	54.25	-1.57
+75	Monster_YeLang 03	3	30202	27.09	49.93	-1.57
+76	Monster_YeLang 04	3	30202	28.36	52.08	-1.57
+77	Monster_YeLang 05	3	30202	30.53	48.4	-1.57
+78	Monster_YeLang 06	3	30202	32.51	50.41	-1.57
+79	Monster_YeLang 07	3	30202	34.34	52.16	-1.57
+80	Monster_QieZer 01	3	30203	38.12	19.91	-2.07
+81	Monster_QieZer 02	3	30203	40.22	18.82	-2.07
+82	Monster_QieZer 03	3	30203	37.7	17.68	-2.07
+83	Monster_QieZer 04	3	30203	35.01	17.76	-2.07
+84	Monster_QieZer 05	3	30203	35.57	20.32	-2.07
+85	Monster_QieZer 06	3	30203	40.21	21.46	-2.07
+86	Monster_QieZer 07	3	30203	33.05	19.46	-2.07
+87	Monster_QieZer 08	3	30203	42.17	20.9	-2.07
+88	Monster_QieZer 09	3	30203	62.7	23.69	-2.07
+89	Monster_QieZer 10	3	30203	60.05	23.66	-2.07
+90	Monster_QieZer 11	3	30203	64.83	22.06	-2.07
+91	Monster_QieZer 12	3	30203	62.84	18.36	-2.07
+92	Monster_QieZer 13	3	30203	62.81	20.93	-2.07
+93	Monster_YeZhu 01	3	30204	52.23	50.65	-2.87
+94	Monster_YeZhu 02	3	30204	52.62	48.48	-2.87
+95	Monster_YeZhu 03	3	30204	55.16	51.46	-2.87
+96	Monster_YeZhu 04	3	30204	50.2	52.68	-2.87
+97	Monster_YeZhu 05	3	30204	53.73	53.04	-2.87
+98	Monster_YeZhu 06	3	30204	49.36	50.42	-2.87
+99	Monster_YeZhu 07	3	30204	55.11	49.55	-2.87
+100	Monster_YeZhu 08	3	30204	46.96	51.26	-2.87
+101	Monster_CaoYao	3	30301	18.94	44.7	-2.87
+102	NPC_ZhaoYun	4	40101	44.12	82.35	-2.09
+103	NPC_GaoShun	4	40102	132.7	92.12	-2.27
+104	NPC_LvBu	4	40103	130.57	99.58	-2.27
+105	Monster_TieQiBing 01	4	40201	109.57	102.99	-1.12
+106	Monster_TieQiBing 02	4	40201	113.36	103.62	-1.12
+107	Monster_TieQiBing 03	4	40201	111.13	106.96	-1.12
+108	Monster_TieQiBing 04	4	40201	107.64	106.77	-1.12
+109	Monster_TieQiBing 05	4	40201	106.15	101.03	-1.12
+110	Monster_TieQiBing 06	4	40201	113.11	99.63	-1.12
+111	Monster_TieQiBing 07	4	40201	109.36	98.5	-1.12
+112	Monster_TieQiBing 08	4	40201	105.42	104.29	-1.12
+113	Monster_TieQiBing 08	4	40201	116.71	99.44	-1.12
+114	Monster_TieQiBing 09	4	40201	102.95	101.46	-1.12
+115	Monster_TieQiBing 10	4	40201	102.55	105.09	-1.12
+116	Monster_TieQiBing 11	4	40201	136.34	73.09	-4.55
+117	Monster_TieQiBing 12	4	40201	133.77	76.06	-1.12
+118	Monster_TieQiBing 13	4	40201	138.73	74.98	-1.12
+119	Monster_TieQiBing 14	4	40201	136.15	77.26	-1.12
+120	Monster_TieQiBing 15	4	40201	132.88	79.46	-1.12
+121	Monster_HuaXiong	4	40202	144.38	81.01	-2.62
+122	Monster_JingRuiBuBing 01	4	40203	21.05	96.22	0
+123	Monster_JingRuiBuBing 02	4	40203	18.97	90.32	0
+124	Monster_JingRuiBuBing 03	4	40203	19.5	93.59	0
+125	Monster_JingRuiBuBing 04	4	40203	17.56	96.5	0
+126	Monster_JingRuiBuBing 05	4	40203	22.81	91.54	0
+127	Monster_JingRuiBuBing 06	4	40203	18.63	102.67	0
+128	Monster_JingRuiBuBing 07	4	40203	22.57	102.29	0
+129	Monster_JingRuiBuBing 08	4	40203	28.87	88.04	0
+130	Monster_JingRuiBuBing 09	4	40203	23.9	99.2	0
+131	Monster_JingRuiBuBing 10	4	40203	16.55	99.55	0
+132	Monster_JingRuiBuBing 11	4	40203	20.21	99.58	0
+133	Monster_JingRuiBuBing 12	4	40203	22.24	105.78	0
+134	Monster_JingRuiBuBing 13	4	40203	24.17	94.61	0
+135	Monster_JingRuiBuBing 14	4	40203	26.86	91.12	0
+136	Monster_FengXianQinWei 01	4	40204	79.78	38.75	-3.38
+137	Monster_FengXianQinWei 02	4	40204	73.27	44.37	-3.38
+138	Monster_FengXianQinWei 03	4	40204	81.34	42.47	-3.38
+139	Monster_FengXianQinWei 04	4	40204	85.23	39.31	-3.38
+140	Monster_FengXianQinWei 05	4	40204	74.71	40.04	-3.38
+141	Monster_FengXianQinWei 06	4	40204	76.18	37.06	-3.38
+142	Monster_FengXianQinWei 07	4	40204	85.45	41.87	-3.38
+143	Monster_FengXianQinWei 08	4	40204	82.88	35.63	-3.38
+144	Monster_FengXianQinWei 09	4	40204	78.6	34.94	-3.38
+145	Monster_FengXianQinWei 10	4	40204	77.34	43.46	-3.38
+146	Monster_LongGuCao	4	40301	40.19	109.17	-2.44
