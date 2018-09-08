@@ -1,6 +1,6 @@
 {application,protobuffs,
              [{description,"Google protobuffs implementation for Erlang."},
-              {vsn,"0.8.1p5-1-g2107422"},
+              {vsn,"842b3d8"},
               {registered,[]},
               {applications,[kernel,stdlib]},
               {env,[]},
