@@ -765,3 +765,17 @@
 }).
 -endif.
 
+-ifndef(CG_CHAT_ON_PHONE_PB_H).
+-define(CG_CHAT_ON_PHONE_PB_H, true).
+-record(cg_chat_on_phone, {
+    type = erlang:error({required, type})
+}).
+-endif.
+
+-ifndef(GC_CHAT_ON_PHONE_PB_H).
+-define(GC_CHAT_ON_PHONE_PB_H, true).
+-record(gc_chat_on_phone, {
+    type = erlang:error({required, type})
+}).
+-endif.
+

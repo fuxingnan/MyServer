@@ -121,6 +121,23 @@ handle_c2s(#cg_voice{usr_id = BeginCode,id = SoundId,unit_id = EndCode} = _ReqMo
     end,
     {ok, Player2};
 
+handle_c2s(#cg_chat_on_phone{type = Type} = _ReqMoney,_MsgId, #player{} = Player) ->
+
+    #player{room_id = RoomId,roomtype = RoomType} = Player,
+
+    case catch mod_room:get_room(RoomType,RoomId) of
+        #room{member = Member}=_Room ->
+
+            Msg = #gc_chat_on_phone
+            {
+                type = Type
+            },
+            MsgId = ?PROTO_CONVERT({?MODULE, gc_chat_on_phone}),
+            send_msg_broadcast(Member,MsgId, Msg);
+        _->
+           ok
+    end,
+    {ok, Player};
 
 
 handle_c2s(#cg_chat{usr_id = BeginCode,content = ChatMsg,unit_id = EndCode} = _ReqMoney,_MsgId, #player{} = Player) ->

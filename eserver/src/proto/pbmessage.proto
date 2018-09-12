@@ -630,3 +630,12 @@ message GC_KEN_OPEN_CARD
   optional int32  poker1                       = 3;
   optional int32  poker2                       = 4;
 }
+
+message CG_CHAT_ON_PHONE
+{
+  required int32  type                         = 1;
+}
+message GC_CHAT_ON_PHONE
+{
+  required int32  type                         = 1;
+}

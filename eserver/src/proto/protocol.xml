@@ -93,6 +93,8 @@
         <msg id="6" name="gc_sound" desc="聊天" />
         <msg id="7" name="cg_voice" desc="聊天" />
         <msg id="8" name="gc_voice" desc="聊天" />
+        <msg id="9" name="cg_chat_on_phone" desc="来电话通知" />
+        <msg id="10" name="gc_chat_on_phone" desc="来电话返回" />
     </section>
 
     <section id="4" name="gm" desc="账户信息">
