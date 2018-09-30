@@ -22,6 +22,9 @@ cg_sound(Bin) ->
 cg_voice(Bin) ->
     {ok, pbmessage_pb:decode_cg_voice(Bin)}.
 
+cg_chat_on_phone(Bin) ->
+    {ok, pbmessage_pb:decode_cg_chat_on_phone(Bin)}.
+
 
 encode_s2c(#gc_chat{} = Record) ->
     pbmessage_pb:encode_gc_chat(Record);
@@ -34,6 +37,9 @@ encode_s2c(#gc_sound{} = Record) ->
 
 encode_s2c(#gc_voice{} = Record) ->
     pbmessage_pb:encode_gc_voice(Record);
+
+encode_s2c(#gc_chat_on_phone{} = Record) ->
+    pbmessage_pb:encode_gc_chat_on_phone(Record);
 
 encode_s2c(_) -> error({?MODULE, unknown_s2c}).
 

@@ -65,6 +65,8 @@ public enum MessageID :ushort {
     PACKET_GC_SOUND                         = 774, // 6:聊天
     PACKET_CG_VOICE                         = 775, // 7:聊天
     PACKET_GC_VOICE                         = 776, // 8:聊天
+    PACKET_CG_CHAT_ON_PHONE                 = 777, // 9:来电话通知
+    PACKET_GC_CHAT_ON_PHONE                 = 778, // 10:来电话返回
 
     //账户信息: id = 4, name = gm
     PACKET_CG_GM_COMMOND                    = 1025, // 1:聊天

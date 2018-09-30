@@ -129,6 +129,10 @@ id_mf_convert({3, 7, _}) -> {mod_chat, proto_chat, cg_voice};
 id_mf_convert({mod_chat, cg_voice}) -> {3, 7, 0};
 id_mf_convert({3, 8, _}) -> {mod_chat, proto_chat, gc_voice};
 id_mf_convert({mod_chat, gc_voice}) -> {3, 8, 0};
+id_mf_convert({3, 9, _}) -> {mod_chat, proto_chat, cg_chat_on_phone};
+id_mf_convert({mod_chat, cg_chat_on_phone}) -> {3, 9, 0};
+id_mf_convert({3, 10, _}) -> {mod_chat, proto_chat, gc_chat_on_phone};
+id_mf_convert({mod_chat, gc_chat_on_phone}) -> {3, 10, 0};
 
 id_mf_convert(4) -> proto_gm;
 id_mf_convert(mod_gm) -> 4;
