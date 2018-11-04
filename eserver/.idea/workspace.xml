@@ -3,7 +3,57 @@
   <component name="ChangeListManager">
     <list default="true" id="ec6cc6e1-3aa4-4113-b8ac-61b8ed32c8b3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.rebar/erlcinfo" beforeDir="false" afterPath="$PROJECT_DIR$/.rebar/erlcinfo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deps/protobuffs/ebin/protobuffs.app" beforeDir="false" afterPath="$PROJECT_DIR$/deps/protobuffs/ebin/protobuffs.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/astar_pathfind.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/astar_pathfind.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/game_misc.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/game_misc.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/game_path.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/game_path.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/game_s2c_route.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/game_s2c_route.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/game_update.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/game_update.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/gen_mod.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/gen_mod.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/gm_ctrl.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/gm_ctrl.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/ken_room_mgr.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/ken_room_mgr.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/mod_hole.beam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/mod_kenroom.beam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/mod_robot.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/mod_robot.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/mod_room.beam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/pbmessage_pb.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/pbmessage_pb.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/player_admin.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/player_admin.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/player_app.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/player_app.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/player_counter.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/player_counter.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/player_counter_util.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/player_counter_util.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/player_mgr.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/player_mgr.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/player_server.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/player_server.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/player_sup.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/player_sup.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/procdict_list.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/procdict_list.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/proto.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/proto.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/proto_acc.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/proto_acc.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/proto_attr.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/proto_attr.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/proto_chat.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/proto_chat.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/proto_convert.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/proto_convert.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/proto_gm.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/proto_gm.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/proto_kenroom.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/proto_kenroom.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/proto_notice.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/proto_notice.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/proto_room.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/proto_room.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/proto_team.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/proto_team.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/rank.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/rank.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/room_friend_mgr.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/room_friend_mgr.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/room_master_mgr.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/room_master_mgr.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/room_newplayer_mgr.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/room_newplayer_mgr.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/room_ordinary_mgr.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/room_ordinary_mgr.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/temp_cd.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/temp_cd.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/world_app.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/world_app.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/world_data.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/world_data.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/world_horn.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/world_horn.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/world_id.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/world_id.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/world_nodes.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/world_nodes.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebin/world_online.beam" beforeDir="false" afterPath="$PROJECT_DIR$/ebin/world_online.beam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pbmessage_pb.hrl" beforeDir="false" afterPath="$PROJECT_DIR$/include/pbmessage_pb.hrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/room.hrl" beforeDir="false" afterPath="$PROJECT_DIR$/include/room.hrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/wg_log.hrl" beforeDir="false" afterPath="$PROJECT_DIR$/include/wg_log.hrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/mod/mod_kenroom.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/mod/mod_kenroom.erl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/proto/pbmessage.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/proto/pbmessage.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/world/ken_room_mgr.erl" beforeDir="false" afterPath="$PROJECT_DIR$/src/world/ken_room_mgr.erl" afterDir="false" />
     </list>
     <ignored path="eserver.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,11 +71,12 @@
     <session id="191639111">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,36 +84,38 @@
           <entry key="app" value="1" />
           <entry key="config" value="1" />
           <entry key="cs" value="1" />
-          <entry key="erl" value="8" />
+          <entry key="erl" value="11" />
           <entry key="gamectl" value="1" />
-          <entry key="hrl" value="1" />
+          <entry key="hrl" value="3" />
           <entry key="proto" value="2" />
           <entry key="src" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="C#" value="1" />
-          <entry key="Erlang" value="8" />
-          <entry key="Erlang Header" value="1" />
+          <entry key="Erlang" value="11" />
+          <entry key="Erlang Header" value="3" />
           <entry key="Erlang Terms" value="1" />
           <entry key="Erlang/OTP app" value="2" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="config" value="5" />
-          <entry key="erl" value="36" />
+          <entry key="erl" value="117" />
+          <entry key="hrl" value="37" />
           <entry key="proto" value="20" />
           <entry key="xml" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Erlang" value="36" />
+          <entry key="Erlang" value="117" />
+          <entry key="Erlang Header" value="37" />
           <entry key="Erlang Terms" value="5" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="XML" value="40" />
@@ -78,17 +131,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/player/mod/mod_room.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
+            <state relative-caret-position="15">
               <caret line="198" column="28" selection-start-line="198" selection-start-column="17" selection-end-line="198" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/player/mod/mod_chat.erl">
+        <entry file="file://$PROJECT_DIR$/src/player/mod/mod_kenroom.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="133" column="14" selection-start-line="133" selection-start-column="14" selection-end-line="133" selection-end-column="14" />
+            <state relative-caret-position="295">
+              <caret line="750" column="34" selection-start-line="750" selection-start-column="28" selection-end-line="750" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/world/ken_room_mgr.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3934">
+              <caret line="435" column="21" selection-start-line="435" selection-start-column="7" selection-end-line="435" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/room.hrl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="194" column="30" selection-start-line="194" selection-start-column="30" selection-end-line="194" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/wg_log.hrl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wgbase/wg_loglevel.erl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -96,17 +185,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/proto/pbmessage.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="634" column="1" selection-start-line="633" selection-end-line="640" selection-end-column="1" />
+            <state relative-caret-position="243">
+              <caret line="501" column="50" selection-start-line="501" selection-start-column="50" selection-end-line="501" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/unity/MessageID.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="84" column="66" selection-start-line="83" selection-start-column="4" selection-end-line="84" selection-end-column="66" />
+            <state relative-caret-position="283">
+              <caret line="81" column="61" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -115,41 +204,7 @@
         <entry file="file://$PROJECT_DIR$/rebar.config">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-end-line="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gamectl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="98" column="22" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rel/yulong/lib/yulong-1/ebin/yulong.app">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-124" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/yulong_app.erl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="25" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/yulong_sup.erl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="26" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="26" />
+              <caret line="17" column="17" selection-start-line="17" selection-end-line="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -157,7 +212,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/world/room_ordinary_mgr.erl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="2220">
               <caret line="148" selection-start-line="148" selection-end-line="148" />
             </state>
           </provider>
@@ -174,9 +229,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>do_game_win</find>
-      <find>check_reconnect</find>
-      <find>do_friend_game_start</find>
       <find>do_game_start</find>
       <find>get_money_rank</find>
       <find>get_win_rank</find>
@@ -204,6 +256,9 @@
       <find>?Reset_GAME</find>
       <find>reconnect_add_member</find>
       <find>?START_GAME</find>
+      <find>wg_logger</find>
+      <find>EUNIT</find>
+      <find>create</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/silp_plugins</dir>
@@ -215,7 +270,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/proto/proto_convert.erl" />
         <option value="$PROJECT_DIR$/src/player/mod/logic_new_room.erl" />
         <option value="$PROJECT_DIR$/script/ubuntu/copy_etc_to_server" />
         <option value="$PROJECT_DIR$/src/world/rank.erl" />
@@ -254,18 +308,19 @@
         <option value="$PROJECT_DIR$/src/world/room_friend_mgr.erl" />
         <option value="$PROJECT_DIR$/src/player/mod/mod_room.erl" />
         <option value="$PROJECT_DIR$/build/unity/MessageID.cs" />
-        <option value="$PROJECT_DIR$/src/world/ken_room_mgr.erl" />
-        <option value="$PROJECT_DIR$/include/room.hrl" />
         <option value="$PROJECT_DIR$/../../eserver/etc/gh.conf" />
         <option value="$PROJECT_DIR$/../../eserver/src/world/world_id.erl" />
         <option value="$PROJECT_DIR$/src/world/world_id.erl" />
         <option value="$PROJECT_DIR$/src/gateway/gate_client.erl" />
-        <option value="$PROJECT_DIR$/src/player/mod/mod_kenroom.erl" />
-        <option value="$PROJECT_DIR$/src/proto/pbmessage.proto" />
         <option value="$PROJECT_DIR$/src/proto/protocol.xml" />
         <option value="$PROJECT_DIR$/src/player/mod/mod_chat.erl" />
         <option value="$PROJECT_DIR$/etc/gh.conf" />
         <option value="$PROJECT_DIR$/rebar.config" />
+        <option value="$PROJECT_DIR$/src/proto/pbmessage.proto" />
+        <option value="$PROJECT_DIR$/include/wg_log.hrl" />
+        <option value="$PROJECT_DIR$/src/player/mod/mod_kenroom.erl" />
+        <option value="$PROJECT_DIR$/include/room.hrl" />
+        <option value="$PROJECT_DIR$/src/world/ken_room_mgr.erl" />
       </list>
     </option>
   </component>
@@ -325,7 +380,25 @@
             <path>
               <item name="eserver" type="b2602c69:ProjectViewProjectNode" />
               <item name="eserver" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eserver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+              <item name="mod" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eserver" type="b2602c69:ProjectViewProjectNode" />
@@ -337,15 +410,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="yulong_app&#9;FILE&#9;file:///Users/liuhui/Documents/git_work_space/MyServer/eserver/src/yulong_app.erl&#10;yulong&#9;FILE&#9;file:///Users/liuhui/Documents/git_work_space/MyServer/eserver/rel/yulong/lib/yulong-1/ebin/yulong.app&#10;yu&#9;FILE&#9;file:///Users/liuhui/Documents/git_work_space/MyServer/eserver/rel/yulong/lib/yulong-1/ebin/yulong.app&#10;gate&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/gateway/gate_client.erl&#10;player&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/player/player_server.erl&#10;player_ser&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/player/player_server.erl&#10;ga&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/ctl/game_ctl.erl&#10;playe&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/player/player_app.erl&#10;game_s&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/util/game_s2c_route.erl&#10;game_s2&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/ebin/game_s2c_route.beam&#10;player_server&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/player/player_server.erl&#10;pbmessage_pb&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/include/pbmessage_pb.hrl&#10;protobuffs&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/deps/protobuffs/ebin/protobuffs.beam&#10;db_play&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/db/db_player.erl&#10;gate_&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/gateway/gate_client.erl&#10;db_player&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/db/db_player.erl&#10;gamect&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/ctl/game_ctl.erl&#10;players&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/player/player_server.erl&#10;db&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/db/db_player.erl&#10;dbp&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/ebin/db_player.beam&#10;fr&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/world/room_friend_mgr.erl&#10;world_app&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/world/world_app.erl&#10;proto&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/proto/proto.erl&#10;pbmessage&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/include/pbmessage_pb.hrl&#10;db_playe&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/db/db_player.erl&#10;dbpl&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/db/db_player.erl&#10;game&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/ctl/game_ctl.erl&#10;frien&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/world/room_friend_mgr.erl&#10;db_&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/db/db_player.erl&#10;play_mgr&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/player/player_mgr.erl&#10;gate_client&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/gateway/gate_client.erl&#10;gamec&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/ctl/game_ctl.erl&#10;mod_room&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/player/mod/mod_room.erl&#10;db_PLA&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/db/db_player.erl&#10;player_server.er&#9;FILE&#9;file:///Users/liuhui/Documents/porker/eserver/src/player/player_server.erl&#10;gate_cli&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/src/gateway/gate_client.erl&#10;game_partner&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/src/gateway/game_partner_dev.erl&#10;player_mgr&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/src/player/player_mgr.erl&#10;game_pa&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/src/gateway/game_partner_dev.erl&#10;db_pla&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/src/db/db_player.erl&#10;player_app&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/src/player/player_app.erl&#10;mod&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/src/player/mod/mod_room.erl&#10;player_&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/src/player/player_app.erl&#10;const&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/include/const.hrl&#10;robot_sup&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/src/player/robot_sup.erl&#10;GATE&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/src/gateway/gate_client.erl&#10;player_sup&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/src/player/player_sup.erl&#10;new&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/src/world/room_newplayer_mgr.erl&#10;db_ra&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/src/db/db_rank_win_money.erl&#10;dlc&#9;FILE&#9;file:///Users/abc/Documents/porker/eserver/script/mysql/dlcq_game.sql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538122581832" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538122597738" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -544,7 +617,7 @@
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19742489" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -552,7 +625,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.47997138" visible="true" weight="0.54646325" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.47997138" weight="0.54646325" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -622,18 +695,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/erl_crash_20180305-181700.dump" />
     <entry file="file://$PROJECT_DIR$/src/player/gen_mod.erl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="235" selection-start-line="235" selection-end-line="235" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/wg_log.hrl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -794,13 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/ken_room_mgr.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7515">
-          <caret line="501" column="32" selection-start-line="501" selection-start-column="32" selection-end-line="501" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/pbmessage_pb.hrl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -821,20 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1185">
           <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/mod/mod_kenroom.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/proto/protocol.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -873,13 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/room.hrl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/yulong.app.src">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -892,31 +929,17 @@
         <state relative-caret-position="-124" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/yulong_sup.erl">
+    <entry file="file://$PROJECT_DIR$/src/player/mod/mod_chat.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="26" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="26" />
+        <state relative-caret-position="1995">
+          <caret line="133" column="14" selection-start-line="133" selection-start-column="14" selection-end-line="133" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/room_ordinary_mgr.erl">
+    <entry file="file://$PROJECT_DIR$/src/proto/protocol.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="148" selection-start-line="148" selection-end-line="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yulong_app.erl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rebar.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="1350">
+          <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -927,31 +950,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/mod/mod_room.erl">
+    <entry file="file://$PROJECT_DIR$/src/yulong_app.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="198" column="28" selection-start-line="198" selection-start-column="17" selection-end-line="198" selection-end-column="28" />
+        <state relative-caret-position="195">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/player/mod/mod_chat.erl">
+    <entry file="file://$PROJECT_DIR$/src/yulong_sup.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="133" column="14" selection-start-line="133" selection-start-column="14" selection-end-line="133" selection-end-column="14" />
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="25" selection-start-column="39" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/proto/pbmessage.proto">
+    <entry file="file://$PROJECT_DIR$/src/world/room_ordinary_mgr.erl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="634" column="1" selection-start-line="633" selection-end-line="640" selection-end-column="1" />
+        <state relative-caret-position="2220">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/unity/MessageID.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="84" column="66" selection-start-line="83" selection-start-column="4" selection-end-line="84" selection-end-column="66" />
+        <state relative-caret-position="283">
+          <caret line="81" column="61" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proto/pbmessage.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="501" column="50" selection-start-line="501" selection-start-column="50" selection-end-line="501" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rebar.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" selection-start-line="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wgbase/wg_loglevel.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/wg_log.hrl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/mod/mod_room.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="198" column="28" selection-start-line="198" selection-start-column="17" selection-end-line="198" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/player/mod/mod_kenroom.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="750" column="34" selection-start-line="750" selection-start-column="28" selection-end-line="750" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/room.hrl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="194" column="30" selection-start-line="194" selection-start-column="30" selection-end-line="194" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/ken_room_mgr.erl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3934">
+          <caret line="435" column="21" selection-start-line="435" selection-start-column="7" selection-end-line="435" selection-end-column="21" />
         </state>
       </provider>
     </entry>
